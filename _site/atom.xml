@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Colorie</title>
+ <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
+ <link href="http://0.0.0.0:4000/"/>
+ <updated>2020-01-11T17:36:40+00:00</updated>
+ <id>http://0.0.0.0:4000</id>
+ <author>
+   <name>Colorie</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>PSX game prototyping using org-babel</title>
+   <link href="http://0.0.0.0:4000/2019/12/06/psx-game-prototyping-using-org-babel"/>
+   <updated>2019-12-06T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/2019/12/06/psx-game-prototyping-using-org-babel</id>
+   <content type="html">&lt;h1 id=&quot;why&quot;&gt;Why&lt;/h1&gt;
+
+&lt;h1 id=&quot;the-setup&quot;&gt;The setup&lt;/h1&gt;
+
+&lt;h2 id=&quot;choosing-a-sdk&quot;&gt;Choosing a SDK&lt;/h2&gt;
+
+&lt;p&gt;PSNoobSDK&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Integrating a VT320 into my life</title>
+   <link href="http://0.0.0.0:4000/2019/12/06/integratin-a-vt320-into-my-life"/>
+   <updated>2019-12-06T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/2019/12/06/integratin-a-vt320-into-my-life</id>
+   <content type="html">&lt;p&gt;I like older eletronic devices.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-origin&quot;&gt;The origin&lt;/h1&gt;
+
+&lt;p&gt;I guess it must come from my internship at Bull a few years ago.&lt;/p&gt;
+
+&lt;p&gt;For the uninitiated, Bull was at a time a big supercomputer and workstation manufacturer, on par with IBM.&lt;/p&gt;
+
+&lt;p&gt;Now they are more focusing on software.&lt;/p&gt;
+
+&lt;p&gt;But during my time there, they had some pretty old beasts in a small air-conditionned room a few meters away from my desk.&lt;/p&gt;
+
+&lt;p&gt;It was like a museum, composed of half a dozen workstation, all about the size of dishwasher, aligned in reverse chronological order.&lt;/p&gt;
+
+&lt;p&gt;What seemed to be the oldest one had a monochrome display pluggued into it with comicall dimensions (it was about twice deeper than its diagonal width).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;They were all powered on, all the time.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I asked my fellow coworkers why were those antiquated devices still up and running, they told me they didn’t know but were asked to not touch them, presuming they were used to help assist clients that were still using similar models.&lt;/p&gt;
+
+&lt;h1 id=&quot;aestetical-considerations&quot;&gt;Aestetical considerations&lt;/h1&gt;
+
+&lt;p&gt;-&amp;gt; TODO: talk about aestetic considerations&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; time when not every company was trying to copy apple designs&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; the latter not bad, but a bit bland and it’s nice to have some variety (toshiba satelite, vaio, thinkpads)&lt;/p&gt;
+
+&lt;h1 id=&quot;the-terminal&quot;&gt;The terminal&lt;/h1&gt;
+
+&lt;p&gt;While in my quest for cool retro devices, I came across the terminal.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;hardware&lt;/strong&gt; terminals.&lt;/p&gt;
+
+&lt;p&gt;I vaguely knew that terminal apps were sort of an emulation of those old devices but I didn’t knew the whys and hows.&lt;/p&gt;
+
+&lt;p&gt;And then I came accross pictures and blog posts of people using those deprecated appliances with modern *nix systems.&lt;/p&gt;
+
+&lt;p&gt;I had to get one.&lt;/p&gt;
+
+&lt;p&gt;Quickly, the VT220 looked like the most iconic model that wasn’t so large as to need a dedicated desk for it.&lt;/p&gt;
+
+&lt;p&gt;But I realized 2 major problems:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;they are pretty uncommon here is Europe&lt;/li&gt;
+  &lt;li&gt;they need some electrical protection in case of power outage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A good compromise was to look for a VT320, its slightly bigger and a tad less cute younger sibling.&lt;/p&gt;
+
+&lt;p&gt;After several weeks or searching and refining an eBay alert query, I found a listing for one in decend shape at a pretty good price, with &lt;strong&gt;no keyboard&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;hooking-it-up&quot;&gt;Hooking it up&lt;/h1&gt;
+
+&lt;p&gt;-&amp;gt; no keyboard, no loging&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; unless hacking a bit&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; ansible playbook&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Emacs theme overrides</title>
+   <link href="http://0.0.0.0:4000/2019/12/06/emacs-theme-overrides"/>
+   <updated>2019-12-06T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/2019/12/06/emacs-theme-overrides</id>
+   <content type="html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;I don’t use any starter kit.&lt;/p&gt;
+
+&lt;p&gt;I’ve built my emacs config by first blindly integrating packages and copy-pasting snippets from all around the web.&lt;/p&gt;
+
+&lt;p&gt;Progressively I realized that I didn’t like some behaviours and that’s when I started to dwelves into elisp and emacs intricacies.&lt;/p&gt;
+
+&lt;p&gt;A standard way to modify a behaviour is to use advices or function redefinition. But in my ignorance I often just forked packages and monkey-patched them until I found the appropriate behaviour.&lt;/p&gt;
+
+&lt;p&gt;This way to proceed included themes.&lt;/p&gt;
+
+&lt;p&gt;Quite often I would like a theme, but would not like a specific face in it. Or it would lack support for other packages I’d be using.&lt;/p&gt;
+
+&lt;p&gt;So forking I did.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-better-solution&quot;&gt;A better solution&lt;/h1&gt;
+
+&lt;p&gt;This sucks, as themes, like any other packages, regularly get updates.&lt;/p&gt;
+
+&lt;p&gt;And tracking those changes and integrating them back is a real hassle.&lt;/p&gt;
+
+&lt;p&gt;So I searched for a way to only override specific faces. And found that someone had already implemented a solution.&lt;/p&gt;
+
+&lt;p&gt;And that solution was bundled into spacemacs.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The problem&lt;/h1&gt;
+
+&lt;p&gt;-&amp;gt; spacemacs-only solution&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; extracting it as a proper package&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; usage&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>YASnipper</title>
+   <link href="http://0.0.0.0:4000/2019/12/05/yasnipper"/>
+   <updated>2019-12-05T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/2019/12/05/yasnipper</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;tl;dr: the provided code allows you to let YASnippet expand snippets preentively with the SPC key, and you to tame it with a second SPC keystroke.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;I had been an Emacs user for almost 10 years whithout relying on YASnippet or any snippet extension system.&lt;/p&gt;
+
+&lt;p&gt;I had heard of it, but never took the time to really investigate, fearing that it would conflict with whatever completion-at-point package I’d be using.&lt;/p&gt;
+
+&lt;p&gt;By reading the doc, I realized that conflicts could &lt;a href=&quot;http://joaotavora.github.io/yasnippet/faq.html#org3e0ab30&quot;&gt;easily be tamed&lt;/a&gt; and that I could bind &lt;code class=&quot;highlighter-rouge&quot;&gt;yas-expand&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;C-j&lt;/code&gt; to mimick &lt;a href=&quot;https://github.com/smihica/emmet-mode&quot;&gt;emmet-mode&lt;/a&gt;’s recommended key. Indeed, this key is generally bound to &lt;code class=&quot;highlighter-rouge&quot;&gt;newline-and-indent&lt;/code&gt; which is useless as I have &lt;a href=&quot;https://github.com/Malabarba/aggressive-indent-mode&quot;&gt;aggressive-indent&lt;/a&gt; auto-indenting stuff for me.&lt;/p&gt;
+
+&lt;h1 id=&quot;an-old-tale&quot;&gt;An old tale&lt;/h1&gt;
+
+&lt;p&gt;Further down the documentation, I came accross &lt;a href=&quot;http://joaotavora.github.io/yasnippet/snippet-expansion.html#org075c5ff&quot;&gt;this section about the condition system&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It starts with the story of a dreaded &lt;em&gt;old Emacs hacker&lt;/em&gt; that got used to having its expansions bounf to &lt;code class=&quot;highlighter-rouge&quot;&gt;SPC&lt;/code&gt;…&lt;/p&gt;
+
+&lt;p&gt;Wait… WHAT!? &lt;strong&gt;That&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;SPC&lt;/code&gt;? the one I use to separate words, symbols and things alike?&lt;/p&gt;
+
+&lt;p&gt;Yup, that one, it went on. And thanks to the integrated &lt;strong&gt;condition&lt;/strong&gt; system one could have YAS be smart enough to tell whether it needed to expand or not.&lt;/p&gt;
+
+&lt;p&gt;Like if it could anticipate the need for an expansion before you realized it…&lt;/p&gt;
+
+&lt;h1 id=&quot;the-experiment&quot;&gt;The experiment&lt;/h1&gt;
+
+&lt;p&gt;For fun, I’ve tried using YAS like this and realized that there would be occasions for which you would like to have a symbol named with a short name…&lt;/p&gt;
+
+&lt;p&gt;And that name would correspong to a snippet…&lt;/p&gt;
+
+&lt;p&gt;And it would expand…&lt;/p&gt;
+
+&lt;p&gt;And make you want to rage-disable the minor mode.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-solution&quot;&gt;A solution&lt;/h1&gt;
+
+&lt;p&gt;To keep our sanity, we would have to roll up our sleeves and hack it till we make it.&lt;/p&gt;
+
+&lt;p&gt;We could indeed follow the doc and attempt to build a set of rules around the condition system. For this we’d have to try to predict every use-case, for every language. That would practically corespond to building a small neural net and I just… no.&lt;/p&gt;
+
+&lt;p&gt;We could instead let YAS do its unwanted expansion but have a quick and effortless way to tell it to stop. &lt;strong&gt;Like by pressing that precious &lt;code class=&quot;highlighter-rouge&quot;&gt;SPC&lt;/code&gt; key again.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For that we need a way to test when YAS just expanded.&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defvar&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-last-expand-success-timestamp&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Timestamp of last sucessful yas-expand&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defvar&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-cancel-on-repeat-delay&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Max time to wait for allowing to cancel snippet expansion&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-update-last-expand-success-timestamp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-last-expand-success-timestamp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;float-time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'yas-before-expand-snippet-hook&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#'&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;prf/yas-update-last-expand-success-timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas/just-expanded-p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Returns t when there is a current active expansion or when expanded during the last `prf/yas-cancel-on-repeat-delay' seconds.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-active-snippets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-cancel-on-repeat-delay&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;float-time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-last-expand-success-timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ok cool, now we want to conditionally insert a space character OR yas-expand OR cancel last expansion.&lt;/p&gt;
+
+&lt;p&gt;That’s a lot to ask. Thanksfully YAS already does half the job for us with it’s &lt;del&gt;function&lt;/del&gt; variable &lt;code class=&quot;highlighter-rouge&quot;&gt;yas-maybe-expand&lt;/code&gt;. What it does is basically create a conditional key (as a menu entry).&lt;/p&gt;
+
+&lt;p&gt;Let’s look at its definition (with truncated docstrings):&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;defconst&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;yas-maybe-expand&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;menu-item&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;yas-expand&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:filter&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;yas-maybe-expand-abbrev-key-filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;yas-maybe-expand-abbrev-key-filter&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Return CMD if there is an expandable snippet at point.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas--condition-cache-timestamp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;current-time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas--templates-for-key-at-point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We could reuse the same sytem to satisfy our purpose. This gives:&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;defconst&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-maybe-expand-or-cancel&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;menu-item&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-expand-or-cancel&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:filter&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-maybe-expand-or-cancel-key-filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-expand-or-cancel&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cond&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-active-snippets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-abort-snippet&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-active-snippets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;undo&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;just-one-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-cancel-on-repeat-delay&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;float-time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-last-expand-success-timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;undo&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;just-one-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-expand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-maybe-expand-or-cancel-key-filter&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Return CMD if there is an expandable snippet at point or we just expanded one.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;prf/yas/just-expanded-p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nv&quot;&gt;cmd&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-maybe-expand-abbrev-key-filter&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And to bind it:&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;define-key&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;yas-minor-mode-map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SPC&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;prf/yas-maybe-expand-or-cancel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And &lt;em&gt;voilà&lt;/em&gt;! Now we can finally grasp the feeling of being an old Emacs hacker.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Better TRAMP autologin</title>
+   <link href="http://0.0.0.0:4000/2019/12/05/tramp-autologin-insanity"/>
+   <updated>2019-12-05T00:00:00+00:00</updated>
+   <id>http://0.0.0.0:4000/2019/12/05/tramp-autologin-insanity</id>
+   <content type="html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;For those not in the know, &lt;a href=&quot;https://www.gnu.org/software/tramp/&quot;&gt;TRAMP&lt;/a&gt; is one of Emacs’ killer apps. It’s a package that allows to interact with remote systems through a &lt;a href=&quot;https://www.gnu.org/software/tramp/#Inline-methods&quot;&gt;variety&lt;/a&gt; &lt;a href=&quot;https://www.gnu.org/software/tramp/#External-methods&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;https://www.gnu.org/software/tramp/#GVFS-based-methods&quot;&gt;protocols&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Such interactions include opening shells and browsing remote file trees as if they were locally mounted. You can even bounce across several machines like if it was nothing (it’s called &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/tramp/Ad_002dhoc-multi_002dhops.html&quot;&gt;multi-hops&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;But there is one thing can break these otherwise seemless interactions: login prompts.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-authinfo-way&quot;&gt;The Authinfo way&lt;/h1&gt;
+
+&lt;p&gt;To get rid of them, emacs offers natively support for Gnus Authinfo and .netrc files via its &lt;code class=&quot;highlighter-rouge&quot;&gt;auth-source&lt;/code&gt; package:&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'dash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;auth-source&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:demand&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:no-require&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;auth-sources&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-filter&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#'&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-exists-p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;~/.authinfo.gpg&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/.authinfo&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/.netrc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you can just create a &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.authinfo&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;machine raspi login pi password raspberry
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And then &lt;code class=&quot;highlighter-rouge&quot;&gt;C-x f /ssh:pi@raspi:/&lt;/code&gt; and it will connect automatically, yey!&lt;/p&gt;
+
+&lt;p&gt;…Except that sucks.&lt;/p&gt;
+
+&lt;h1 id=&quot;ssh-keys-to-the-rescue&quot;&gt;SSH keys to the rescue&lt;/h1&gt;
+
+&lt;p&gt;Indeed passwords suck. Big time. Even more so when you have a gazillion of remote hosts to connect to.&lt;/p&gt;
+
+&lt;p&gt;SSH keys (aka identity files, aka certificates) are a way smarter (and in most cases safer) way to proceed.&lt;/p&gt;
+
+&lt;p&gt;Given you have a master key for connecting to all of your machines, just have to drop into your &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.ssh/config&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host *
+    User eigen
+    IdentityFile ~/.ssh/eigen-identity
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And you could connect to any server for which this key is known for user &lt;code class=&quot;highlighter-rouge&quot;&gt;eigen&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-putty-dilemna&quot;&gt;The PuTTY dilemna&lt;/h1&gt;
+
+&lt;p&gt;If you’re on Windows, you’re most likely using PuTTY/plink as an SSH alternative.&lt;/p&gt;
+
+&lt;p&gt;TRAMP, in all its glory, supports PuTTY (use the &lt;code class=&quot;highlighter-rouge&quot;&gt;/pscp:&lt;/code&gt; method, that’s the one you’re looking for).&lt;/p&gt;
+
+&lt;p&gt;PuTTY has an equivalent way to set a default key, via a &lt;a href=&quot;https://the.earth.li/~sgtatham/putty/0.73/htmldoc/Chapter4.html#config-saving&quot;&gt;Default Setting&lt;/a&gt; or through &lt;a href=&quot;https://the.earth.li/~sgtatham/putty/0.73/htmldoc/Chapter9.html&quot;&gt;Pageant&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The former only works if you’re saving each and every of your hosts as a connection profile and access it with &lt;code class=&quot;highlighter-rouge&quot;&gt;/plinkx:&amp;lt;PROFILE&amp;gt;:&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The latter only seems to load when lauching putty.exe (GUI interface).&lt;/p&gt;
+
+&lt;p&gt;So here comes time for &lt;del&gt;adventure&lt;/del&gt; insanity.&lt;/p&gt;
+
+&lt;h1 id=&quot;insanity-or-elisp-bind-all-the-things&quot;&gt;Insanity (or elisp-bind all the things)&lt;/h1&gt;
+
+&lt;p&gt;Another cross-platform solution is to do this in pure elisp.&lt;/p&gt;
+
+&lt;p&gt;The trick is to enrich &lt;code class=&quot;highlighter-rouge&quot;&gt;tramp-methods&lt;/code&gt; with an additionnal args corresponding to the identity file option (&lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Thus we need some utils to alter those method definitions.&lt;/p&gt;
+
+&lt;p&gt;(beware, this code is not the cleanest)&lt;/p&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Click to reveal!&lt;/summary&gt;
+  &lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c1&quot;&gt;;; ------------------------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; DEPS&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'tramp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'dash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'subr-x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;;; ------------------------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; VARS&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defvar&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-ppk&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Default PuTTY identity file path&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defvar&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-methods&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pscp&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;plink&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;plinkx&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;psftp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;;; ------------------------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; TRAMP METHODS ARGS&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-login-arg&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-login-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;login-args&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-login-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-ppk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;tramp-login-args&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'login-args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-i&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-ppk&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-login-args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;login-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-copy-arg&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-copy-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;copy-args&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-copy-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;string=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-ppk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;tramp-copy-args&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'copy-args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-i&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-ppk&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-copy-args&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;copy-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;;; ------------------------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; TRAMP METHODS&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;;; REVIEW: seems to eval whole method-def-args, which is unwanted&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-login-arg-to-method&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-def-args&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cons&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-map-when&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;equal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'tramp-login-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+           &lt;span class=&quot;nf&quot;&gt;#'&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-login-arg&lt;/span&gt;
+           &lt;span class=&quot;nv&quot;&gt;method-def-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-copy-arg-to-method&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-def-args&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cons&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-map-when&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;equal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'tramp-copy-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+           &lt;span class=&quot;nf&quot;&gt;#'&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-copy-arg&lt;/span&gt;
+           &lt;span class=&quot;nv&quot;&gt;method-def-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--get-enriched-tramp-methods&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-map-when&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;member&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thread-first&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-login-arg-to-method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-copy-arg-to-method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+   &lt;span class=&quot;nv&quot;&gt;tramp-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;Then we could either override existing methods:&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-enrich-existing&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-methods&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--get-enriched-tramp-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;;; then run (tramp-plinki-enrich-existing)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Or register new ones with an &lt;strong&gt;i&lt;/strong&gt; suffix:&lt;/p&gt;
+
+&lt;div class=&quot;language-emacs-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--suffix-method-name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-def-args&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cons&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;i&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;nv&quot;&gt;method-def-args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki--get-enriched-with-new-tramp-methods&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-map-when&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;member&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;thread-first&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;;; (tramp-plinki--register-tramp-completion-fun)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--suffix-method-name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-login-arg-to-method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--add-certificate-copy-arg-to-method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+   &lt;span class=&quot;nv&quot;&gt;tramp-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-register-new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-ppk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;error&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;empty value for tramp-plinki-ppk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-methods&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-plinki--get-enriched-with-new-tramp-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-map-when&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;member&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-plinki-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-method-def&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tramp-set-completion-function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;method-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;i&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tramp-completion-function-alist-ssh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+     &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;nv&quot;&gt;tramp-methods&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;;; then run (tramp-plinki-register-new)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The beauty of this is that if your key is not known to the remote host, it would still prompt you for a password without failing.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
