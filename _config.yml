@@ -1,23 +1,23 @@
-site: Colorie
-url:
+site: Eigenbahn blog
+url: eigenbahn.com
 host: 0.0.0.0
-author: Colorie
+author: Jordan Besly
 author:
-  name: Colorie
+  name: Jordan Besly
   email:
   url:
   avatar:
-title: Colorie
-description: Colorie - Single column blog and portfolio Jekyll theme
+title: Eigenbahn blog
+description: Various ramblings about technology & design
 logo:
 image:
-twitter: ronaldsvilcins
-twitter:
-  username: ronaldsvilcins
-  creator: ronaldsvilcins
-  card: summary
+#twitter: eigenbahn
+#twitter:
+#  username: eigenbahn
+#  creator: eigenbahn
+#  card: summary
 social:
-  name: Ronalds Vilcins
+  name: Jordan Besly
   links:
     - https://twitter.com/#
     - https://www.dribbble.com/#
@@ -29,6 +29,10 @@ permalink: pretty
 disqus:
   name: "your disqus username" # required
   noscript: "Please enable JavaScript to view the comments powered by Disqus." # optional
+
+feed:
+  categories:
+    - emacs
 
 baseurl:             ""
 
@@ -48,6 +52,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
   - disqus-for-jekyll
 
 collections:
