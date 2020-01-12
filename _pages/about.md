@@ -15,7 +15,7 @@ I'm quite intrested in the union of those aspects: how we could design _man-mach
 
 I have an expertise in _observability_ so we'll certainly tackle data transformation and visualization.
 
-As far as interractive text manipulation is concerned, as you'll soon find, my tool of choice is [Emacs](/tag/emacs/) (that [I do not consider as a text editor](/2020/01/12/emacs-is-no-editor)).
+As far as interractive text manipulation is concerned, as you'll soon find, my tool of choice is [Emacs](/tag/emacs/) (that [I do not consider as a text editor](/2020/01/12/emacs-is-no-editor)). For those interested, there is a [dedicated atom feed](/atom.emacs.xml) for Emacs articles on this blog.
 
 
 ### Disclaimer
@@ -34,7 +34,7 @@ That's how we grow as persons.
 
 You can find me on [GitHub](https://github.com/p3r7) and on [LinkedIn](https://www.linkedin.com/in/jordan-besly-6a172347/).
 
-I also take pictures from time to time. You can find them on [flickr](https://www.flickr.com/photos/p3r7/).
+I also take pictures from time to time. You can find them on [Flickr](https://www.flickr.com/photos/p3r7/).
 
 
 ### About this site
