@@ -22,7 +22,7 @@ As far as interractive text manipulation is concerned, as you'll soon find, my t
 
 You might find essays to be assertive and opinionated.
 
-That might be due to english not being my native language and me not mastering some of its subtleties.
+Some might be due to English not being my native language.
 
 Nevertheless, don't hesitate to provide constructive criticism.
 I'm really glad when somebody proves me wrong.
