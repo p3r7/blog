@@ -8,10 +8,10 @@ tags: [emacs]
 
 ... and that's OK.
 
-![first blade](/assets/img/first_blade.jpg){:width="450"}
-
 
 # The Start of a Journey
+
+![first blade](/assets/img/first_blade.jpg){:width="450"}
 
 You also might have gone through a phase of extensive search for the ULTIMATE VERY BESTEST TOOL for your first / next / hypothetical programming project.
 
@@ -21,7 +21,7 @@ Solutions are enumerated and compared. Everywhere you look, everybody seems to a
 
 You feel like you cannot proceed further until the conflict is resolved.
 
-![There can be only one](/assets/img/highlander.jpg){:width="500"}
+<!-- ![There can be only one](/assets/img/highlander.jpg){:width="500"} -->
 
 As far away as you look Emacs seems to be mentioned and compared against other "editors".
 
@@ -36,7 +36,7 @@ You'll see it everywhere. This statement.
 
 On blog posts, forums, Linux package descriptions, [Wikipedia](https://en.wikipedia.org/wiki/Emacs), [emacs.sexy](https://emacs.sexy/) and even on the [official site](https://www.gnu.org/software/emacs/).
 
-But the later quickly rectifies with:
+But the latter quickly rectifies with:
 
     At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
 
@@ -74,7 +74,7 @@ OK, let's explain this gibberish.
 
 _User-centric_ means Emacs is built around user interactions. It needs user input (_commands_) to perform any actions[^2] and the results of those actions are presented to the user (via side-effects).
 
-Even something as simple as moving the cursor is modelized as a command side-effecting the operation[^3].
+Even something as simple as moving the cursor is modelized as a _command_ side-effecting the operation[^3].
 
 Please also note that by _text_ we target any _character string_, not necessarily "human-understandable words". A more explicit term would be _textual data_.
 
@@ -90,7 +90,7 @@ In other words:
 
 <center><p><em style="color:gray;">"Wow, that still looks like the definition of an editor!"</em></p></center>
 
-Yes, but that's also the the definition of a [task planner](https://orgmode.org/), [file browser](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html), a [terminal emulator](https://www.gnu.org/software/emacs/manual/html_node/emacs/Shell.html), an [email client](https://www.djcbsoftware.nl/code/mu/mu4e.html), a [diffing tool](https://www.gnu.org/software/emacs/manual/html_mono/ediff.html)[^4], a [remote server access tool](https://www.gnu.org/software/tramp/) (SSH, FTP...), a [git frontend](https://magit.vc/), an [HTTP client](https://github.com/pashky/restclient.el) / [server](https://github.com/skeeto/emacs-web-server)...
+Yes, but that's also the the definition of a [task planner](https://orgmode.org/), [file browser](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html), [terminal emulator](https://www.gnu.org/software/emacs/manual/html_node/emacs/Shell.html), [email client](https://www.djcbsoftware.nl/code/mu/mu4e.html), [diffing tool](https://www.gnu.org/software/emacs/manual/html_mono/ediff.html)[^4], [remote server access tool](https://www.gnu.org/software/tramp/) (SSH, FTP...), [git frontend](https://magit.vc/), [HTTP client](https://github.com/pashky/restclient.el) / [server](https://github.com/skeeto/emacs-web-server)...
 
 And Emacs is all of that. Not because it's a *bloated* editor, but because it's a **generic tool** for everything text-related, including editing.
 
