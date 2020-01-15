@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Better TRAMP autologin
-description: Using SSH keys with tramps
-summary: Using SSH keys with tramps
+description: Using SSH keys with TRAMP
+summary: Using SSH keys with TRAMP
 tags: [emacs]
 ---
 
