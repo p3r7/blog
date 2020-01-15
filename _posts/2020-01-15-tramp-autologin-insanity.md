@@ -13,12 +13,12 @@ For those not in the know, [TRAMP](https://www.gnu.org/software/tramp/) is one o
 
 Such interactions include opening shells and browsing remote file trees as if they were locally mounted. You can even bounce across several machines like if it was nothing (it's called [multi-hops](https://www.gnu.org/software/emacs/manual/html_node/tramp/Ad_002dhoc-multi_002dhops.html)).
 
-But there is one thing can break these otherwise seemless interactions: login prompts.
+But there is one thing can break these otherwise seamless interactions: login prompts.
 
 
 # The Authinfo way
 
-To get rid of them, emacs offers natively support for Gnus Authinfo and .netrc files via its `auth-source` package:
+To get rid of them, emacs offers native support for Gnus Authinfo and .netrc files via its `auth-source` package:
 
 ```emacs-lisp
 (require 'dash)
@@ -58,7 +58,7 @@ Host *
 And you could connect to any server for which this key is known for user `eigen`.
 
 
-# The PuTTY dilemna
+# The PuTTY dilemma
 
 If you're on Windows, you're most likely using PuTTY/plink as an SSH alternative.
 
@@ -68,7 +68,7 @@ PuTTY has an equivalent way to set a default key, via a [Default Setting](https:
 
 The former only works if you're saving each and every of your hosts as a connection profile and access it with `/plinkx:<PROFILE>:`.
 
-The latter only seems to load when lauching putty.exe (GUI interface).
+The latter only seems to load when launching putty.exe (GUI interface).
 
 So here comes time for ~~adventure~~ insanity.
 
@@ -77,7 +77,7 @@ So here comes time for ~~adventure~~ insanity.
 
 Another cross-platform solution is to do this in pure elisp.
 
-The trick is to enrich `tramp-methods` with an additionnal args corresponding to the identity file option (`-i`).
+The trick is to enrich `tramp-methods` with an additional args corresponding to the identity file option (`-i`).
 
 Thus we need some utils to alter those method definitions.
 
@@ -152,4 +152,4 @@ Then we can override the method definitions:
 
 The beauty of this is that if your key is not known to the remote host, it would still prompt you for a password without failing.
 
-The code can be found in package `prf-tramp-method` avaialble at [p3r7/prf-tramp](https://github.com/p3r7/prf-tramp).
+The code can be found in package `prf-tramp-method` available at [p3r7/prf-tramp](https://github.com/p3r7/prf-tramp).
