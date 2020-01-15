@@ -17,7 +17,7 @@ You also might have gone through a phase of extensive search for the ULTIMATE VE
 
 To only find yourself at the middle of a battlefield.
 
-Solutions are enumerated and compared. Everywhere you look, everybody seems to argue there is only one truth but fail to end up with a common answer.
+Solutions are enumerated and compared. Everywhere you look, everybody seems to argue there is only one truth but not consensus is in sight.
 
 You feel like you cannot proceed further until the conflict is resolved.
 
