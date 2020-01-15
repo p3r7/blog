@@ -128,7 +128,7 @@ Certificate arg gets added to both 'tramp-login-args and 'tramp-copy-args."
 
 {::options parse_block_html="false" /}
 
-Then we could either override existing methods:
+Then we can override the method definitions:
 
 ```emacs-lisp
 ;; PuTTY
