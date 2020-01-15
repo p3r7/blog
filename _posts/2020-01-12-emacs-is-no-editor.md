@@ -11,7 +11,7 @@ tags: [emacs]
 
 # The Start of a Journey
 
-![first blade](/assets/img/first_blade.jpg){:width="450"}
+![first blade](/assets/img/first_blade.jpg){:style="max-width: 450px"}
 
 You also might have gone through a phase of extensive search for the ULTIMATE VERY BESTEST TOOL for your first / next / hypothetical programming project.
 
@@ -53,7 +53,7 @@ And even though it's humoristic (thus by design slightly incorrect) I'm more OK 
 
 I guess that the main reason why people state that Emacs is (primarily) a text editor is to make it easier to grasp.
 
-![emacs could be anything](/assets/img/emacs_anything.jpg){:width="300"}
+![emacs could be anything](/assets/img/emacs_anything.jpg){:style="max-width: 300px"}
 
 In fact it was not conceived as a text editor with extensibility as a feature.
 
@@ -134,7 +134,7 @@ But at the end of the journey you may end up with your very own Excalibur.
 
 And this is, I believe, how Emacs should get advertised instead of as being only an "editor".
 
-![excalibur](/assets/img/excalibur.png){:width="450"}
+![excalibur](/assets/img/excalibur.png){:style="max-width: 450px"}
 
 # Notes
 
