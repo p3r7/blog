@@ -1,6 +1,6 @@
 site: Eigenbahn blog
 url: eigenbahn.com
-host: 0.0.0.0
+# host: 0.0.0.0
 author: Jordan Besly
 author:
   name: Jordan Besly
