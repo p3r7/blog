@@ -7,7 +7,7 @@ tags: [emacs]
 ---
 
 
-# Introduction
+## Introduction
 
 For those not in the know, [TRAMP](https://www.gnu.org/software/tramp/) is one of Emacs' killer apps. It's a package that allows to interact with remote systems through a [variety](https://www.gnu.org/software/tramp/#Inline-methods) [of](https://www.gnu.org/software/tramp/#External-methods) [protocols](https://www.gnu.org/software/tramp/#GVFS-based-methods).
 
@@ -16,7 +16,7 @@ Such interactions include opening shells and browsing remote file trees as if th
 But there is one thing can break these otherwise seamless interactions: login prompts.
 
 
-# The Authinfo way
+## The Authinfo way
 
 To get rid of them, emacs offers native support for Gnus Authinfo and .netrc files via its `auth-source` package:
 
@@ -41,7 +41,7 @@ And then `C-x f /ssh:pi@raspi:/` and it will connect automatically, yey!
 ...Except that sucks.
 
 
-# SSH keys to the rescue
+## SSH keys to the rescue
 
 Indeed passwords suck. Big time. Even more so when you have a gazillion of remote hosts to connect to.
 
@@ -58,7 +58,7 @@ Host *
 And you could connect to any server for which this key is known for user `eigen`.
 
 
-# The PuTTY dilemma
+## The PuTTY dilemma
 
 If you're on Windows, you're most likely using PuTTY/plink as an SSH alternative.
 
@@ -73,7 +73,7 @@ The latter only seems to load when launching putty.exe (GUI interface).
 So here comes time for ~~adventure~~ insanity.
 
 
-# Insanity (or elisp-bind all the things)
+## Insanity (or elisp-bind all the things)
 
 Another cross-platform solution is to do this in pure elisp.
 

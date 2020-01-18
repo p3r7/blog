@@ -9,7 +9,7 @@ tags: [emacs]
 ... and that's OK.
 
 
-# The Start of a Journey
+## The Start of a Journey
 
 ![first blade](/assets/img/first_blade.jpg){:style="max-width: 450px"}
 
@@ -26,7 +26,7 @@ As far away as you look Emacs seems to be mentioned and compared against other "
 But I dare say it's unfair and reductive to consider Emacs as such.
 
 
-# The misconception
+## The misconception
 
 You'll see it everywhere. This statement.
 
@@ -47,7 +47,7 @@ Everybody knows this Vim hooligan proverb:
 And even though it's humoristic (thus by design slightly incorrect) I'm more OK with this definition than with the "text editor" one.
 
 
-# The whys & hows
+## The whys & hows
 
 I guess that the main reason why people state that Emacs is (primarily) a text editor is to make it easier to grasp.
 
@@ -60,7 +60,7 @@ Instead, __Emacs was conceived as an extensible environment with text editing as
 Even if this was originally a means to an end[^1], this important design decision has allowed Emacs to evolve into something broader.
 
 
-# Proposal for a definition
+## Proposal for a definition
 
 Let's attempt to define Emacs' essence:
 
@@ -93,7 +93,7 @@ Yes, but that's also the the definition of a [task planner](https://orgmode.org/
 And Emacs is all of that. Not because it's a *bloated* editor, but because it's a **generic tool** for everything text-related, including editing.
 
 
-# A bit of nuance
+## A bit of nuance
 
 This is not a glorification of Emacs.
 
@@ -112,7 +112,7 @@ With no expertise, I assume that newer kids (such as Sublime, VSCode...) got des
 The ability to override and extend core functionalities (_"they told me i could be anything"_) is maybe the only thing that keeps making Emacs a different beast, but is a nightmare from a security and stability standpoint.
 
 
-# Closing thoughts
+## Closing thoughts
 
 Emacs is my main MMI for textual data.
 
