@@ -30,19 +30,19 @@ But I dare say it's unfair and reductive to consider Emacs as such.
 
 You'll see it everywhere. This statement.
 
-    Emacs is an [extensible|free|customizable|bloated] text editor.
+>Emacs is an [extensible\|free\|customizable\|bloated] text editor.
 
 On blog posts, forums, Linux package descriptions, [Wikipedia](https://en.wikipedia.org/wiki/Emacs), [emacs.sexy](https://emacs.sexy/) and even on the [official site](https://www.gnu.org/software/emacs/).
 
 But the latter quickly rectifies with:
 
-    At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
+>At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
 
 Yeah, that seems more correct. But it resumes the implementation and not the function.
 
 Everybody knows this Vim hooligan proverb:
 
-    Emacs is a great operating system, lacking only a decent editor.
+>Emacs is a great operating system, lacking only a decent editor.
 
 And even though it's humoristic (thus by design slightly incorrect) I'm more OK with this definition than with the "text editor" one.
 
@@ -64,7 +64,7 @@ Even if this was originally a means to an end[^1], this important design decisio
 
 Let's attempt to define Emacs' essence:
 
-    Emacs is a generic user-centric text manipulation environment.
+>Emacs is a generic user-centric text manipulation environment.
 
 <center><p><em style="color:gray;">“Wow, that looks like the definition of a text editor!”</em></p></center>
 
@@ -84,7 +84,7 @@ Indeed, it relies on _generic_ APIs to interact with text. This abstraction allo
 
 In other words:
 
-    Emacs is a generic Man-Machine Interface for anything text.
+>Emacs is a generic Man-Machine Interface for anything text.
 
 <center><p><em style="color:gray;">"Wow, that still looks like the definition of an editor!"</em></p></center>
 
