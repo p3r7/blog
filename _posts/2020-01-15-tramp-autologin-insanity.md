@@ -82,10 +82,8 @@ The trick is to enrich `tramp-methods` with an additional args corresponding to 
 Thus we need some utils to alter those method definitions.
 
 {::options parse_block_html="true" /}
-
-<details><summary markdown="span">Click to reveal!</summary>
+<details><summary markdown="span">Click to toggle</summary>
 ```emacs-lisp
-
 ;; ------------------------------------------------------------------------
 ;; DEPS
 
@@ -125,7 +123,6 @@ Certificate arg gets added to both 'tramp-login-args and 'tramp-copy-args."
       (prf/tramp/method/def/with-cert-in-some-args 'tramp-copy-args cert-arg cert)))
 ```
 </details>
-
 {::options parse_block_html="false" /}
 
 Then we can override the method definitions:
