@@ -75,6 +75,8 @@ Thankfully, it's pretty straightforward to map implicit parameters to explicit o
 
 As we want those params to be optional, it's more convenient define them as keywords.
 
+{::options parse_block_html="true" /}
+<details><summary markdown="span">Click to toggle</summary>
 ```emacs-lisp
 ;; ------------------------------------------------------------------------
 ;; VARS
@@ -138,10 +140,10 @@ As we want those params to be optional, it's more convenient define them as keyw
                         (symbol-value explicit-interpreter-args-var))))
           (funcall func))))))
 ```
+</details>
+{::options parse_block_html="false" /}
 
-Note that we are defining `prf-default-remote-shell-interpreter` to have a default interpreter different from local `shell-file-name`.
-Indeed, we might want an exotic one locally (e.g. zsh) but would want a safer option for remote servers.
-Also, on a Windows install of Emacs, `shell-file-name` defaults to _cmdproxy.exe_ which is OK for local shells but sucks for remote ones...
+Note that we are defining `prf-default-remote-shell-interpreter` to have a default interpreter different from local `shell-file-name`[^1].
 
 This allows rewriting the `my/uname-local` example with:
 
@@ -214,3 +216,8 @@ Our example command becomes:
 ```
 
 The code for `prf/shell-command-to-string` can be found in package [prf-shell-command](https://github.com/p3r7/prf-tramp/blob/master/prf-shell-command.el).
+
+
+# Notes
+
+[^1]: Indeed, we might want an exotic one locally (e.g. zsh) but would want a safer option for remote servers. Also, under Microsoft Windows, `shell-file-name` defaults to _cmdproxy.exe_ which is OK for local shells but sucks for remote ones...
