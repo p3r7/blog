@@ -152,4 +152,4 @@ Then we can override the method definitions:
 
 The beauty of this is that if your key is not known to the remote host, it would still prompt you for a password without failing.
 
-The code can be found in package `prf-tramp-method` available at [p3r7/prf-tramp](https://github.com/p3r7/prf-tramp).
+The code can be found in package [prf-tramp-method](https://github.com/p3r7/prf-tramp/blob/master/prf-tramp-method.el).
