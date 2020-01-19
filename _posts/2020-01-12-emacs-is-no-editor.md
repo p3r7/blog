@@ -134,6 +134,7 @@ And this is, I believe, how Emacs should get advertised instead of as being only
 
 ![excalibur](/assets/img/excalibur.png){:style="max-width: 450px"}
 
+
 # Notes
 
 [^1]: The "end" being to build a text editing tool.
