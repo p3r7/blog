@@ -63,3 +63,22 @@ pre {
 .date {
     opacity: 0.6;
 }
+
+details summary {
+    background: #edf2f7;
+    text-align: center;
+    cursor: pointer;
+}
+
+// chrome
+details summary::-webkit-details-marker {
+    // display: none;
+}
+// ff
+details > summary:first-of-type {
+    // list-style-type: none;
+}
+
+details[open] > summary {
+    background: #f7eded;
+}
