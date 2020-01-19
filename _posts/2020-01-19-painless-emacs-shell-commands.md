@@ -2,7 +2,7 @@
 layout: post
 title: Painless Emacs shell commands
 description: Making a better API for Emacs shell commands
-summary: Turning explicit into implicit
+summary: Turning implicit into explicit
 tags: [emacs]
 ---
 
