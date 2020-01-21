@@ -30,7 +30,7 @@ Here are the important vars we want to manipulate.
 | --                                             | --                                                                 |
 | _default-directory_                            | location from which to launch shell                                |
 | _explicit-shell-file-name_ / _shell-file-name_ | shell interpreter exec (e.g. bash ...)                             |
-| _explicit-<INTERPRETER>-args_                  | startup arguments for invoking the shell interactively (e.g. `-i`) |
+| _explicit-\<INTERPRETER\>-args_                | startup arguments for invoking the shell interactively (e.g. `-i`) |
 
 Note that `shell-command-switch` is not listed of no use for interactive shells.
 
