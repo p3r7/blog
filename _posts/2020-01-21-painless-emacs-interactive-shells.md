@@ -149,3 +149,5 @@ Our rewritten commands become:
   (interractive)
   (prf/tramp/with-remote-eval :path "/ssh:pi@raspi:/~" :interpreter "bash"))
 ```
+
+The code for `prf/shell` can be found in package [prf-shell](https://github.com/p3r7/prf-tramp/blob/master/prf-shell.el).
