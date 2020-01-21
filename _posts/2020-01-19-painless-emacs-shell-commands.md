@@ -6,13 +6,20 @@ summary: Turning implicit into explicit
 tags: [emacs]
 ---
 
+This article is part of a multi-post series about shells in Emacs:
+ - [Painless Emacs shell commands](/2020/01/19/painless-emacs-shell-commands)
+ - [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells)
+
+
 ## Emacs as a terminal emulator
 
 Emacs can act as a powerful [terminal emulator](https://www.gnu.org/software/emacs/manual/html_node/emacs/Shell.html).
 
 It can spawning interactive shells (with shell-mode and term-mode) and execute single shell commands.
 
-This article will focus on single shell commands.
+This post will focus on single shell commands.
+
+For interactive shells, see [next post](2020/01/21/painless-emacs-interactive-shells).
 
 >In this article, there are two meanings for the word "command":
 > - shell commands, we will refer to them with **shell commands**
