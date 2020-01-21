@@ -78,7 +78,7 @@ This gives, for example:
 ```
 
 
-## Another helper
+## Another wrapper
 
 That's still quite cumbersome.
 
