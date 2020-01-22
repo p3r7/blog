@@ -2,7 +2,7 @@
 layout: post
 title: Focus or launch under GNOME 3
 description: A script to focus on program or launch it
-summary: on any over DE / WM under X server
+summary: Or any over DE / WM under X server
 tags: [linux]
 ---
 
