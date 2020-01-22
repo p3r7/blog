@@ -141,13 +141,13 @@ Also, we embarked functions to help make shell buffer names more explicit.
 Our rewritten commands become:
 
 ```emacs-lisp
-(defun prf/shell ()
+(defun my/zsh-local ()
   (interractive)
-  (prf/tramp/with-remote-eval :path "~" :interpreter "zsh"))
+  (prf/shell :path "~" :interpreter "zsh"))
 
 (defun my/bash-on-raspi ()
   (interractive)
-  (prf/tramp/with-remote-eval :path "/ssh:pi@raspi:/~" :interpreter "bash"))
+  (prf/shell :path "/ssh:pi@raspi:/~" :interpreter "bash"))
 ```
 
 The code for `prf/shell` can be found in package [prf-shell](https://github.com/p3r7/prf-tramp/blob/master/prf-shell.el).
