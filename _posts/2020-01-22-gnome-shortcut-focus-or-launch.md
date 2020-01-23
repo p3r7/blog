@@ -36,7 +36,7 @@ else
 return
 ```
 
-Under Linux, I managed to have a similar behavior but at the time I was using [xmonad](https://xmonad.org/).
+Under Linux, I managed to have a similar feature but at the time I was using [xmonad](https://xmonad.org/).
 
 Now, I'm sticking (for now) with the default DE that is GNOME 3.
 
@@ -45,7 +45,7 @@ Much to my disappointment, the latter does not support out of the box defining s
 
 ## The solution
 
-I googled around, but didn't find any solution that satisfied my need.
+I googled around, but didn't find any solution that satisfied my needs.
 
 Specifically, I wanted:
 
@@ -69,7 +69,7 @@ You can find it alongside detailed instructions on [the dedicated GitHub project
 
 It works as long as we're running X server.
 
-But we'll all know that we'll ultimately switch to Wayland.
+But we all know that we'll ultimately switch to Wayland.
 
 When that happens, we'll need another solution.
 
