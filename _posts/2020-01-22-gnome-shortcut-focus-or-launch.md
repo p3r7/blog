@@ -62,7 +62,7 @@ _xdotool_ is used to list the windows for a given class.
 
 I used python for the convenience of parsing string and manipulating lists.
 
-You can find it alongside detailed instructions on [the dedicated GitHub project](https://github.com/p3r7/focus-or-open-program).
+You can find it alongside detailed instructions on [the dedicated GitHub project](https://github.com/p3r7/focus-or-launch).
 
 
 ## Limitations
