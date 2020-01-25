@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Focus or launch under GNOME 3
+title: Focus or launch under X server
 description: A script to focus on program or launch it
-summary: Or any over DE / WM under X server
+summary: With the wame keyboard shortcut
 tags: [linux]
 ---
 
