@@ -2,7 +2,7 @@
 layout: post
 title: Focus or launch under X server
 description: A script to focus on program or launch it
-summary: With the wame keyboard shortcut
+summary: With the same keyboard shortcut
 tags: [linux]
 ---
 
