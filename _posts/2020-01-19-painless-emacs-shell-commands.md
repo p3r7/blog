@@ -96,22 +96,22 @@ As we want those params to be optional, it's more convenient define them as keyw
 ;; ------------------------------------------------------------------------
 ;; HELPER
 
-(defun prf-with-interpreter--normalize-path (path)
+(defun with-shell-interpreter--normalize-path (path)
   "Normalize path, converting \\ into /."
   ;; REVIEW: shouldn't we just useinstead `convert-standard-filename'
   ;; or even `executable-find'?
   (subst-char-in-string ?\\ ?/ path))
 
 
-(defun prf-with-interpreter--get-interpreter-name (interpreter)
+(defun with-shell-interpreter--get-interpreter-name (interpreter)
   (file-name-nondirectory interpreter))
 
 
 ;; ------------------------------------------------------------------------
 ;; MAIN
 
-(cl-defun prf-eval-with-interpreter (&key form path
-                                          interpreter interpreter-args command-switch)
+(cl-defun eval-with-shell-interpreter (&key form path
+                                            interpreter interpreter-args command-switch)
   (unless path
     (setq path default-directory))
   (unless (file-exists-p path)
@@ -126,26 +126,24 @@ As we want those params to be optional, it's more convenient define them as keyw
                           (if is-remote
                               prf-default-remote-shell-interpreter
                             shell-file-name)))
-         (interpreter (prf-with-interpreter--normalize-path interpreter))
-         (interpreter-name (prf-with-interpreter--get-interpreter-name interpreter))
+         (interpreter (with-shell-interpreter--normalize-path interpreter))
+         (interpreter-name (with-shell-interpreter--get-interpreter-name interpreter))
          (explicit-interpreter-args-var (intern (concat "explicit-" interpreter-name "-args")))
          (interpreter-args (or interpreter-args (when is-remote prf-default-remote-shell-interpreter-args)))
          (command-switch (or command-switch
                              (if is-remote
                                  prf-default-remote-shell-interpreter-command-swith
-                               shell-command-switch))))
-
-    (with-temp-buffer
-      (let ((default-directory path)
-            (shell-file-name interpreter)
-            (explicit-shell-file-name interpreter)
-            (shell-command-switch command-switch))
-        (cl-progv
-            (list explicit-interpreter-args-var)
-            (list (or interpreter-args
-                      (when (boundp explicit-interpreter-args-var)
-                        (symbol-value explicit-interpreter-args-var))))
-          (funcall func))))))
+                               shell-command-switch)))
+         (default-directory path)
+         (shell-file-name interpreter)
+         (explicit-shell-file-name interpreter)
+         (shell-command-switch command-switch))
+    (cl-progv
+        (list explicit-interpreter-args-var)
+        (list (or interpreter-args
+                  (when (boundp explicit-interpreter-args-var)
+                    (symbol-value explicit-interpreter-args-var))))
+      (funcall func))))
 ```
 </details>
 {::options parse_block_html="false" /}
@@ -157,7 +155,7 @@ This allows rewriting the `my/uname-local` example with:
 ```emacs-lisp
 (defun my/uname-local ()
   (interactive)
-  (prf-eval-with-interpreter
+  (eval-with-shell-interpreter
    :path "~"
    :interpreter "fish"
    :form
@@ -171,9 +169,9 @@ That's pretty cool, but having to quote _:form_ and wrap it in a `progn` is kind
 A macro wrapper to the rescue:
 
 ```emacs-lisp
-(defmacro prf-with-interpreter (&rest args)
+(defmacro with-shell-interpreter (&rest args)
   (declare (indent 1) (debug t))
-  `(prf-eval-with-interpreter
+  `(eval-with-shell-interpreter
     :form (lambda () ,(plist-get args :form))
     :path ,(plist-get args :path)
     :interpreter ,(plist-get args :interpreter)
@@ -186,15 +184,15 @@ Which allows us to rewrite it like so:
 ```emacs-lisp
 (defun my/uname-local ()
   (interactive)
-  (prf-with-interpreter
-      :path "~"
-      :interpreter "fish"
-      :form
-      (message "Launching \"uname -a\" locally")
-      (message (shell-command-to-string "uname -a"))))
+  (with-shell-interpreter
+   :path "~"
+   :interpreter "fish"
+   :form
+   (message "Launching \"uname -a\" locally")
+   (message (shell-command-to-string "uname -a"))))
 ```
 
-The code for `prf-with-interpreter` can be found in package [prf-with-interpreter](https://github.com/p3r7/prf-tramp/blob/master/prf-with-interpreter.el).
+The code for `with-shell-interpreter` can be found in package [with-shell-interpreter](https://github.com/p3r7/with-shell-interpreter).
 
 
 ## Even better
@@ -204,11 +202,11 @@ Let's just spin off our own version of `shell-command-to-string`.
 ```emacs-lisp
 (cl-defun prf/shell-command-to-string (command &key path interpreter command-switch)
   "Call CMD w/ `shell-command-to-string' on host and location described by PATH"
-  (prf-with-interpreter
-      :form (shell-command-to-string command)
-      :path path
-      :interpreter interpreter
-      :command-switch command-switch))
+  (with-shell-interpreter
+   :form (shell-command-to-string command)
+   :path path
+   :interpreter interpreter
+   :command-switch command-switch))
 ```
 
 Our example command becomes:
@@ -222,7 +220,7 @@ Our example command becomes:
                                :interpreter "fish"))
 ```
 
-The code for `prf/shell-command-to-string` can be found in package [prf-shell-command](https://github.com/p3r7/prf-tramp/blob/master/prf-shell-command.el).
+The code for `prf/shell-command-to-string` can be found in package [prf-shell-command](https://github.com/p3r7/prf-shell).
 
 
 # Notes
