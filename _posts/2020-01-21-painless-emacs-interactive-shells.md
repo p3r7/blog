@@ -36,18 +36,18 @@ Note that `shell-command-switch` is not listed of no use for interactive shells.
 
 Instead, we have the new var `explicit-<INTEPRETER>-args` that allows passing a list of commands to the shell before it becomes interactive.
 
-You might have spotted it, but in the previous post function `prf-eval-with-interpreter` already handled this use-case.
+You might have spotted it, but in the previous post function `eval-with-shell-interpreter` already handled this use-case.
 
 
 ## Reusing our Wrappers
 
-Hence, we can reuse the wrapper `prf-with-interpreter` that we defined previously.
+Hence, we can reuse the wrapper `with-shell-interpreter` that we defined previously.
 
 There is just a small annoyance: by default command `shell` will prompt for user to specify interpreter path.
 
 This is cumbersome to have to precise it every time.
 
-We might prefer to just have it default to `shell-file-name` for local shells and `prf-default-remote-shell-interpreter` for remote ones.
+We might prefer to just have it default to `shell-file-name` for local shells and `default-remote-shell-interpreter` for remote ones.
 
 If we want to change location, it would be more practical to create a _command_ that explicitly defines the _:interpreter_.
 
@@ -60,16 +60,16 @@ This gives, for example:
 ```emacs-lisp
 (defun my/zsh-local ()
   (interractive)
-  (prf/tramp/with-remote-eval
-      :path "~"
-      :interpreter "zsh"
-      :form
-      (let (current-prefix-arg '(4))
-        (shell))))
+  (with-shell-interpreter
+   :path "~"
+   :interpreter "zsh"
+   :form
+   (let (current-prefix-arg '(4))
+     (shell))))
 
 (defun my/bash-on-raspi ()
   (interractive)
-  (prf/tramp/with-remote-eval
+  (with-shell-interpreter
    :path "/ssh:pi@raspi:/~"
    :interpreter "bash"
    :form
@@ -94,7 +94,7 @@ So let's create another derived helper to prevent repetition.
   "Create a shell at given PATH, using given INTERPRETER binary."
   (interactive)
 
-  (prf/with-interpreter
+  (with-shell-interpreter
    :form
    (let* ((is-remote (file-remote-p path))
           (interpreter (prf/tramp/path/normalize interpreter))
@@ -150,4 +150,4 @@ Our rewritten commands become:
   (prf/shell :path "/ssh:pi@raspi:/~" :interpreter "bash"))
 ```
 
-The code for `prf/shell` can be found in package [prf-shell](https://github.com/p3r7/prf-tramp/blob/master/prf-shell.el).
+The code for `prf/shell` can be found in package [prf-shell](https://github.com/p3r7/prf-shell).
