@@ -6,6 +6,9 @@ summary: More implicit into explicit
 tags: [emacs]
 ---
 
+![drake](/assets/img/drake-prf-shell.png)
+
+
 This article is part of a multi-post series about shells in Emacs:
  - [Painless Emacs shell commands](/2020/01/19/painless-emacs-shell-commands)
  - [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells)
@@ -90,41 +93,41 @@ So let's create another derived helper to prevent repetition.
 ;; ------------------------------------------------------------------------
 ;; MAIN
 
-(cl-defun prf/shell (&key path interpreter interpreter-args command-switch)
+(cl-defun prf-shell (&key path interpreter interpreter-args command-switch)
   "Create a shell at given PATH, using given INTERPRETER binary."
   (interactive)
 
   (with-shell-interpreter
-   :form
-   (let* ((is-remote (file-remote-p path))
-          (interpreter (prf/tramp/path/normalize interpreter))
-          (shell-buffer-basename (prf/shell--generate-buffer-name is-remote interpreter path))
-          (shell-buffer-name (generate-new-buffer-name shell-buffer-name))
-          (current-prefix-arg '(4))
-          (comint-process-echoes t))
-     (shell shell-buffer-name))
-   :path path
-   :interpreter interpreter
-   :interpreter-args interpreter-args))
+      :form
+    (let* ((is-remote (file-remote-p path))
+           (interpreter (prf/tramp/path/normalize interpreter))
+           (shell-buffer-basename (prf-shell--generate-buffer-name is-remote interpreter path))
+           (shell-buffer-name (generate-new-buffer-name shell-buffer-name))
+           (current-prefix-arg '(4))
+           (comint-process-echoes t))
+      (shell shell-buffer-name))
+    :path path
+    :interpreter interpreter
+    :interpreter-args interpreter-args))
 
 ;; ------------------------------------------------------------------------
 ;; HELPERS: BUFFER NAME
 
-(defun prf/shell--generate-buffer-name (is-remote interpreter path)
+(defun prf-shell--generate-buffer-name (is-remote interpreter path)
   (if is-remote
-      (prf/shell--generate-buffer-name-remote interpreter path)
-    (prf/shell--generate-buffer-name-local interpreter path)))
+      (prf-shell--generate-buffer-name-remote interpreter path)
+    (prf-shell--generate-buffer-name-local interpreter path)))
 
-(defun prf/shell--generate-buffer-name-local (&optional interpreter _path)
+(defun prf-shell--generate-buffer-name-local (&optional interpreter _path)
   (if interpreter
       (prf-with-interpreter--get-interpreter-name interpreter)
     "shell"))
 
-(defun prf/shell--generate-buffer-name-remote (intepreter path)
+(defun prf-shell--generate-buffer-name-remote (intepreter path)
   (let ((vec (tramp-dissect-file-name path)))
-    (prf/shell--generate-buffer-name-remote-from-vec vec)))
+    (prf-shell--generate-buffer-name-remote-from-vec vec)))
 
-(defun prf/shell--generate-buffer-name-remote-from-vec (vec)
+(defun prf-shell--generate-buffer-name-remote-from-vec (vec)
   (let (user host)
     (concat
      (tramp-file-name-user vec) "@" (tramp-file-name-host vec))))
@@ -143,11 +146,11 @@ Our rewritten commands become:
 ```emacs-lisp
 (defun my/zsh-local ()
   (interractive)
-  (prf/shell :path "~" :interpreter "zsh"))
+  (prf-shell :path "~" :interpreter "zsh"))
 
 (defun my/bash-on-raspi ()
   (interractive)
-  (prf/shell :path "/ssh:pi@raspi:/~" :interpreter "bash"))
+  (prf-shell :path "/ssh:pi@raspi:/~" :interpreter "bash"))
 ```
 
-The code for `prf/shell` can be found in package [prf-shell](https://github.com/p3r7/prf-shell).
+The code for `prf-shell` can be found in package [prf-shell](https://github.com/p3r7/prf-shell).
