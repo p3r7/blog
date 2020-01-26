@@ -6,6 +6,9 @@ summary: Turning implicit into explicit
 tags: [emacs]
 ---
 
+![drake](/assets/img/drake-prf-shell-command.png)
+
+
 This article is part of a multi-post series about shells in Emacs:
  - [Painless Emacs shell commands](/2020/01/19/painless-emacs-shell-commands)
  - [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells)
@@ -200,13 +203,13 @@ The code for `with-shell-interpreter` can be found in package [with-shell-interp
 Let's just spin off our own version of `shell-command-to-string`.
 
 ```emacs-lisp
-(cl-defun prf/shell-command-to-string (command &key path interpreter command-switch)
+(cl-defun prf-shell-command-to-string (command &key path interpreter command-switch)
   "Call CMD w/ `shell-command-to-string' on host and location described by PATH"
   (with-shell-interpreter
-   :form (shell-command-to-string command)
-   :path path
-   :interpreter interpreter
-   :command-switch command-switch))
+      :form (shell-command-to-string command)
+      :path path
+      :interpreter interpreter
+      :command-switch command-switch))
 ```
 
 Our example command becomes:
@@ -220,7 +223,7 @@ Our example command becomes:
                                :interpreter "fish"))
 ```
 
-The code for `prf/shell-command-to-string` can be found in package [prf-shell-command](https://github.com/p3r7/prf-shell).
+The code for `prf-shell-command-to-string` can be found in package [prf-shell-command](https://github.com/p3r7/prf-shell).
 
 
 # Notes
