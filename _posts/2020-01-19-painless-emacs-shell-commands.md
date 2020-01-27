@@ -101,8 +101,6 @@ As we want those params to be optional, it's more convenient define them as keyw
 
 (defun with-shell-interpreter--normalize-path (path)
   "Normalize path, converting \\ into /."
-  ;; REVIEW: shouldn't we just useinstead `convert-standard-filename'
-  ;; or even `executable-find'?
   (subst-char-in-string ?\\ ?/ path))
 
 
@@ -186,7 +184,6 @@ A macro wrapper to the rescue:
   (unless (null plist)
     (cl-loop with passed = nil
              for e in plist
-             ;; unless (keywordp e)
              until (and passed
                         (keywordp e)
                         (not (eq e prop)))
