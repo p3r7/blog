@@ -175,11 +175,26 @@ A macro wrapper to the rescue:
 (defmacro with-shell-interpreter (&rest args)
   (declare (indent 1) (debug t))
   `(eval-with-shell-interpreter
-    :form (lambda () ,(plist-get args :form))
+    :form (lambda () ,(cons 'progn (with-shell-interpreter--plist-get args :form)))
     :path ,(plist-get args :path)
     :interpreter ,(plist-get args :interpreter)
     :interpreter-args ,(plist-get args :interpreter-args)
     :command-switch ,(plist-get args :command-switch)))
+
+(defun with-shell-interpreter--plist-get (plist prop)
+  "Like `plist-get' except allows value to be multiple elements."
+  (unless (null plist)
+    (cl-loop with passed = nil
+             for e in plist
+             ;; unless (keywordp e)
+             until (and passed
+                        (keywordp e)
+                        (not (eq e prop)))
+             if (and passed
+                     (not (keywordp e)))
+             collect e
+             else if (not passed)
+             do (setq passed 't))))
 ```
 
 Which allows us to rewrite it like so:
