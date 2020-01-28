@@ -98,8 +98,13 @@ So let's create another derived helper to prevent repetition.
   (interactive)
 
   (with-shell-interpreter
-      :form
-    (let* ((is-remote (file-remote-p path))
+    :form
+    (let* ((path (or path default-directory))
+           (is-remote (file-remote-p path))
+           (interpreter (or interpreter
+                            (if is-remote
+                                with-shell-interpreter-default-remote
+                              shell-file-name)))
            (interpreter (prf/tramp/path/normalize interpreter))
            (shell-buffer-basename (prf-shell--generate-buffer-name is-remote interpreter path))
            (shell-buffer-name (generate-new-buffer-name shell-buffer-name))
