@@ -11,7 +11,7 @@ tags: [linux,productivity]
 
 I tend do download lots of crap from the internet.
 
-Mainly pictures... Of various stuff... Ranging from furniture, old computer hardware, world fair memorabilidas, old japanese toys...
+Mainly pictures... Of various stuff... Ranging from furniture, old computer hardware, world fair memorabilias, old japanese toys...
 
 I was basically doing a local Pinterest before it existed.
 
