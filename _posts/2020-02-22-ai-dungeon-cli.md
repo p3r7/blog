@@ -41,7 +41,7 @@ Except...
 
 >To play the game locally, it is recommended that you have an nVidia GPU with 12 GB or more of memory, and CUDA installed. If you do not have such a GPU, each turn can take a couple of minutes or more for the game to compose its response.
 
-Crap, I don't even have an external GPU.
+Crap, I don't even have a graphics card.
 
 
 ## Solution #2
