@@ -48,13 +48,15 @@ Crap, I don't even have an external GPU.
 
 Well, the web app version ([play.aidungeon.io](https://play.aidungeon.io/)) is a web app, so it relies on a backend to do the heavy lifting.
 
-So if the API is not too cumbersome, it would be super easy to just make a CLI client to it.
+So if the API is well designed, it would be super easy to just make a CLI client to it.
 
-And that's exactly [what I did](https://github.com/Eigenbahn/ai-dungeon-cli).
+And tanksfully that was the case and so that's exactly what I did.
 
 Ta-dam!
 
 ![emacs could be anything](/assets/img/ai-dungeon-vt320.jpg)
+
+Find the code at: https://github.com/Eigenbahn/ai-dungeon-cli
 
 
 ## Closing thoughts
