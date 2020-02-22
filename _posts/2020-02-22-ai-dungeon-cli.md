@@ -61,7 +61,7 @@ Find the code at: https://github.com/Eigenbahn/ai-dungeon-cli
 
 ## Closing thoughts
 
-If you do not have access to a hardware terminal, you could still experience the thing with terminal emulators that emulate CRT displays: [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) or [Cathode.app](https://apps.apple.com/us/app/cathode/id499233976?mt=12)[^3].
+If you do not have access to a hardware terminal, you could still experience the thing with terminal emulators that emulate the rendering of CRT displays: [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) or [Cathode.app](https://apps.apple.com/us/app/cathode/id499233976?mt=12)[^3].
 
 Also, as you might have heard, hosting AI Dungeon costs a lot of money.
 
