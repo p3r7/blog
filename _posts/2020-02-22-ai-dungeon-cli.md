@@ -15,7 +15,7 @@ A [DEC VT320](https://terminals-wiki.org/wiki/index.php/DEC_VT320), more precise
 
 I've been fooling with it for a while, using it like you would use any terminal emulator (only slower and with no UTF8), accessing BBSes, reading newsgroup...
 
-... and playing text adventure games (such as Zork[^1]).
+... And playing text adventure games (such as Zork[^1]).
 
 
 ## AI Dungeon
@@ -46,7 +46,7 @@ Crap, I don't even have a graphics card.
 
 ## Solution #2
 
-Well, the web app version ([play.aidungeon.io](https://play.aidungeon.io/)) is a web app, so it relies on a backend to do the heavy lifting.
+Well, [play.aidungeon.io](https://play.aidungeon.io/) is a web app... So it necessarily relies on a backend to do the heavy lifting.
 
 So if the API is well designed, it would be super easy to just make a CLI client to it.
 
