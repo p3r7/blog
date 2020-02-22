@@ -135,7 +135,7 @@ And this is, I believe, how Emacs should get advertised instead of as being only
 ![excalibur](/assets/img/excalibur.png){:style="max-width: 450px"}
 
 
-# Notes
+## Notes
 
 [^1]: The "end" being to build a text editing tool.
 [^2]: Not true as modern Emacs can do stuff independently of user input. But the implementation is often hackish (timers...). Furthermore, doing stuff programmatically rely on user-centric APIs (temp buffers, moving point and mark around...).
