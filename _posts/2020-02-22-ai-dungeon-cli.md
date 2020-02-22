@@ -56,7 +56,7 @@ Ta-dam!
 
 ![emacs could be anything](/assets/img/ai-dungeon-vt320.jpg)
 
-Find the code at: https://github.com/Eigenbahn/ai-dungeon-cli
+Find the code at: [https://github.com/Eigenbahn/ai-dungeon-cli](https://github.com/Eigenbahn/ai-dungeon-cli).
 
 
 ## Closing thoughts
