@@ -2,7 +2,7 @@
 layout: post
 title: Play AI Dungeon like it's 1980
 description: Playing AI Dungeon on a hardware terminal
-summary: on an actual hardware terminal
+summary: On an actual hardware terminal
 tags: [vt320,retrocomputing]
 ---
 
