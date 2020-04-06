@@ -68,6 +68,8 @@ Also please note for Emacs 27 users, you might have to set the following:
 (setq custom--inhibit-theme-enable nil)
 ```
 
+## Bonus example
+
 As a bonus here is my setup for `chocolate-theme`:
 
 ```emacs-lisp
@@ -104,6 +106,7 @@ As a bonus here is my setup for `chocolate-theme`:
 ![chocolate theme overrides](/assets/img/emacs-chocolate-theme-overrides.png)
 
 You can see my customization on the left VS the default faces on the right.
+
 Please note:
 
  - it's way clearer that the bottom buffer is the active one
