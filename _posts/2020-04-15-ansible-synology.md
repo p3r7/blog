@@ -81,7 +81,7 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
 
   # log in
   - name: try login in as user with my password
-    command: sshpass -p "{{ my_remote_password }}" ssh -q -l {{ my_remote_user }} "{{ ansible_host }}" -o PreferredAuthentications=password -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=1 echo "Worked"
+    command: sshpass -p "\{\{ my_remote_password \}\}" ssh -q -l {{ my_remote_user }} "\{\{ ansible_host \}\}" -o PreferredAuthentications=password -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=1 echo "Worked"
     register: ansible_check_connect_user_pwd
     connection: local
     ignore_errors: yes
@@ -89,8 +89,8 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
   - name: if password worked, use it
     connection: local
     set_fact:
-      ansible_ssh_pass: "{{ my_remote_password }}"
-      ansible_sudo_pass: "{{ my_remote_password }}"
+      ansible_ssh_pass: "\{\{ my_remote_password \}\}"
+      ansible_sudo_pass: "\{\{ my_remote_password \}\}"
     when: ansible_check_connect_user_pwd is succeeded
 
   - name: gather facts
@@ -104,7 +104,7 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
     register: administrators
   - name: split list of administrators
     set_fact:
-      administrators_list: "{{ administrators.stdout.split(',') }}"
+      administrators_list: "\{\{ administrators.stdout.split(',') \}\}"
 
   # create user
   - name: read /etc/passwd file
@@ -116,27 +116,27 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
     become: true
     # NB: args are [username pwd "full name" expired{0|1} mail AppPrivilege]
     # only using AppPrivilege 0x01, i.e. FTP
-    command: /usr/syno/sbin/synouser --add {{ my_ansible_username }} "{{ my_ansible_password }}" "" 0 "" 1
+    command: /usr/syno/sbin/synouser --add \{\{ my_ansible_username \}\} "\{\{ my_ansible_password \}\}" "" 0 "" 1
     args:
-      creates: /volume1/homes/homes/{{ my_ansible_username }}
+      creates: /volume1/homes/homes/\{\{ my_ansible_username \}\}
   - name: fix user ansible home permission
     become: true
     file:
-      path: /volume1/homes/{{ my_ansible_username }}
+      path: /volume1/homes/\{\{ my_ansible_username \}\}
       mode: u=rwx,g=rx,o=rx
 
   # add user to administrators
   - name: add user ansible to administrators group
     become: true
-    command: /usr/syno/sbin/synogroup --member administrators {{ ' '.join(administrators_list) }} {{ my_ansible_username }}
+    command: /usr/syno/sbin/synogroup --member administrators \{\{ ' '.join(administrators_list) \}\} \{\{ my_ansible_username \}\}
 
   # give user passwordless sudo access
   - name: give user ansible sudo access
     become: true
     lineinfile:
       dest: /etc/sudoers.d/ansible
-      line: "{{ my_ansible_username }} ALL=(ALL) NOPASSWD: ALL"
-      regexp: "^{{ my_ansible_username }}"
+      line: "\{\{ my_ansible_username \}\} ALL=(ALL) NOPASSWD: ALL"
+      regexp: "^\{\{ my_ansible_username \}\}"
       state: present
       create: yes
       mode: 0440
@@ -148,8 +148,8 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
     become: true
     authorized_key:
       state: present
-      user: "{{ my_ansible_username }}"
-      key: "{{ lookup('file', my_ansible_public_key_path) }}"
+      user: "\{\{ my_ansible_username \}\}"
+      key: "\{\{ lookup('file', my_ansible_public_key_path) \}\}"
       manage_dir: yes
 ```
 
