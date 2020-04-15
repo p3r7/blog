@@ -81,7 +81,7 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
 
   # log in
   - name: try login in as user with my password
-    command: sshpass -p "{% raw %} {{ my_remote_password }}{% endraw %}" ssh -q -l {{ my_remote_user }} "{% raw %} {{ ansible_host }}{% endraw %}" -o PreferredAuthentications=password -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=1 echo "Worked"
+    command: sshpass -p "{% raw %}{{ my_remote_password }}{% endraw %}" ssh -q -l {{ my_remote_user }} "{% raw %}{{ ansible_host }}{% endraw %}" -o PreferredAuthentications=password -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=1 echo "Worked"
     register: ansible_check_connect_user_pwd
     connection: local
     ignore_errors: yes
@@ -89,8 +89,8 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
   - name: if password worked, use it
     connection: local
     set_fact:
-      ansible_ssh_pass: "{% raw %} {{ my_remote_password }}{% endraw %}"
-      ansible_sudo_pass: "{% raw %} {{ my_remote_password }}{% endraw %}"
+      ansible_ssh_pass: "{% raw %}{{ my_remote_password }}{% endraw %}"
+      ansible_sudo_pass: "{% raw %}{{ my_remote_password }}{% endraw %}"
     when: ansible_check_connect_user_pwd is succeeded
 
   - name: gather facts
@@ -104,7 +104,7 @@ Instead, we need to rely on alternative commands `synouser` and `synogroup`.
     register: administrators
   - name: split list of administrators
     set_fact:
-      administrators_list: "{% raw %} {{ administrators.stdout.split(',') }}{% endraw %}"
+      administrators_list: "{% raw %}{{ administrators.stdout.split(',') }}{% endraw %}"
 
   # create user
   - name: read /etc/passwd file
