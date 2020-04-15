@@ -26,9 +26,9 @@ So, if we want to make the most of this little device, we have to lift up the ho
 
 ## Ansible
 
-I really like Ansible.
+I really like [Ansible](https://www.ansible.com/).
 
-After years of using custom bash script (plus some forgettable bewilderments with [chef](https://www.chef.io/)) it really changed how I approach provisioning when I discovered it 3 years ago.
+After years of using custom bash scripts (plus some forgettable bewilderments with [Chef](https://www.chef.io/)) it really changed how I approach provisioning when I discovered it 3 years ago.
 
 To me it's main strengths are that:
 
@@ -44,9 +44,13 @@ So it's natural that I want to use Ansible to install stuff on my little NAS.
 
 ## Enabling SSH access
 
-First of all, we need to enable SSH access.
+Ansible uses SSH to communicate with remote hosts.
 
-The [official documentation](https://www.synology.com/en-global/knowledgebase/DSM/tutorial/General_Setup/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet) is pretty straightforward.
+SSH access is disabled by default on DSM.
+
+So first of all, we need to enable it.
+
+The [official documentation](https://www.synology.com/en-global/knowledgebase/DSM/tutorial/General_Setup/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet) is pretty straightforward for this.
 
 
 ## Getting Ansible to communicate with the NAS
@@ -55,7 +59,7 @@ To give access to a server from my Ansible host, I generally create an `ansible`
 
 And what better way to do this than through an Ansible playbook?
 
-The only trick here is to log in using an "administrator" account with password access.
+The only trick here is to log in using an "administrator" account using its password.
 
 One small annoyance is that the Linux OS on the NAS doesn't come with commands such as `useradd` or `groups`. As a result the [user](https://docs.ansible.com/ansible/latest/modules/user_module.html) and [group](https://docs.ansible.com/ansible/latest/modules/group_module.html) modules couldn't be used.
 
