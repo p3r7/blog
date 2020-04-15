@@ -2,7 +2,7 @@
 layout: post
 title: Synology NAS and Ansible
 description: Use Ansible to provision your Synology NAS
-summary: Be free to install more stuff on the little guy.
+summary: Be free to install more stuff on the little guy
 tags: [ansible,synology]
 ---
 
