@@ -175,3 +175,13 @@ You should then be able to ansible-ping it:
     }
 
 Now we're free to use Ansible like we would with any other device.
+
+
+## Complementary information
+
+Synology provides some documentation regarding DSM:
+
+ - [CLI guide](https://global.download.synology.com/download/Document/Software/DeveloperGuide/Firmware/DSM/All/enu/Synology_DiskStation_Administration_CLI_Guide.pdf): for commands such as `synouser`, `synogroup`...
+ - [File Station HTTP API guide](https://global.download.synology.com/download/Document/Software/DeveloperGuide/Package/FileStation/All/enu/Synology_File_Station_API_Guide.pdf): for actions normally performed on the web interface
+
+It seems that Github user [Andrew Gaffney](https://github.com/agaffney) already did some legwork to make integrate the File Station HTTP API with Ansible: [agaffney/ansible-synology-dsm](https://github.com/agaffney/ansible-synology-dsm).
