@@ -7,6 +7,11 @@ tags: [ansible,synology]
 ---
 
 
+This article is part of a multi-post series about making the most out of an entry-level Synology NAS:
+ - [Synology NAS and Ansible](/2020/04/15/ansible-synology)
+ - [Proper packages on a Synology NAS](2020/04/29/synology-entware)
+
+
 ## My Synology NAS
 
 I have an entry-level Synology NAS with an ARM v7 CPU.
