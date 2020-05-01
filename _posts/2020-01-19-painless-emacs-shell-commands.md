@@ -33,11 +33,11 @@ For interactive shells, see [next post](2020/01/21/painless-emacs-interactive-sh
 
 The main _commands_ are:
 
-| function                                                       | execution   | return value                      | spawned buffers   |
-| --                                                             | :--:        | --                                | --                |
-| _shell-command-to-string_ `(command)`                          | synchronous | stdout                            |                   |
-| _shell-command_ `(command & output-buffer error-buffer)`       | synchronous | return code                       | stdout and stderr |
-| _async-shell-command_ `(command & output-buffer error-buffer)` | synchronous | _window_ containing output-buffer | stdout and stderr |
+| function                                                       | execution    | return value                      | spawned buffers   |
+| --                                                             | :--:         | --                                | --                |
+| _shell-command-to-string_ `(command)`                          | synchronous  | stdout                            |                   |
+| _shell-command_ `(command & output-buffer error-buffer)`       | synchronous  | return code                       | stdout and stderr |
+| _async-shell-command_ `(command & output-buffer error-buffer)` | asynchronous | _window_ containing output-buffer | stdout and stderr |
 
 As you can see, the three of those only accept a limited number of arguments.
 
