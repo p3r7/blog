@@ -158,4 +158,4 @@ Our rewritten commands become:
   (prf-shell :path "/ssh:pi@raspi:/~" :interpreter "bash"))
 ```
 
-The code for `prf-shell` can be found in package [prf-shell](https://github.com/p3r7/prf-shell).
+The code for `prf-shell` can be found in package [friendly-shell](https://github.com/p3r7/friendly-shell).

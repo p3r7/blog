@@ -93,7 +93,7 @@ As we want those params to be optional, it's more convenient define them as keyw
 
 (defvar prf-default-remote-shell-interpreter "/bin/bash")
 (defvar prf-default-remote-shell-interpreter-args '("-c" "export EMACS=; export TERM=dumb; stty echo; bash"))
-(defvar prf-default-remote-shell-interpreter-command-swith "-c")
+(defvar prf-default-remote-shell-interpreter-command-switch "-c")
 
 
 ;; ------------------------------------------------------------------------
@@ -133,7 +133,7 @@ As we want those params to be optional, it's more convenient define them as keyw
          (interpreter-args (or interpreter-args (when is-remote prf-default-remote-shell-interpreter-args)))
          (command-switch (or command-switch
                              (if is-remote
-                                 prf-default-remote-shell-interpreter-command-swith
+                                 prf-default-remote-shell-interpreter-command-switch
                                shell-command-switch)))
          (default-directory path)
          (shell-file-name interpreter)
@@ -235,7 +235,7 @@ Our example command becomes:
                                :interpreter "fish"))
 ```
 
-The code for `prf-shell-command-to-string` can be found in package [prf-shell-command](https://github.com/p3r7/prf-shell).
+The code for `prf-shell-command-to-string` can be found in package [friendly-shell-command](https://github.com/p3r7/friendly-shell).
 
 
 # Notes
