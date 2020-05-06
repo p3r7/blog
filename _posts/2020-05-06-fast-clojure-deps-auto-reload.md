@@ -51,7 +51,7 @@ That's a big hunk of text to copy paste...
 
 What could we do to make our life easier?
 
-Mhm, wait a second, we are using Emacs, don't we?
+Mhm, wait a second, we are using Emacs with CIDER, don't we?
 
 Let's hack something quick in elisp!
 
