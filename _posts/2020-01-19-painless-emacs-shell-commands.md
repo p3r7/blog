@@ -58,7 +58,7 @@ Specifically:
 - by having the `default-directory` be on a remote server (via TRAMP), we can open a shell on this remote server
 - by changing the other vars, we can spawn a shell from non-default interpreters (fish, zsh, ksh...)
 
-To prevent having to redefine those values, We can let-bind those vars for the duration of the execution (dynamic binding).
+To prevent having to redefine those values, we can let-bind those vars for the duration of the execution (dynamic binding).
 
 ```emacs-lisp
 (defun my/uname-local ()
