@@ -58,7 +58,7 @@ Let's hack something quick in elisp!
 
 ## Emacs helper command
 
-```el
+```emacs-lisp
 (defun prf/cider/send-to-repl (sexp &optional eval ns)
   "Send SEXP to Cider Repl. If EVAL is t, evaluate it.
 Optionally, we can change namespace by specifying NS."
