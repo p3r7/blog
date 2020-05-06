@@ -238,6 +238,6 @@ Our example command becomes:
 The code for `prf-shell-command-to-string` can be found in package [friendly-shell-command](https://github.com/p3r7/friendly-shell).
 
 
-# Notes
+## Notes
 
 [^1]: Indeed, we might want an exotic one locally (e.g. zsh) but would want a safer option for remote servers. Also, under Microsoft Windows, `shell-file-name` defaults to _cmdproxy.exe_ which is OK for local shells but sucks for remote ones...
