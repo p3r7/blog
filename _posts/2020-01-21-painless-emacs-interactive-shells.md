@@ -67,7 +67,7 @@ This gives, for example:
    :path "~"
    :interpreter "zsh"
    :form
-   (let (current-prefix-arg '(4))
+   (let ((current-prefix-arg '(4)))
      (shell))))
 
 (defun my/bash-on-raspi ()
@@ -76,7 +76,7 @@ This gives, for example:
    :path "/ssh:pi@raspi:/~"
    :interpreter "bash"
    :form
-   (let (current-prefix-arg '(4))
+   (let ((current-prefix-arg '(4)))
      (shell))))
 ```
 
