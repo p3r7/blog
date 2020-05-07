@@ -45,7 +45,7 @@ Then, let's say you wanted to import `clj-http`. In your REPL, you just have to 
 ```
 
 
-## youWereExpectingMetoTypeAllThis.png
+## youWereExpectingMeToTypeAllThis.png
 
 That's a big hunk of text to copy paste...
 
