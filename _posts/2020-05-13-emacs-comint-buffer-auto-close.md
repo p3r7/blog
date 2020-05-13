@@ -22,7 +22,7 @@ exit
 Process shell finished
 ```
 
-And you'd have to `C-x k`-it (`kill-this-buffer`) manually.
+And you'd have to `C-x k`-it manually[^1].
 
 This can be annoying and we might want to change that.
 
@@ -31,7 +31,7 @@ But first we need to delve a bit in Emacs internals.
 
 ## Emacs bestiary: shell, comint & process
 
-The Emacs implementation of dealing with terminal emulation is divided in three API layers[^1]:
+The Emacs implementation of dealing with terminal emulation is divided in three API layers[^2]:
 
  - the _shell_ layer (dealt with previously on this blog: [part 1](/2020/01/19/painless-emacs-shell-commands) and [2](2020/01/21/painless-emacs-interactive-shells))
  - the _comint_ layer
@@ -39,14 +39,14 @@ The Emacs implementation of dealing with terminal emulation is divided in three 
 
 The _process_ layer deals with spawning inferior processes, be it synchronously (`call-process` and `process-file` functions) or asynchronously (`make-process` and `start-process`).
 
-The _comint_ is primarily comprised of a major mode (`comint-mode`) for interacting with spawned processes. specifically suited for interpreters (and dealing with user input).
+The _comint_ is primarily comprised of a major mode (`comint-mode`) specifically suited for interacting with a special kind of processes: interpreters.
 
-Finally, the _shell_ layer is the higher-level set of APIs built on top of comint and specifically suited for interacting with shell interpreters.
+Finally, the _shell_ layer is the higher-level set of APIs built on top of comint for dealing with shell interpreters.
 
 
 ## Sentinels
 
-The _process_ layer offers to bind a _sentinel_ to each spawned process, a callback function that gets run every time the process changes state.
+The _process_ layer offers to bind a _**sentinel**_ to each spawned process: a callback function that gets run every time the process changes state.
 
 Notably, it runs when the process dies.
 
@@ -67,10 +67,10 @@ So by crafting the appropriate sentinel, we can have the buffer close automatica
 
 ## Generalizing
 
-The previous example works but has 2 limitations:
+The previous example has 2 limitations:
 
-- some mode spawn comint buffers with important code in their associated sentinels, we don't want to override it
-- me somewhat manually bind the sentinel to the shell buffer
+- some modes spawn comint buffers with custom sentinels, we don't want to override them
+- me somewhat manually bind the sentinel to the shell buffer, something automatic would be better
 
 First let's deal with the first issue:
 
@@ -95,7 +95,7 @@ First let's deal with the first issue:
 
 Calling `add-my-kill-on-exit-sentinel` creates a new sentinel from the one already bound to the buffer plus our `my-kill-buffer-sentinel`. Hence the original sentinel isn't replaced but instead enriched.
 
-Now for the second issue, let's automatically call `add-my-kill-on-exit-sentinel` on any new comint buffer:
+Now for the second issue. Let's automatically call `add-my-kill-on-exit-sentinel` on any new comint buffer:
 
 ```emacs-lisp
 (defvar my-kill-on-exit-comint-hook-has-run nil
@@ -117,7 +117,7 @@ We need this buffer-local var to prevent the hook from running
 (add-hook 'comint-mode-hook #'kill-on-exit-comint-hook)
 ```
 
-The trig calling `add-my-kill-on-exit-sentinel` by registering a new hook callback to the `comint-mode-hook`.
+We trig the calling of `add-my-kill-on-exit-sentinel` by registering a new hook callback to the `comint-mode-hook`.
 
 The trick here is to wait for the comint derived modes to register their custom sentinel before enriching it. That's why we use `my-async-funcall`.
 
@@ -126,4 +126,6 @@ Finally, `comint-mode-hook` can get triggered several times for a same buffer. T
 
 ## Notes
 
-[^1]: Welp, there is also _term-mode_, a different beast volountarily omitted in the sake of conciseness.
+[^1]: `kill-this-buffer`
+
+[^2]: Welp, there is also _term-mode_, a whole different beast ; volountarily omitted for the sake of conciseness.
