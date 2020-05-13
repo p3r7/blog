@@ -80,7 +80,8 @@ First let's deal with the first issue:
 (require 'dash)
 
 (defun add-my-kill-on-exit-sentinel ()
-  "Replace current process sentinel with a new sentinel composed of the current one and `my-kill-buffer-sentinel'."
+  "Replace current process sentinel with a new sentinel composed
+of the current one and `my-kill-buffer-sentinel'."
 
   (let* ((process (get-buffer-process (current-buffer)))
          (og-sentinel (process-sentinel process))
