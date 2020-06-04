@@ -22,7 +22,7 @@ A step up is to use [ClojureDocs](https://clojuredocs.org/) and its user-provide
 
 I stumbled upon [Clojure, The Essential Reference](https://www.manning.com/books/clojure-the-essential-reference)[^2], a book that aims at being a proper reference to the Core Library, with exhaustive descriptions and examples.
 
-It has become my go-to reference for getting the specificities of functions and macros.
+It has become my go-to reference for getting the specificities of core functions and macros.
 
 
 ## Jump to documentation from within Emacs
