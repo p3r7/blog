@@ -119,7 +119,7 @@ We can even choose to use `zsh` for all remote ssh connections, `nil` acting as 
    :protocol "ssh"
    :user nil                            ; any user
    :machine nil)                        ; any host
- 'zsh)                                  ; use same alias as before
+ 'zsh)
 ```
 
 
