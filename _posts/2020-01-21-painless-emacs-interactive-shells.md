@@ -54,9 +54,7 @@ We might prefer to just have it default to `shell-file-name` for local shells an
 
 If we want to change location, it would be more practical to create a _command_ that explicitly defines the _:interpreter_.
 
-To disable `shell` prompting for interpreter path, we have to call it with the _default prefix argument_ (i.e. `C-u M-x shell`).
-
-To reproduce this behavior programmatically, we'd have to let bind `current-prefix-arg` to `'(4)`.
+For remote connections, `shell` prompts systematically for the remote interpreter path. To disable this behaviour, we have to call it with the _default prefix argument_ (i.e. `C-u M-x shell`), of programmatically by let-binding `current-prefix-arg` to `'(4)`.
 
 This gives, for example:
 
@@ -64,11 +62,10 @@ This gives, for example:
 (defun my/zsh-local ()
   (interractive)
   (with-shell-interpreter
-   :path "~"
-   :interpreter "zsh"
-   :form
-   (let ((current-prefix-arg '(4)))
-     (shell))))
+    :path "~"
+    :interpreter "zsh"
+    :form
+    (shell)))
 
 (defun my/bash-on-raspi ()
   (interractive)
@@ -76,7 +73,7 @@ This gives, for example:
    :path "/ssh:pi@raspi:/~"
    :interpreter "bash"
    :form
-   (let ((current-prefix-arg '(4)))
+   (let ((current-prefix-arg '(4)))     ; don't prompt for remote interperter path
      (shell))))
 ```
 
