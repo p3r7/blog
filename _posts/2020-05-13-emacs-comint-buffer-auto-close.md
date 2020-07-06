@@ -7,11 +7,16 @@ tags: [emacs]
 ---
 
 
+This article is part of a multi-post series auto-killing and resurrecting interactive shell buffers:
+ - [Auto-close Emacs interpreter buffers](2020/05/13/emacs-comint-buffer-auto-close)
+ - [Magically resurrect Emacs shell buffers](2020/07/06/emacs-shell-buffer-resurrect)
+
+
 ## Quitting a shell
 
-On any other terminal emulator, typing `exit` or `C-d` would kill the shell process **and** the terminal window.
+On most terminal emulators, typing `exit` or `C-d` would kill the shell process **and** the terminal window.
 
-But Emacs doesn't work this way.
+But Emacs doesn't work that way.
 
 When you exit a shell process, your shell buffer stays open:
 
