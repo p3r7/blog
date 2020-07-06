@@ -26,7 +26,7 @@ But there is one case when you still usually have to restart the REPL: when addi
 
 [Pomegranate](https://github.com/clj-commons/pomegranate) is a library that allows to import dependencies without having to restart your process.
 
-You of course first need to have it in your project dependencies:
+You of course first need to have it in your project dependencies[^2]:
 
 ```clojure
 (defproject pomegranate-test "0.1.0-SNAPSHOT"
@@ -110,3 +110,5 @@ And this should auto-switch to our running REPL buffer and let Pomegranate do it
 ## Notes
 
 [^1]: Like compiling to a [GraalVM native image](https://www.graalvm.org/docs/reference-manual/native-image/) or using the [AppCDS feature of commercial Oracle JVM](http://blog.gilliard.lol/2017/10/04/AppCDS-and-Clojure.html).
+
+[^2]: This is unecessary when using the CIDER REPL in Emacs, as Pomegranate already gets side-loaded in this case
