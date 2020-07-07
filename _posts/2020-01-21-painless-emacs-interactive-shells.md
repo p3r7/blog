@@ -10,8 +10,10 @@ tags: [emacs]
 
 
 This post is part of a series about shells in Emacs:
- - [Painless Emacs shell commands](/2020/01/19/painless-emacs-shell-commands)
- - [Painless Emacs interactive shells](/2020/01/21/painless-emacs-interactive-shells)
+- [Painless Emacs shell commands](/2020/01/19/painless-emacs-shell-commands)
+- [Painless Emacs interactive shells](/2020/01/21/painless-emacs-interactive-shells)
+- [Emacs shell interpreter configuration](/2020/07/07/emacs-remote-shell-interpreter-conf)
+<!-- - [Painless Emacs remote shells](/2020/07/08/painless-emacs-remote-shells) -->
 
 
 ## Recap
