@@ -46,15 +46,11 @@ You might have spotted it, but in the previous post function `eval-with-shell-in
 
 Hence, we can reuse the wrapper `with-shell-interpreter` that we defined previously.
 
-There is just a small annoyance: by default command `shell` will prompt for user to specify interpreter path.
+There is just a small annoyance: for remote connections, `shell` prompts systematically for the remote interpreter path.
 
-This is cumbersome to have to precise it every time.
+To disable this behaviour, we have to call it with the _default prefix argument_ (i.e. `C-u M-x shell`), of programmatically by let-binding `current-prefix-arg` to `'(4)`.
 
-We might prefer to just have it default to `shell-file-name` for local shells and `default-remote-shell-interpreter` for remote ones.
-
-If we want to change location, it would be more practical to create a _command_ that explicitly defines the _:interpreter_.
-
-For remote connections, `shell` prompts systematically for the remote interpreter path. To disable this behaviour, we have to call it with the _default prefix argument_ (i.e. `C-u M-x shell`), of programmatically by let-binding `current-prefix-arg` to `'(4)`.
+In this case, `explicit-shell-file-name` (or `shell-file-name` as a fallback) is used.
 
 This gives, for example:
 
