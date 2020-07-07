@@ -6,12 +6,12 @@ summary: Turning implicit into explicit
 tags: [emacs]
 ---
 
-![drake](/assets/img/drake-prf-shell-command.png)
+![drake](/assets/img/drake-friendly-shell-command.png)
 
 
-This article is part of a multi-post series about shells in Emacs:
+This post is part of a series about shells in Emacs:
  - [Painless Emacs shell commands](/2020/01/19/painless-emacs-shell-commands)
- - [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells)
+ - [Painless Emacs interactive shells](/2020/01/21/painless-emacs-interactive-shells)
 
 
 ## Emacs as a terminal emulator
@@ -22,7 +22,7 @@ It can spawning interactive shells (with shell-mode and term-mode) and execute s
 
 This post will focus on single shell commands.
 
-For interactive shells, see [next post](2020/01/21/painless-emacs-interactive-shells).
+For interactive shells, see [next post](/2020/01/21/painless-emacs-interactive-shells).
 
 >In this article, there are two meanings for the word "command":
 > - shell commands, we will refer to them with **shell commands**
@@ -215,7 +215,7 @@ The code for `with-shell-interpreter` can be found in package [with-shell-interp
 Let's just spin off our own version of `shell-command-to-string`.
 
 ```emacs-lisp
-(cl-defun prf-shell-command-to-string (command &key path interpreter command-switch)
+(cl-defun friendly-shell-command-to-string (command &key path interpreter command-switch)
   "Call CMD w/ `shell-command-to-string' on host and location described by PATH"
   (with-shell-interpreter
       :form (shell-command-to-string command)
@@ -230,12 +230,12 @@ Our example command becomes:
 (defun my/uname-local ()
   (interactive)
   (message "Launching \"uname -a\" locally")
-  (prf-shell-command-to-string "uname -a"
-                               :path "~"
-                               :interpreter "fish"))
+  (friendly-shell-command-to-string "uname -a"
+                                    :path "~"
+                                    :interpreter "fish"))
 ```
 
-The code for `prf-shell-command-to-string` can be found in package [friendly-shell-command](https://github.com/p3r7/friendly-shell).
+The code for `friendly-shell-command-to-string` can be found in package [friendly-shell-command](https://github.com/p3r7/friendly-shell).
 
 
 ## Notes
