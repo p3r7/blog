@@ -123,6 +123,8 @@ This way every connection with any user to any host starting with the string `"r
 
 This configuration only gets applied to the `friendly-shell*` family of commands.
 
+The syntax of the configuration is heavily inspired by [this original idea](https://github.com/riscy/shx-for-emacs/issues/16#issuecomment-586771357) from [@riscy](https://github.com/riscy).
+
 If you want to use those commands with the native connection-local vars implementation instead, put this in your init:
 
 ```emacs-lisp
