@@ -136,7 +136,7 @@ When invoking a shell with `friendly-shell`, e.g.:
 ```emacs-lisp
 (defun my-zsh-on-raspi ()
   (interractive)
-  (prf-shell :path "/ssh:pi@raspberry:/~" :interpreter "zsh"))
+  (friendly-shell :path "/ssh:pi@raspberry:/~" :interpreter "zsh"))
 ```
 
 ... the interpreter-related vars have their values preserved as buffer-local vars.
@@ -152,6 +152,6 @@ This way, shx can find them back and dynamically spawned buffer can be resurrect
 
 [^3]: Assuming you're using `use-package`. Otherwise, see [shx' README](https://github.com/riscy/shx-for-emacs/blob/master/README.org) for generic instructions.
 
-[^4]: Propper regexps would have been a better design decision...
+[^4]: Propper regexps would have been a better design decision. [friendly-shell](https://github.com/p3r7/friendly-shell) comes by default with its own implentation of connection-local vars with a syntax [inspired by riscy, shx' author](https://github.com/riscy/shx-for-emacs/issues/16#issuecomment-586771357).
 
 [^5]: Previously introduced in post [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells).
