@@ -57,79 +57,12 @@ In fact this is because shx doesn't have any knowledge of the interpreter being 
 
 This is not a limitation in the package but of Emacs itself. More precisely, shell-mode does not keep track of the connection parameters in any buffer-local variable.
 
-
-## Static local interpreter declaration
-
-For the previous example, if we would always use `zsh` as our local interpreter, we can just:
-
-```emacs-lisp
-(setq explicit-shell-file-name "/bin/zsh"
-      shell-file-name          "/bin/zsh"
-      explicit-zsh-args        "-i"
-      shell-command-switch     "-c")
-```
+Everything works fine for static declaration of interpreters (read [Emacs shell interpreter configuration](/2020/07/07/painless-emacs-remote-shells) for more details) but as soon as we start to bind things dynamically Emacs looses track.
 
 
-## Static remote interpreter declaration
+## A solution
 
-Emacs 26.2 comes with a new feature that can help us customize remote connection interpreters.
-
-This feature is connection-local vars, i.e. custom var values for a given context (in this case TRAMP connections). It's akin to buffer-local vars.
-
-Let's say that we want to launch a `zsh` shell on a remote server:
-
-```emacs-lisp
-(defun my-zsh-on-rapsi ()
-  "Connect to my Raspberry Pi using zsh."
-  (interactive)
-  (let ((default-directory "/ssh:pi@raspberry:~")
-        (current-prefix-arg '(4))       ; don't prompt for interpreter
-        (explicit-shell-file-name "zsh"))
-    (shell)))
-```
-
-If we would always like to connect to this server with the `zsh` interpreter, we could instead rely on the following connection-local vars definition:
-
-```emacs-lisp
-(connection-local-set-profile-variables
- 'zsh                                   ; this is an alias, you can name it as you like
- '((explicit-shell-file-name . "/bin/zsh")
-   ;; you can set any var here but it only get useful w/ TRAMP-related vars, e.g.:
-   (explicit-bash-args . ("-i"))
-   ;; ...
-   ))
-
-(connection-local-set-profiles
- '(
-   :application tramp
-   :protocol "ssh"
-   :user "pi"
-   :machine "raspberry")
- 'zsh)                                  ; use same alias as before
-```
-
-This way, when resurrecting a shell buffer for this connection, Emacs would find that the desired interpreter is `zsh`.
-
-We can even choose to use `zsh` for all remote ssh connections, `nil` acting as a wild card[^4]:
-
-```emacs-lisp
-(connection-local-set-profiles
- '(
-   :application tramp
-   :protocol "ssh"
-   :user nil                            ; any user
-   :machine nil)                        ; any host
- 'zsh)
-```
-
-
-## Dynamic interpreter retrieval
-
-But what if we don't want to limit ourselves to one interpreter per remote host (e.g. defining several commands like `my-zsh-on-rapsi` for different interpreter)?
-
-And what about a non-default local interpreter shells?
-
-That's were [friendly-shell](https://github.com/p3r7/friendly-shell)[^5] shines.
+That's were [friendly-shell](https://github.com/p3r7/friendly-shell)[^4] shines.
 
 When invoking a shell with `friendly-shell`, e.g.:
 
@@ -139,7 +72,7 @@ When invoking a shell with `friendly-shell`, e.g.:
   (friendly-shell :path "/ssh:pi@raspberry:/~" :interpreter "zsh"))
 ```
 
-... the interpreter-related vars have their values preserved as buffer-local vars.
+... the interpreter-related vars have their values preserved as buffer-local vars!
 
 This way, shx can find them back and dynamically spawned buffer can be resurrected with the right interpreter with no additional trick.
 
@@ -152,6 +85,4 @@ This way, shx can find them back and dynamically spawned buffer can be resurrect
 
 [^3]: Assuming you're using `use-package`. Otherwise, see [shx' README](https://github.com/riscy/shx-for-emacs/blob/master/README.org) for generic instructions.
 
-[^4]: Propper regexps would have been a better design decision. [friendly-shell](https://github.com/p3r7/friendly-shell) comes by default with its own implentation of connection-local vars with a syntax [inspired by riscy, shx' author](https://github.com/riscy/shx-for-emacs/issues/16#issuecomment-586771357).
-
-[^5]: Previously introduced in post [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells).
+[^4]: Previously introduced in post [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells).
