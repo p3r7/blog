@@ -230,7 +230,7 @@ Our example command becomes:
 (defun my/uname-local ()
   (interactive)
   (message "Launching \"uname -a\" locally")
-  (prf/shell-command-to-string "uname -a"
+  (prf-shell-command-to-string "uname -a"
                                :path "~"
                                :interpreter "fish"))
 ```
