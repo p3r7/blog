@@ -8,7 +8,7 @@ tags: [emacs]
 
 
 This article is part of a multi-post series about how to better deal with interactive shell buffers in Emacs:
- - [Auto-close Emacs interpreter buffers](/2020/05/13/emacs-comint-buffer-auto-close)
+ - [Auto-close Emacs interpreter buffers](/2020/05/13/emacs-comint-buffer-auto-close) (current)
  - [Magically resurrect Emacs shell buffers](/2020/07/06/emacs-shell-buffer-resurrect)
 
 
