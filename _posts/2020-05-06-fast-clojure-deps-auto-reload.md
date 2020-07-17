@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fast Clojure dependency hot-reload
+title: Fast Clojure dependency hot-loading
 description: Using Emacs and Pomegranate to dynamically import Clojure dependencies
 summary: A Pomegranate CIDER cocktail
 tags: [clojure,emacs]
@@ -105,6 +105,11 @@ Dep: [clj-http "3.10.1"]
 ```
 
 And this should auto-switch to our running REPL buffer and let Pomegranate do its magic!
+
+
+## Alternative implementation: cljr-refactor
+
+Thye excellent [clj-refactor](https://github.com/clojure-emacs/clj-refactor.el) package provides the command `cljr-hotload-dependency` (`<prefix> + hd`) that does the same thing. It also provides command `add-project-dependency` (`<prefix> + ap`) that does the same but also adds it to your project.clj file.
 
 
 ## Notes
