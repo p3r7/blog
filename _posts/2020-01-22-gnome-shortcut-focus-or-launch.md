@@ -77,4 +77,4 @@ When that happens, we'll need another solution.
 ## Notes
 
 [^1]: I still dual boot as there are several programs I rely on, such as Capture One...
-[^2]: This is necessary for launching stuff with arguments or that would spawn programs with a different name (e.g.emacsclient spawning emacs).
+[^2]: This is necessary for launching stuff with arguments or that would spawn programs with a different name (e.g. emacsclient spawning emacs).
