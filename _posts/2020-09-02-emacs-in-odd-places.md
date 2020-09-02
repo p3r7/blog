@@ -3,7 +3,7 @@ layout: post
 title: Emacs in odd places
 description: Emacs found in unfamiliar situations
 summary: Does it run Emacs?
-tags: [emacs,retrocomputing]
+tags: [emacs,retrocomputing,vt320]
 ---
 
 ## Unfamiliar situations
