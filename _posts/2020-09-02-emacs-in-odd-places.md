@@ -63,6 +63,8 @@ And here I was, with my little [data island](https://en.wikipedia.org/wiki/Data_
 
 ![emacs_on_hp_jornada_680](/assets/img/emacs_on_hp_jornada_680.jpg){:style="max-width: 450px"}
 
+My [config from these old days](https://github.com/p3r7/retro-dot-emacs) was pretty barebone as compared to the [current incarnation](https://github.com/p3r7/emacs.d).
+
 
 ## Emacs on a actual dumb terminal
 
