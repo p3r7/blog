@@ -16,6 +16,8 @@ Another unfamiliar situation is when the software runs on an unexpected hardware
 
 >Can it run Doom?
 
+Doom is the king of this category.
+
 It's common sense that almost every device with a bare minimum of computing power [can run Doom](https://itrunsdoom.tumblr.com/)[^1].
 
 
