@@ -31,7 +31,7 @@ But that just forces us to take other approaches:
 
 The first approach is basically called [retrocomputing](/tag/retrocomputing/) and can be painfully cumbersome. It's only reserved to the most stubborn internet archive dvelvers.
 
-The thirds approach works surprisingly well as Emacs kept good support for terminal rendering[^2].
+The third approach works surprisingly well as Emacs kept good support for terminal rendering[^2].
 
 Actually this goes further as the [GUI rendering is built on top of the TUI codebase](https://www.facebook.com/notes/daniel-colascione/buttery-smooth-emacs/10155313440066102).
 
