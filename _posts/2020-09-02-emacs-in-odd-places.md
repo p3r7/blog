@@ -2,7 +2,7 @@
 layout: post
 title: Emacs in odd places
 description: Emacs found in unfamiliar situations
-summary: Does it run Emacs?
+summary: Can it run Emacs?
 tags: [emacs,retrocomputing,vt320]
 ---
 
