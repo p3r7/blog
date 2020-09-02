@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Does it run Emacs?
-description: Emacs on odd hardware
-summary: Spotted in the wild
+title: Emacs in odd places
+description: Emacs found in unfamiliar situations
+summary: Does it run Emacs?
 tags: [emacs,retrocomputing]
 ---
 
 ## Unfamiliar situations
 
-I find it amusing spotting other familiar software in equally unfamiliar situations.
+I find it amusing spotting familiar software in equally unfamiliar situations.
 
-One of those situations is when it [makes a cameo in fiction](https://ilikeinterfaces.com/), with examples such as the [more or less accurate cameos of nmap](https://nmap.org/movies/) and the [inclusion of Emacs & eshell in Tron Legacy](https://boingboing.net/2011/04/06/how-emacs-got-into-t.html).
+One of those situations is when it [makes a cameo in fiction](https://ilikeinterfaces.com/), with examples such as [nmap](https://nmap.org/movies/) and the [inclusion of Emacs & eshell in Tron Legacy](https://boingboing.net/2011/04/06/how-emacs-got-into-t.html).
+
+Another unfamiliar situation is when the software runs on an unexpected hardware or OS.
 
 >Can it run Doom?
 
@@ -19,15 +21,15 @@ It's common sense that almost every device with a bare minimum of computing powe
 
 ## Emacs on odd hardware & software
 
-Emacs has in essence less potential than Doom in term of hardware compatibility due to its comparatively hefty requirements (especially in its modern versions).
+Emacs has in essence less potential than Doom due to its comparatively hefty requirements (especially in its modern versions).
 
 But that just forces us to take other approaches:
 
  - Use an early Emacs version compatible with the device
- - Use fork/clone with low system requirement [uEmacs](https://github.com/torvalds/uemacs) or [JOVE](https://en.wikipedia.org/wiki/JOVE)
+ - Use a fork/clone with low system requirements: [uEmacs](https://github.com/torvalds/uemacs) or [JOVE](https://en.wikipedia.org/wiki/JOVE)
  - Use our odd hardware as a dumb terminal connecting to a remote modern version of Emacs
 
-The first approach is basivally called [retrocomputing](/tag/retrocomputing/) and can be panfully cumbersome. It's only reserved to the most stubborn internet archive dvelvers.
+The first approach is basically called [retrocomputing](/tag/retrocomputing/) and can be painfully cumbersome. It's only reserved to the most stubborn internet archive dvelvers.
 
 The thirds approach works surprisingly well as Emacs kept good support for terminal rendering[^2].
 
@@ -43,13 +45,13 @@ Another appeal of exploring alternative hardware is the perspective of having an
 
 Nowadays the best approach is to have an Android device with Emacs installed through [Termux](https://termux.com/) and a bluetooth keyboard.
 
-Most people use a smartphone. If the screen is too small, one can use a tablet[^4].
+Most people use a smartphone. If the screen feels too small, one can use a tablet[^4].
 
 As far as Org-mode is concerned, we nowadays have decent applications such as [Orgzly](http://www.orgzly.com/) (Android), [beorg](https://beorgapp.com/) (iOS) and [organice](https://organice.200ok.ch/) and [org-web](https://org-web.org/) (web, mobile-friendly).
 
 Back in 2007, smartphones (as we know them) where in their infancy and I was in dire need for a solution.
 
-At the time, the only possibility was to find an [UMPC](https://en.wikipedia.org/wiki/Ultra-mobile_PC). Without much money in the bank, I settled for an old for the time HP Jornada 680, bought secondhand for not much.
+At the time, the only possibility was to find an [UMPC](https://en.wikipedia.org/wiki/Ultra-mobile_PC). Without much money in the bank, I settled for an old (even for the time) HP Jornada 680, bought secondhand for not much.
 
 It ran a custom version of Windows CE (in German) but a distribution of Linux ([Jlime](https://web.archive.org/web/20160301064554/http://jlime.com/wiki/home)) could be run on it.
 
@@ -68,14 +70,14 @@ I don't know who (apart from a few enthusiasts like me) still access Emacs throu
 
 There are some configuration specificities (addressed in a latter post) but things mostly just work.
 
-![emacs_on_dec_vt320](emacs_on_dec_vt320.jpg){:style="max-width: 450px"}
+![emacs_on_dec_vt320](/assets/img/emacs_on_dec_vt320.jpg){:style="max-width: 450px"}
 
 
 ## Other examples spotted in the wild
 
 #### Esotheric OS
 
-Emacs on the [Haiku OS](https://depot.haiku-os.org/#!/pkg/emacs/haikuports/26/2/-/-/1/x86_64?bcguid=bc157-URXX) ([screenshot](https://imgur.com/GCa6CFK)).
+Emacs under [Haiku](https://depot.haiku-os.org/#!/pkg/emacs/haikuports/26/2/-/-/1/x86_64?bcguid=bc157-URXX) ([screenshot](https://imgur.com/GCa6CFK)).
 
 
 #### Niche Linux-based smartphones
@@ -93,7 +95,7 @@ Emacs (GUI version) on the [Ubuntu Touch](https://imgur.com/ZGWH6Nm) OS.
 
 Emacs 23 running natively on the [Nokia N900](https://talk.maemo.org/showthread.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&t=37241) ([scrrenshot](https://talk.maemo.org/attachment.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&attachmentid=7364&stc=1&d=1266616914))[^3].
 
-Emacs accessed from an [old Nokia phone](http://archive.eglug.org/node/27).
+Emacs accessed from SSH on an [old Nokia phone](http://archive.eglug.org/node/27).
 
 
 #### PDAs and UMPCs
@@ -102,11 +104,11 @@ Emacs on the [GeminiPDA](https://twitter.com/komecha/status/1021370513707347969)
 
 Emacs on the [Psion 5mx](http://muru.com/linux/psion/kernel/).
 
-Emacs running natively on the [Sharp Zaurus SL-C1000](https://web.archive.org/web/20160426190322/http://pda.sukareruhito.com/2007/05/zaurus_slc1000emacshowm.html) with [hown](https://howm.osdn.jp/)[^6].
+Emacs 21 running natively on the [Sharp Zaurus SL-C1000](https://web.archive.org/web/20160426190322/http://pda.sukareruhito.com/2007/05/zaurus_slc1000emacshowm.html)[^6].
 
 UEmacs fork [Ng](https://web.archive.org/web/20060610210357/http://tillanosoft.com/ce/ngj.html) on the [SoftBank X01HT](https://web.archive.org/web/20150514125016/http://pda.sukareruhito.com/2007/05/x01htemacsng_for_win32micro_em.html).
 
-Emacs on [Palm OS 5 though SSH](http://www.sealiesoftware.com/pssh/).
+Emacs accessed from SSH under [Palm OS 5](http://www.sealiesoftware.com/pssh/).
 
 
 #### Single board computers
