@@ -21,7 +21,7 @@ It's common sense that almost every device with a bare minimum of computing powe
 
 ## Emacs on odd hardware & software
 
-Emacs has in essence less potential than Doom due to its comparatively hefty requirements (especially in its modern versions).
+Emacs has in essence less potential than Doom due to its comparatively hefty requirements (especially its modern versions).
 
 But that just forces us to take other approaches:
 
