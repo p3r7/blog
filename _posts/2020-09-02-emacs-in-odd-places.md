@@ -86,9 +86,9 @@ Emacs on the [Purism Librem 5](https://twitter.com/puri_sm/status/11443947975174
 
 Emacs on the [PinePhone](https://social.pixie.town/@theonefreeman/103623829020543902)
 
-Emacs in [Jolla SailfishOS](https://www.reddit.com/r/unixporn/comments/1wwpe3/gnu_emacs_in_sailfish_os/).
+Emacs under [Jolla SailfishOS](https://www.reddit.com/r/unixporn/comments/1wwpe3/gnu_emacs_in_sailfish_os/).
 
-Emacs (GUI version) on the [Ubuntu Touch](https://imgur.com/ZGWH6Nm) OS.
+Emacs (GUI version) under [Ubuntu Touch](https://imgur.com/ZGWH6Nm).
 
 
 #### Older phones
