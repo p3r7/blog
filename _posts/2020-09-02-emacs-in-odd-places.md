@@ -64,7 +64,7 @@ And here I was, with my little [data island](https://en.wikipedia.org/wiki/Data_
 
 ## Emacs on a actual dumb terminal
 
-Even the most recent versions of Emacs still have [stellar support for hardware terminals](https://www.gnu.org/software/emacs/manual/html_node/emacs/Terminal-Init.html)[^5].
+Even the most recent versions of Emacs still have [stellar support for hardware terminals](https://www.gnu.org/software/emacs/manual/html_node/emacs/Terminal-Init.html).
 
 I don't know who (apart from a few enthusiasts like me) still access Emacs through those devices.
 
@@ -104,7 +104,7 @@ Emacs on the [GeminiPDA](https://twitter.com/komecha/status/1021370513707347969)
 
 Emacs on the [Psion 5mx](http://muru.com/linux/psion/kernel/).
 
-Emacs 21 running natively on the [Sharp Zaurus SL-C1000](https://web.archive.org/web/20160426190322/http://pda.sukareruhito.com/2007/05/zaurus_slc1000emacshowm.html)[^6].
+Emacs 21 running natively on the [Sharp Zaurus SL-C1000](https://web.archive.org/web/20160426190322/http://pda.sukareruhito.com/2007/05/zaurus_slc1000emacshowm.html)[^5].
 
 UEmacs fork [Ng](https://web.archive.org/web/20060610210357/http://tillanosoft.com/ce/ngj.html) on the [SoftBank X01HT](https://web.archive.org/web/20150514125016/http://pda.sukareruhito.com/2007/05/x01htemacsng_for_win32micro_em.html).
 
@@ -133,6 +133,4 @@ Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_
 
 [^4]: I personally use an iPad connecting to my Android phone with [Blink shell](https://blink.sh/).
 
-[^5]: See also the [wiki page about dumb terminals](https://www.emacswiki.org/emacs/EmacsOnTerminal)
-
-[^6]: The [wiki has a page dedicated to the Zauraus line](https://www.emacswiki.org/emacs/EmacsForZaurus). See also [this more generic page about PDAs](https://www.emacswiki.org/emacs/Emacs_and_EmacsWikiMode_on_PDAs).
+[^5]: The [wiki has a page dedicated to the Zauraus line](https://www.emacswiki.org/emacs/EmacsForZaurus). See also [this more generic page about PDAs](https://www.emacswiki.org/emacs/Emacs_and_EmacsWikiMode_on_PDAs).
