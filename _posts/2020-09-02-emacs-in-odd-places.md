@@ -68,7 +68,7 @@ Even the most recent versions of Emacs still have [stellar support for hardware 
 
 I don't know who (apart from a few enthusiasts like me) still access Emacs through those devices.
 
-There are some configuration specificities (addressed in a latter post) but things mostly just work.
+There are some configuration specificities (addressed in a later post) but things mostly just work.
 
 ![emacs_on_dec_vt320](/assets/img/emacs_on_dec_vt320.jpg){:style="max-width: 450px"}
 
