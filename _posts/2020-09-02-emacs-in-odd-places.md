@@ -83,6 +83,9 @@ There are some configuration specificities (addressed in a later post) but thing
 
 Emacs under [Haiku](https://depot.haiku-os.org/#!/pkg/emacs/haikuports/26/2/-/-/1/x86_64?bcguid=bc157-URXX) ([screenshot](https://imgur.com/GCa6CFK)).
 
+### Hardware (dumb) terminals
+
+Emacs through a [Minitel 1B](https://twitter.com/CanalEDTA/status/721345151214465024).
 
 #### Niche Linux-based smartphones
 
