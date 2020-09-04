@@ -140,4 +140,4 @@ Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_
 
 [^4]: I personally use an iPad connecting to my Android phone with [Blink shell](https://blink.sh/).
 
-[^5]: The [wiki has a page dedicated to the Zauraus line](https://www.emacswiki.org/emacs/EmacsForZaurus). See also [this more generic page about PDAs](https://www.emacswiki.org/emacs/Emacs_and_EmacsWikiMode_on_PDAs).
+[^5]: The [wiki has a page dedicated to the Zaurus line](https://www.emacswiki.org/emacs/EmacsForZaurus). See also [this more generic page about PDAs](https://www.emacswiki.org/emacs/Emacs_and_EmacsWikiMode_on_PDAs).
