@@ -113,7 +113,7 @@ Emacs on the [Psion 5mx](http://muru.com/linux/psion/kernel/).
 
 Emacs 21 running natively on the [Sharp Zaurus SL-C1000](https://web.archive.org/web/20160426190322/http://pda.sukareruhito.com/2007/05/zaurus_slc1000emacshowm.html)[^5].
 
-UEmacs fork [Ng](https://web.archive.org/web/20060610210357/http://tillanosoft.com/ce/ngj.html) on the [SoftBank X01HT](https://web.archive.org/web/20150514125016/http://pda.sukareruhito.com/2007/05/x01htemacsng_for_win32micro_em.html).
+uEmacs fork [Ng](https://web.archive.org/web/20060610210357/http://tillanosoft.com/ce/ngj.html) on the [SoftBank X01HT](https://web.archive.org/web/20150514125016/http://pda.sukareruhito.com/2007/05/x01htemacsng_for_win32micro_em.html).
 
 Emacs accessed from SSH under [Palm OS 5](http://www.sealiesoftware.com/pssh/).
 
