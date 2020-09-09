@@ -13,7 +13,7 @@ tags: [ansible,vagrant]
 
 So, you wanna learn Ansible?
 
-For that you'd need a [control node](https://docs.ansible.com/ansible/latest/network/getting_started/basic_concepts.html#control-node), i.e. a system with the `ansible` binary installed on.
+For that you'd need a [control node](https://docs.ansible.com/ansible/latest/network/getting_started/basic_concepts.html#control-node), i.e. a system on which the `ansible` binary is installed on.
 
 
 ## Local vs Containers vs VMs
