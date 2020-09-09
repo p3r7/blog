@@ -73,6 +73,8 @@ And bam! You're in.
 
 Depending on your download speed, you'd end up with your control node in seconds to minutes.
 
+Also, if you're an Emacs user, you might want to check out package [magrant](https://github.com/p3r7/magrant) for a tighter integration with Vagrant cli commands.
+
 
 ## Notes
 
