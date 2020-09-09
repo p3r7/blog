@@ -3,7 +3,7 @@ layout: post
 title: Instant Ansible control node
 description: Spin up an Ansible control node in seconds with Vagrant
 summary: With Vagrant
-tags: [ansible]
+tags: [ansible,vagrant]
 ---
 
 ![instant_noodles](/assets/gif/instant_noodles.gif)
