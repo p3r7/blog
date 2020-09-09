@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instant Ansible control node
-description: Spawn an Ansible control node in seconds with Vagrant
+description: Spin up an Ansible control node in seconds with Vagrant
 summary: With Vagrant
 tags: [ansible]
 ---
