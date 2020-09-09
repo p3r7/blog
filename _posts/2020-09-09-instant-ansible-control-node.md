@@ -11,7 +11,7 @@ tags: [ansible,vagrant]
 
 ## Introduction
 
-So, you wanna learn Ansible.
+So, you wanna learn Ansible?
 
 For that you'd need a [control node](https://docs.ansible.com/ansible/latest/network/getting_started/basic_concepts.html#control-node), i.e. a system with the `ansible` binary installed on.
 
@@ -20,7 +20,7 @@ For that you'd need a [control node](https://docs.ansible.com/ansible/latest/net
 
 You don't want to install Ansible locally. Even if you think you do, don't[^1].
 
-You could use Docker and its [official image](https://hub.docker.com/r/ansible/ansible). That's what the cool kids use these days.
+You could use Docker and its [official image](https://hub.docker.com/r/ansible/ansible). That's what the cool kids use these days, eh?
 
 But for this use-case, a Docker container might not be the most clever choice as quite a few Ansible _modules_ (i.e. _functions_ in Ansible lingo) can rely on python _modules_ (i.e. libraries) and external tools not installed by default on this container.
 
