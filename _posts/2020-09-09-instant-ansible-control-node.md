@@ -31,7 +31,7 @@ To have more liberty of installing whatever dependency we want alongside Ansible
 
 VMs are generally slow to create, as you basically install the OS yourself.
 
-Luckily, once a type of instance as been created once, it can be saved as a template for quicker spawning new instances. This is pretty analogous to container images.
+Luckily, once a type of instance as been created once, it can be saved as a template for quicker spawning of new instances. This is pretty analogous to container images.
 
 [Vagrant](https://www.vagrantup.com/) is a wrapper tool around [popular virtualization technologies](https://www.vagrantup.com/docs/providers)[^2] that provide a unified syntax for declaring and spawning VMs from templates.
 
