@@ -18,13 +18,13 @@ For that you'd need a [control node](https://docs.ansible.com/ansible/latest/net
 
 ## Local vs Containers vs VMs
 
-You don't want to install Ansible locally. Even if you think you do, don't.
+You don't want to install Ansible locally. Even if you think you do, don't[^1].
 
 You could use Docker and its [official image](https://hub.docker.com/r/ansible/ansible). That's what the cool kids use these days.
 
 But for this use-case, a Docker container might not be the most clever choice as quite a few Ansible _modules_ (i.e. _functions_ in Ansible lingo) can rely on python _modules_ (i.e. libraries) and external tools not installed by default on this container.
 
-To have more liberty of installing whatever dependency we want alongside Ansible, a VM might be a wiser choice.[^1]
+To have more liberty of installing whatever dependency we want alongside Ansible, a VM might be a wiser choice.[^2]
 
 
 ## The VM pain point
@@ -33,7 +33,7 @@ VMs are generally slow to create, as you basically install the OS yourself.
 
 Luckily, once a type of instance as been created once, it can be saved as a template for quicker spawning of new instances. This is pretty analogous to container images.
 
-[Vagrant](https://www.vagrantup.com/) is a wrapper tool around [popular virtualization technologies](https://www.vagrantup.com/docs/providers)[^2] that provide a unified syntax for declaring and spawning VMs from templates.
+[Vagrant](https://www.vagrantup.com/) is a wrapper tool around [popular virtualization technologies](https://www.vagrantup.com/docs/providers)[^3] that provide a unified syntax for declaring and spawning VMs from templates.
 
 Those templates are called _vagrant boxes_ and a [hefty amount of community-driven boxes are readily available](https://app.vagrantup.com/boxes/search). You can think of it as Docker Hub for whatever virtualization technology you're using.
 
@@ -78,6 +78,8 @@ Also, if you're an Emacs user, you might want to check out package [magrant](htt
 
 ## Notes
 
-[^1]: Likewise it's ok to install yarn/composer/leiningen/whatever to bundle stuff on your control node in a first time instead of struggling to setup a bundling server or even propper CI/CD.
+[^1]: Use whatever strategy (virtualenv/container/VM) to keep your base system as pure as possible. Trust me.
 
-[^2]: Even Docker is supported as a _provider_ (i.e. virtualization technology), even though you'll struggle to find anybody using vagrant for this use-case.
+[^2]: Likewise it's ok to install yarn/composer/leiningen/whatever to bundle stuff on your control node in a first time instead of struggling to setup a bundling server or even propper CI/CD.
+
+[^3]: Even Docker is supported as a _provider_ (i.e. virtualization technology), even though you'll struggle to find anybody using vagrant for this use-case.
