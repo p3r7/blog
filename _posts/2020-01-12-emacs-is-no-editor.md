@@ -125,7 +125,7 @@ Other tools can be seen as blades that gets polished through configuration and p
 For Emacs a better analogy would be a rough piece of steel you'd have to extract from a stone, forge and tailor to your exact needs.
 
 You'd have to learn its lingo and idiosyncrasies.
-You'd have to learn elisp.
+You'd have to [learn Elisp](https://github.com/p3r7/awesome-elisp).
 You will certainly find yourself more efficient using a collection of other tools.
 
 But at the end of the journey you may end up with your very own Excalibur.
