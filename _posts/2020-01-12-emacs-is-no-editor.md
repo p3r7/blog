@@ -101,7 +101,7 @@ Emacs also has it quirks that sometimes makes it painful to work with.
 
 Some APIs are showing their age (in their design and naming conventions) and programming in elisp can genuinely feel like retro-computing.
 
-Dynamic binding is user-friendly, but the lack of parallel threading is painful when the interface freezes[^5].
+Having a global variable/function context is user-friendly, but the lack of parallel threading is painful when the interface freezes[^5].
 
 Our expectation of what an editor should be has evolved quite a bit over time (from text editor, to code editor to programming environment).
 
