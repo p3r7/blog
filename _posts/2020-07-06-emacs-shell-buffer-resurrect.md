@@ -57,7 +57,7 @@ In fact this is because shx doesn't have any knowledge of the interpreter being 
 
 This is not a limitation in the package but of Emacs itself. More precisely, shell-mode does not keep track of the connection parameters in any buffer-local variable.
 
-Everything works fine for static declaration of interpreters (read [Emacs shell interpreter configuration](/2020/07/07/painless-emacs-remote-shells) for more details) but as soon as we start to bind things dynamically Emacs looses track.
+Everything works fine for static declaration of interpreters (read [Emacs shell interpreter configuration](/2020/07/08/painless-emacs-remote-shells) for more details) but as soon as we start to bind things dynamically Emacs looses track.
 
 
 ## A solution
