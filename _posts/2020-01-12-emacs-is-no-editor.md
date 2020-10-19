@@ -109,7 +109,7 @@ Emacs has managed to stay competitive thanks to its native adaptability.
 
 With no expertise, I assume that newer kids (such as Sublime, VSCode...) got designed from the ground with levels of abstractions that make them closer to Emacs in design than older traditional text editors.
 
-The ability to override and extend core functionalities (_"they told me i could be anything"_) is maybe the only thing that keeps making Emacs a different beast, but is a nightmare from a security and stability standpoint.
+The ability to override and extend core functionalities (_"they told me i could be anything"_) is maybe the only thing that keeps Emacs a different beast, but is a nightmare from a security and stability standpoint.
 
 
 ## Closing thoughts
