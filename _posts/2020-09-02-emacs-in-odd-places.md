@@ -131,6 +131,11 @@ Emacs on the [Noodle Pi](https://twitter.com/noodle_pi/status/996427835630747648
 Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_have_emacs_on_everything_even_my_smartwatch/) (this one is actually just a "face", not the real deal).
 
 
+## Hacker News
+
+I was quite surprised to see that this post got submitted to Hacker News and [won the front page lottery](https://news.ycombinator.com/item?id=25108697#25111009).
+
+
 ## Notes
 
 [^1]: No, not this [Doom](https://github.com/hlissner/doom-emacs), the [actual game](https://en.wikipedia.org/wiki/Doom_(1993_video_game)).
@@ -142,8 +147,3 @@ Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_
 [^4]: I personally use an iPad connecting to my Android phone with [Blink shell](https://blink.sh/).
 
 [^5]: The [wiki has a page dedicated to the Zaurus line](https://www.emacswiki.org/emacs/EmacsForZaurus). See also [this more generic page about PDAs](https://www.emacswiki.org/emacs/Emacs_and_EmacsWikiMode_on_PDAs).
-
-
-## Hacker News
-
-I was quite surprised to see that this post got submitted to Hacker News and [won the front page lottery](https://news.ycombinator.com/item?id=25108697#25111009).
