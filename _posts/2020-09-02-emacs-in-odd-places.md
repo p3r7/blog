@@ -101,7 +101,7 @@ Emacs (GUI version) under [Ubuntu Touch](https://imgur.com/ZGWH6Nm).
 
 #### Older phones
 
-Emacs 23 running natively on the [Nokia N900](https://talk.maemo.org/showthread.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&t=37241) ([scrrenshot](https://talk.maemo.org/attachment.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&attachmentid=7364&stc=1&d=1266616914))[^3].
+Emacs 23 running natively on the [Nokia N900](https://talk.maemo.org/showthread.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&t=37241) ([screenshot](https://talk.maemo.org/attachment.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&attachmentid=7364&stc=1&d=1266616914))[^3].
 
 Emacs accessed from SSH on an [old Nokia phone](http://archive.eglug.org/node/27).
 
