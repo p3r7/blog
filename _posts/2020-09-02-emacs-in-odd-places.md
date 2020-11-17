@@ -6,6 +6,7 @@ summary: Can it run Emacs?
 tags: [emacs,retrocomputing,vt320]
 ---
 
+
 ## Unfamiliar situations
 
 I find it amusing spotting familiar software in equally unfamiliar situations.
@@ -141,3 +142,8 @@ Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_
 [^4]: I personally use an iPad connecting to my Android phone with [Blink shell](https://blink.sh/).
 
 [^5]: The [wiki has a page dedicated to the Zaurus line](https://www.emacswiki.org/emacs/EmacsForZaurus). See also [this more generic page about PDAs](https://www.emacswiki.org/emacs/Emacs_and_EmacsWikiMode_on_PDAs).
+
+
+## Hacker News
+
+I was quite surprised to see that this post got submitted to Hacker News and [won the front page lottery](https://news.ycombinator.com/item?id=25108697#25111009).
