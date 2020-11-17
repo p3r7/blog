@@ -137,13 +137,13 @@ And this is, I believe, how Emacs should get advertised instead of as being only
 
 ## Similar & complementary thoughts
 
-[Irreal](https://irreal.org/blog/) blog [picked up on this article](https://irreal.org/blog/?p=8809) with an extremelly well put analysis. They share a similar point of view (_[Emacs is] a Lisp interpreter specialized for dealing with text that has an editor as one of its built-in applications_) and make an important clarification regarding Emacs original vision and design decisions:
+[Irreal](https://irreal.org/blog/) blog [picked up on this article](https://irreal.org/blog/?p=8809) with an extremelly well put analysis. They share a similar point of view (_"[Emacs is] a Lisp interpreter specialized for dealing with text that has an editor as one of its built-in applications"_) and make an important clarification regarding Emacs original vision and design decisions:
 
 >[...] I don’t think it’s true [...] that Emacs was designed ab initio “as an extensible environment with text editing as a feature”. That claim is trivially false if you take the statement literally. After all, Emacs was originally implemented as a set of macros on top of the TECO editor. But even later, stand-alone versions of Emacs were not conceived as general purpose environments the way Emacs is often thought of today.
 
-[Karl Voit](https://karl-voit.at/) made a similar statement [back in 2015](https://karl-voit.at/2015/10/23/Emacs-is-not-just-an-editor/), presenting Emacs as a _LISP interpreter and thus [...] very capable highly dynamic platform_. One other key point is that _comparing Emacs to an editor is [...] unfair and inadequate [...]. Those stupid editor flame-wars are not worth the time at all._.
+[Karl Voit](https://karl-voit.at/) made a similar statement [back in 2015](https://karl-voit.at/2015/10/23/Emacs-is-not-just-an-editor/), presenting Emacs as a _"LISP interpreter and thus [...] very capable highly dynamic platform"_. One other key point is that _"comparing Emacs to an editor is [...] unfair and inadequate [...]. Those stupid editor flame-wars are not worth the time at all."_.
 
-[Two Wrongs blog](https://two-wrongs.com/) features [a post back in 2018](https://two-wrongs.com/why-you-should-buy-into-the-emacs-platform) that makes the same statement but with other words: _Emacs is a platform for developing end-user applications with a text-based core_.
+[Two Wrongs blog](https://two-wrongs.com/) features [a post back in 2018](https://two-wrongs.com/why-you-should-buy-into-the-emacs-platform) that makes the same statement but with other words: _"Emacs is a platform for developing end-user applications with a text-based core"_.
 
 [Mario Lang](https://blind.guru/author/mario-lang.html) wrote [a post on emacs-devel](https://lists.gnu.org/archive/html/emacs-devel/2020-09/msg00286.html) praising Emacs for its _modality-independency_, i.e. the decoupling of the functionalities (such as editing) from how they get interacted with. This aspect makes Emacs a stellar tool in term of accessibility.
 
