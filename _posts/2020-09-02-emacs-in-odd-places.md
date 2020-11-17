@@ -138,7 +138,7 @@ I was quite surprised to see that this post got submitted to Hacker News and [wo
 
 ## Notes
 
-[^1]: No, not this [Doom](https://github.com/hlissner/doom-emacs), the [actual game](https://en.wikipedia.org/wiki/Doom_(1993_video_game)).
+[^1]: No, not [this Doom](https://github.com/hlissner/doom-emacs), the [actual game](https://en.wikipedia.org/wiki/Doom_(1993_video_game)).
 
 [^2]: I assume a good percentage of the user base don't use the graphical version, prefering to _live in the terminal_.
 
