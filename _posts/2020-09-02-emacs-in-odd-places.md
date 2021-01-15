@@ -133,7 +133,7 @@ Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_
 
 ## Hacker News
 
-I was quite surprised to see that this post got submitted to Hacker News and [won the front page lottery](https://news.ycombinator.com/item?id=25108697#25111009).
+I was quite surprised to see that this post got submitted to Hacker News and [won the front page lottery](https://news.ycombinator.com/item?id=25108697).
 
 
 ## Notes
