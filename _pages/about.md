@@ -32,7 +32,7 @@ That's how we grow as persons.
 
 ### Social
 
-You can find me on [GitHub](https://github.com/p3r7) and on [LinkedIn](https://www.linkedin.com/in/jordan-besly-6a172347/).
+You can find me on [GitHub](https://github.com/p3r7), [llllllll](https://llllllll.co/u/eigen) and on [LinkedIn](https://www.linkedin.com/in/jordan-besly-6a172347/).
 
 I also take pictures from time to time. You can find them on [Flickr](https://www.flickr.com/photos/p3r7/).
 
