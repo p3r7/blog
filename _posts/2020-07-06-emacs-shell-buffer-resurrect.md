@@ -35,7 +35,6 @@ It works right out of the box, you just have to add this to your config[^3]:
 
 ```emacs-lisp
 (use-package shx
-  :disabled
   :hook (shell-mode . shx-mode)
 ```
 
