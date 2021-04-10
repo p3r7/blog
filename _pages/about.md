@@ -11,7 +11,7 @@ Mainly:
  - technology & programming
  - design & craftmanship
 
-I'm quite intrested in the union of those aspects: how we could design _man-machine interaction_ systems to ease our interaction with data.
+I'm quite intrested in the union of those aspects: how we could design _man-machine interface_ systems to ease our interaction with data.
 
 I have an expertise in _observability_ so we'll certainly tackle data transformation and visualization.
 
