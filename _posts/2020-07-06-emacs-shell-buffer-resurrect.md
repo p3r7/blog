@@ -84,4 +84,4 @@ This way, shx can find them back and dynamically spawned buffer can be resurrect
 
 [^3]: Assuming you're using `use-package`. Otherwise, see [shx' README](https://github.com/riscy/shx-for-emacs/blob/master/README.org) for generic instructions.
 
-[^4]: Previously introduced in post [Painless Emacs interactive shells](2020/01/21/painless-emacs-interactive-shells).
+[^4]: Previously introduced in post [Painless Emacs interactive shells](/2020/01/21/painless-emacs-interactive-shells).
