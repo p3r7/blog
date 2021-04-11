@@ -133,7 +133,7 @@ When using mount, most graphical file explorer will see them a single file.
 
 `ls`, Emacs' [dired](https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html) and `mdir` are able to list them:
 
-![mpc2k_gotek_emacs_mount](/assets/img/mpc2k_gotek_emacs_mount.jpg){:style="max-width: 450px"}
+![mpc2k_gotek_emacs_mount](/assets/img/mpc2k_gotek_emacs_mount.png){:style="max-width: 450px"}
 
 ```bash
 $ sudo mdir -i /dev/sdb@@$((5*1536*1024)) ::
