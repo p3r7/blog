@@ -97,7 +97,6 @@ INF-DEMO PGM      4608 2012-07-06  16:36
        25 files             660 758 bytes
                             792 064 bytes free
 
-$
 ```
 
 Then, one can use command `mcopy` to extract the floppy content.
