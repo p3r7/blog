@@ -195,7 +195,7 @@ It comes bundled with [support for FAT partitions](https://formats.kaitai.io/vfa
 
 It even has [web editor](https://ide.kaitai.io/) that allows you to load local files!
 
-![mpc2k_gotek_kaitai](/assets/img/mpc2k_gotek_kaitai.png){:style="max-width: 450px"}
+![mpc2k_gotek_kaitai](/assets/img/mpc2k_gotek_kaitai.png)
 
 Turns out the remaining file name after characters #8 is stored in a field called `reserved`.
 
