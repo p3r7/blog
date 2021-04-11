@@ -30,7 +30,7 @@ Under Linux, one can easilly make backups of floppies:
 
 ```bash
 $ # make a single vFloppy image
-$ MY_FLOPPY_ID=4
+$ MY_FLOPPY_ID=1
 $ sudo dd if=/dev/sdb of=~/Documents/backup_gotek_$MY_FLOPPY_ID.img skip=$((4*1536*1024)) bs=512c count=$((1440*1024)) iflag=skip_bytes,count_bytes conv=noerror
 $ sudo chown me. ~/Documents/backup_gotek_$MY_FLOPPY_ID.img
 $
@@ -60,7 +60,7 @@ Under Linux, we have a wide range of possibilities.
 We can directly `mount` a virtual floppy to see its content:
 
 ```bash
-$ MY_FLOPPY_ID=4
+$ MY_FLOPPY_ID=1
 $ sudo mkdir /tmp/floppy-mount
 $ sudo mount -o loop,offset=$[$MY_FLOPPY_ID*1536]k,sizelimit=1440k,users,rw,umask=000 /dev/sdb /tmp/floppy-mount
 $ cd /tmp/floppy-mount
@@ -79,7 +79,7 @@ $ sudo umount /tmp/floppy-mount
 The `mtools` suite is dedicated to manipulating MSDOS filesystems:
 
 ```bash
-$ MY_FLOPPY_ID=4
+$ MY_FLOPPY_ID=1
 $
 $ # list files on vFloppy
 $ sudo mdir -i /dev/sdb@@$(($MY_FLOPPY_ID*1536*1024)) ::
@@ -107,7 +107,7 @@ There is also [@dennisMe2's usbfd](https://github.com/dennisMe2/usbfd) that aims
 
 ```bash
 $ # backup a single floppy
-$ MY_FLOPPY_ID=4
+$ MY_FLOPPY_ID=1
 $ sudo ./usbfd -d /dev/sdb -m $MY_FLOPPY_ID
 $
 $ # backup floppies #1 to #99
@@ -136,7 +136,7 @@ When using mount, most graphical file explorer will see them a single file.
 ![mpc2k_gotek_emacs_mount](/assets/img/mpc2k_gotek_emacs_mount.png){:style="max-width: 450px"}
 
 ```bash
-$ sudo mdir -i /dev/sdb@@$((5*1536*1024)) ::
+$ sudo mdir -i /dev/sdb@@$((4*1536*1024)) ::
  Volume in drive : has no label
  Volume Serial Number is 4A86-64FE
 Directory for ::/
