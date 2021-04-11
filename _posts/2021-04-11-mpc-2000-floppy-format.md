@@ -127,7 +127,7 @@ Even though the (virtual) floppies are formatted in FAT12, it has no issues savi
 
 But when trying to access those files from a computer, they get all truncated to 8 characters.
 
-Worse, if multiple files have the mistake of starting with the same 8 characters, and they cannot be extracted separately.
+Worse, if multiple files have the misfortune to start with the same 8 characters, they cannot be extracted separately.
 
 When using mount, most graphical file explorer will see them a single file.
 
@@ -158,7 +158,7 @@ FLEETWOO SND     76258 1980-00-00   0:00
 
 ```
 
-But neither of `cp`, `mcopy` or `usbfd` will allow backuping more than a single file.
+But when attempting to extract those files, neither of _Floppy Emulator_, `mount` + `cp`, `mtools`' `mcopy` or `usbfd` will allow getting (at best) a single of those files.
 
 
 ## vFAT or not vFAT
