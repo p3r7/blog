@@ -47,7 +47,7 @@ $ mdir -i ~/Documents/backup_gotek_$MY_FLOPPY_ID.img ::
 > NB: I'm not 100% sure about the value for `count`. Floppies have a size of 1440 kB but we need to jump 1536 to go from one to another. I don't know if this higher value corresponds to rounding due to fixed sized blocks / segments / whatever or if I'm actually truncating data.
 
 
-## Mounting the
+## Mounting floppies
 
 Depending on your OS, there are several solutions for mounting virtual floppies from a Gotek-formatted USB drive on your computer.
 
