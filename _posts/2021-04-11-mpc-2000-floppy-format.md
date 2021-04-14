@@ -105,7 +105,7 @@ Then, one can use command `mcopy` to extract the floppy content.
 
 Please note that all the previous commands can also work on `.img` files instead of mountpoints (like our `~/Documents/backup_gotek_$MY_FLOPPY_ID.img` from the previous section examples).
 
-There is also [@dennisMe2's usbfd](https://github.com/dennisMe2/usbfd) that aims to ease backuping those vFloppies:
+There is also [@dennisMe2's usbfd](https://github.com/dennisMe2/usbfd) that aims to ease mass-extracting files from those vFloppies:
 
 ```bash
 $ # backup a single floppy
