@@ -13,8 +13,17 @@ body {
 
 header, main {
     margin: 0 auto;
+    max-width: 65rem;
+}
+header.on-landing-page, main.on-landing-page {
     max-width: 50rem;
 }
+@media (max-width: 1400px) {
+    header, main {
+        max-width: 50rem;
+    }
+}
+
 
 .site-title-container {
     width: 100%;

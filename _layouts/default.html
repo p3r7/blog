@@ -10,9 +10,9 @@ layout: compress
   <body>
      {% include masthead.html %}
 
-      <main id="main" role="main">
-	      
-        {{ content }}
+      <main id="main" role="main" {% if page.url == "/" %}class="on-landing-page"{% endif %}>
+
+          {{ content }}
       </main>
 
     {% include footer.html %}
