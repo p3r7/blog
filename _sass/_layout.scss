@@ -1,3 +1,11 @@
+
+:root {
+    --card-col-1: #fac14e;
+    --card-col-2: #fbcfb9;
+    --card-col-3: #ef7d4d;
+    --card-col-4: #96d0c3;
+}
+
 html {
     box-sizing: border-box;
     margin:0;
@@ -71,42 +79,42 @@ a.site-title:hover {
     }
 }
 .card:nth-last-child(1n) {
-    background: #96d0c3;
+    background: var(--card-col-4);
 }
 .card:nth-last-child(2n) {
-    background: #ef7d4d;
+    background: var(--card-col-3);
 }
 .card:nth-last-child(3n) {
-    background: #fbcfb9;
+    background: var(--card-col-2);
 }
 .card:nth-last-child(4n) {
-    background: #fac14e;
+    background: var(--card-col-1);
 }
 
 .card:nth-last-child(5n + 1) {
-    background: #ef7d4d;
+    background: var(--card-col-3);
 }
 
 .card:nth-last-child(6n + 1) {
-    background: #ef7d4d;
+    background: var(--card-col-3);
 }
 
 .card:nth-last-child(7n +1) {
-    background: #fac14e;
+    background: var(--card-col-1);
 }
 
 
 .card:nth-last-child(4n + 1) {
-    background: #fac14e;
+    background: var(--card-col-1);
 }
 .card:nth-last-child(4n + 2) {
-    background: #fbcfb9;
+    background: var(--card-col-2);
 }
 .card:nth-last-child(4n + 3) {
-    background: #ef7d4d;
+    background: var(--card-col-3);
 }
 .card:nth-last-child(4n + 4) {
-    background: #96d0c3;
+    background: var(--card-col-4);
 }
 
 .card {
