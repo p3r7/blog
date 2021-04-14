@@ -39,6 +39,7 @@ The third approach works surprisingly well as Emacs kept good support for termin
 Actually this goes further as the [GUI rendering is built on top of the TUI codebase](https://www.facebook.com/notes/daniel-colascione/buttery-smooth-emacs/10155313440066102).
 
 >Whoever made Emacs into a native X11 program [...] pretended the GUI was a text terminal.
+>
 >  -- Daniel Colascione
 
 
