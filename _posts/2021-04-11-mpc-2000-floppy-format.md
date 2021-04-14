@@ -19,6 +19,8 @@ For saving samples and projects, it offers several storage options thanks to a v
 
 For convenience, I opted for a cheap replacement USB floppy emulator drive, made by Gotek.
 
+![gotek](/assets/img/gotek.jpg){:style="max-width: var(--img-width-xsmall)"}
+
 It allows formatting a USB drive into up to 999 FAT12 partitions, each corresponding to a virtual floppy disk.
 
 Please note that those virtual floppy are seen as regular floppy disks by the MPC, so saving and loading is still slow and limited to 1400 kB / floppy.
