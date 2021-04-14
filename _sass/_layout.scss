@@ -153,7 +153,11 @@ a.site-title:hover {
     padding: 2rem 3rem;
     -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
     box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-
+}
+@media (max-width: 700px) {
+    .post {
+        padding: 1rem 0.2rem;
+    }
 }
 
 .card {
