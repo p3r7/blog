@@ -1,28 +1,72 @@
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,600;1,500&display=swap');
+
 :root {
+    // --------------------------------------------------------------------
+    // COLOR DEFS
+
+    // various colors
+    --col-eigengrau: #16161d;
+    --col-china-ink: #495057;
+
+    --col-teal-l: #edf2f7;
+    --col-teal-m: #d6d9dd;
+
     // colorie
-    // --card-col-1: #fac14e;
-    // --card-col-2: #fbcfb9;
-    // --card-col-3: #ef7d4d;
-    // --card-col-4: #96d0c3;
+    --col-colorie-1: #fac14e;
+    --col-colorie-2: #fbcfb9;
+    --col-colorie-3: #ef7d4d;
+    --col-colorie-4: #96d0c3;
 
     // toned-down
-    --card-col-1: #fcdb98;
-    --card-col-2: #fce0d1;
-    --card-col-3: #f5b093;
-    --card-col-4: #cbe8e1;
+    --col-colorie-l-1: #fcdb98;
+    --col-colorie-l-2: #fce0d1;
+    --col-colorie-l-3: #f5b093;
+    --col-colorie-l-4: #cbe8e1;
 
     // grayscale
-    // --card-col-1: #c5c5c5;
-    // --card-col-2: #dadada;
-    // --card-col-3: #9a9a9a;
-    // --card-col-4: #bdbdbd;
+    --col-grayscale-1: #c5c5c5;
+    --col-grayscale-2: #dadada;
+    --col-grayscale-3: #9a9a9a;
+    --col-grayscale-4: #bdbdbd;
 
-    // grayscale 2
-    // --card-col-1: #d0c4ad;
-    // --card-col-2: #e1d8d3;
-    // --card-col-3: #ab948b;
-    // --card-col-4: #b5c1be;
+    // autumn
+    --col-autumn-1: #d0c4ad;
+    --col-autumn-2: #e1d8d3;
+    // --col-autumn-3: #ab948b;
+    --col-autumn-3: #b6a29a;
+    --col-autumn-4: #b5c1be;
+
+
+    // --------------------------------------------------------------------
+    // COLOR THEME
+
+    // light
+    --background-col: var(--col-teal-l);
+    --text-col: var(--col-china-ink);
+    --site-title-col: var(--col-teal-m);
+
+    // dark
+    // --background-col: var(--col-eigengrau);
+    // --text-col: var(--col-china-ink);
+    // --site-title-col: var(--col-china-ink);
+
+
+    // --card-col-1: var(--col-autumn-1);
+    // --card-col-2: var(--col-autumn-2);
+    // --card-col-3: var(--col-autumn-3);
+    // --card-col-4: var(--col-autumn-4);
+    --card-col-1: var(--col-colorie-l-1);
+    --card-col-2: var(--col-colorie-l-2);
+    --card-col-3: var(--col-colorie-l-3);
+    --card-col-4: var(--col-colorie-l-4);
+
+
+    // --------------------------------------------------------------------
+    // FONT
+
+    // --site-title-ff: Arial, Helvetica, sans-serif;
+    --site-title-ff: 'IBM Plex Sans', sans-serif;
 }
 
 html {
@@ -34,8 +78,8 @@ html {
     box-sizing: inherit;
 }
 body {
-    background-color: #edf2f7;
-    color: #495057;
+    background-color: var(--background-col);
+    color: var(--text-col);
 }
 
 header, main {
@@ -51,20 +95,19 @@ header.on-landing-page, main.on-landing-page {
     }
 }
 
-
 .site-title-container {
     width: 100%;
     text-align: center;
 }
 
 a.site-title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--site-title-ff);
     font-size: 120px;
     text-decoration: none;
-    color: #d6d9dd;
+    color: var(--site-title-col);
 }
 a.site-title:hover {
-    color: #d6d9dd;
+    color: var(--site-title-col);
 }
 @media (max-width: 700px) {
     a.site-title {
