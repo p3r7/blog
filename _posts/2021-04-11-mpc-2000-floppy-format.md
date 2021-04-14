@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Akai MPC 2000 long file names
+title: Akai MPC 2000's strange floppy format
 description: Reading files on a MPC 2000
-summary: On FAT12 without vFAT
+summary: LFN on FAT12 without vFAT
 tags: [retrocomputing,music]
 ---
 
