@@ -1,9 +1,11 @@
 
 :root {
+    --img-width-xsmall: 450px;
     --img-width-small: 750px;
 }
 @media (max-width: 1400px) {
     :root {
+        --img-width-xsmall: 250px;
         --img-width-small: 450px;
     }
 }
