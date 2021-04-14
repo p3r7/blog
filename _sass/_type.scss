@@ -1,3 +1,14 @@
+
+:root {
+    --img-width-small: 750px;
+}
+@media (max-width: 1400px) {
+    :root {
+        --img-width-small: 450px;
+    }
+}
+
+
 body {
     font-size: 1rem;
     line-height: 1.5;

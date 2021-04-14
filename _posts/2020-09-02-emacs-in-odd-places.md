@@ -62,7 +62,7 @@ Emacs wasn't available in its repositories but I was able to compile it after fe
 
 And here I was, with my little [data island](https://en.wikipedia.org/wiki/Data_island) in my backpack.
 
-![emacs_on_hp_jornada_680](/assets/img/emacs_on_hp_jornada_680.jpg){:style="max-width: 450px"}
+![emacs_on_hp_jornada_680](/assets/img/emacs_on_hp_jornada_680.jpg){:style="max-width: var(--img-width-small)"}
 
 My [config from these old days](https://github.com/p3r7/retro-dot-emacs) was pretty barebone as compared to the [current incarnation](https://github.com/p3r7/emacs.d).
 
@@ -75,7 +75,7 @@ I don't know who (apart from a few enthusiasts like me) still access Emacs throu
 
 There are some configuration specificities (addressed in a later post) but things mostly just work.
 
-![emacs_on_dec_vt320](/assets/img/emacs_on_dec_vt320.jpg){:style="max-width: 450px"}
+![emacs_on_dec_vt320](/assets/img/emacs_on_dec_vt320.jpg){:style="max-width: var(--img-width-small)"}
 
 
 ## Other examples spotted in the wild

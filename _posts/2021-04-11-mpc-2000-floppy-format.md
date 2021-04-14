@@ -9,7 +9,7 @@ tags: [retrocomputing,music]
 
 ## Introduction
 
-![mpc2k](/assets/img/mpc2k.jpg){:style="max-width: 450px"}
+![mpc2k](/assets/img/mpc2k.jpg){:style="max-width: var(--img-width-small)"}
 
 This is an Akai MPC 2000 XL, a 20 years old sampler / midi-based workstation.
 
