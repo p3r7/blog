@@ -60,7 +60,7 @@ But there might be a better way.
 Using a line composed of a single `FF` character instead provides many benefits:
 - on supported software, it gets displayed as a solid horizontal line taking the whole window width
 - it's detected as a comment so no need to prefix it with a commenting character (e.g. `#` for Python)
-- it can be typed quickly (`C-q-l` in Emacs)
+- it can be typed quickly (`C-q C-l` in Emacs)
 
 In fact form feed characters can be found in many Clojure, Elisp, C and Python source codes.
 
@@ -76,6 +76,8 @@ Strangely, by default, Emacs display those characters in caret notation (`^L`), 
 Thankfully, either package [form-feed](https://depp.brause.cc/form-feed/) or [page-break-lines](https://github.com/purcell/page-break-lines) allows displaying them as a proper horizontal delimiter.
 
 ![ff_char_emacs](/assets/img/ff-char-emacs.png){:style="max-width: var(--img-width-small)"}
+
+Furthermore, Emacs provides _commands_ to navigate between `FF`-delimited sections: `backward-page` (`C-x [`) and `forward-page` (`C-x ]`).
 
 
 ## Form feed delimiter in other editors
@@ -122,4 +124,11 @@ If you work on an ecosystem that fully support those, such as Emacs packages, I 
 
 In any case, it's sad that "modern" editors don't support this "old" yet still relevant feature.
 
+But all hope is not lost!
+
 Open issues / PRs. Create plugins/extensions. Spread the word.
+
+
+## See also
+
+[Xah Lee's take](http://ergoemacs.org/emacs/modernization_formfeed.html) on the subject.
