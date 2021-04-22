@@ -6,10 +6,10 @@ summary: LFN on FAT12 without vFAT
 tags: [retrocomputing,music]
 ---
 
+![mpc2k](/assets/img/mpc2k.jpg){:style="max-width: var(--img-width-small)"}
+
 
 ## Introduction
-
-![mpc2k](/assets/img/mpc2k.jpg){:style="max-width: var(--img-width-small)"}
 
 This is an Akai MPC 2000 XL, a 20 years old sampler / midi-based workstation.
 
