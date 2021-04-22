@@ -73,7 +73,7 @@ Strangely, by default, Emacs display those characters in caret notation (`^L`), 
 
 Thankfully, either package [form-feed](https://depp.brause.cc/form-feed/) or [page-break-lines](https://github.com/purcell/page-break-lines) allows displaying them as a proper horizontal delimiter.
 
-![ff_char_emacs](/assets/img/ff-char-emacs.png)
+![ff_char_emacs](/assets/img/ff-char-emacs.png){:style="max-width: var(--img-width-small)"}
 
 
 ## Form feed delimiter in other editors
@@ -92,6 +92,8 @@ GitHub doesn't style those `FF` line section delimiters.
 Thankfully it was trivial to make a [userscript](https://en.wikipedia.org/wiki/Userscript) to enable this support.
 
 Introducing: [p3r7/gh-userscript-form-feed-line](https://github.com/p3r7/gh-userscript-form-feed-line)
+
+And here is a screenshot of the result:
 
 ![ff_char_github](/assets/img/ff-char-github.png)
 
@@ -112,7 +114,7 @@ Using a form feed character as a section delimiter is an elegant solution.
 
 Sadly, few people seem to know about it and few software support it.
 
-So if you want portability, you'd have to stick with the comment\-line\-made\-of\-(dashes|underscores|whatever) solution.
+So if you want portability, you'd have to stick with the comment\-line\-made\-of\-(dashes\|underscores\|whatever) solution.
 
 If you work on an ecosystem that fully support those, such as Emacs packages, I encourage you to try it.
 
