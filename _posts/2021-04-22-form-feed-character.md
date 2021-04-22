@@ -6,7 +6,7 @@ summary: And its modern uses
 tags: [emacs]
 ---
 
-![old_printer](/assets/gif/old-printer.gif)
+![old_printer](/assets/gif/old-printer.gif){:style="max-width: var(--img-width-small)"}
 
 
 ## Introduction
