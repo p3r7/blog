@@ -89,7 +89,7 @@ Sadly, nothing seem to exist for IntelliJ IDEA, Sublime Text nor VSCode.
 
 ## Form feed delimiter on GitHub
 
-GitHub doesn't style those `FF` line section delimiters.
+GitHub doesn't style those `FF` section delimiters.
 
 Thankfully it was trivial to make a [userscript](https://en.wikipedia.org/wiki/Userscript) to enable this support.
 
