@@ -102,7 +102,7 @@ Using a form feed character as a section delimiter is an elegant solution.
 
 Sadly, few people seem to know about it and few software support it.
 
-So if you want portability, you'd have to stick with the comment-line-made-of-(dashes|underscores|whatever) solution.
+So if you want portability, you'd have to stick with the comment\-line\-made\-of\-(dashes|underscores|whatever) solution.
 
 If you work on an ecosystem that fully support those, such as Emacs packages, I encourage you to try it.
 
