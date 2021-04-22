@@ -95,6 +95,16 @@ Introducing: [p3r7/gh-userscript-form-feed-line](https://github.com/p3r7/gh-user
 
 ![ff_char_github](/assets/img/ff-char-github.png)
 
+The code is small enough to be shared. The trick is to replace `FF` lines with `<hr/>` html elements:
+
+```js
+$(document).ready(function(){
+    const form_feed="";
+    $("td.js-file-line:contains('" + form_feed + "')").html('<hr/>');
+    $("td.js-file-line > hr").css('margin', '10px auto auto 0');
+});
+```
+
 
 ## In Conclusion
 
