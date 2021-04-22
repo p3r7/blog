@@ -52,6 +52,8 @@ This allows displaying the whole line (with no wrap) under most circumstances.
 
 People generally use extensions / keyboard shortcuts to insert those quickly.
 
+But there might be a better way.
+
 
 ## Form feed characters as an alternative
 
