@@ -99,7 +99,7 @@ And here is a screenshot of the result:
 
 ![ff_char_github](/assets/img/ff-char-github.png)
 
-The code is small enough to be shared. The trick is to replace `FF` lines with `<hr/>` html elements:
+The code is small enough to be embedded. The trick is to replace `FF` lines with `<hr/>` html elements:
 
 ```js
 $(document).ready(function(){
