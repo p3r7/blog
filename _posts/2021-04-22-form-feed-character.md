@@ -101,7 +101,7 @@ The code is small enough to be shared. The trick is to replace `FF` lines with `
 
 ```js
 $(document).ready(function(){
-    const form_feed="";
+    const form_feed=""; // <- there is a FF between these quotes (even if your web browser doesn't render it)
     $("td.js-file-line:contains('" + form_feed + "')").html('<hr/>');
     $("td.js-file-line > hr").css('margin', '10px auto auto 0');
 });
