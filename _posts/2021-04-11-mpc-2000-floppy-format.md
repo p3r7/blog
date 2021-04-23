@@ -33,14 +33,19 @@ Under Linux, one can easilly make backups of floppies:
 ```bash
 $ # make a single vFloppy image
 $ MY_FLOPPY_ID=1
-$ sudo dd if=/dev/sdb of=~/Documents/backup_gotek_$MY_FLOPPY_ID.img skip=$((4*1536*1024)) bs=512c count=$((1440*1024)) iflag=skip_bytes,count_bytes conv=noerror
+$ sudo dd if=/dev/sdb of=~/Documents/backup_gotek_$MY_FLOPPY_ID.img \
+  skip=$((4*1536*1024)) bs=512c count=$((1440*1024)) \
+  iflag=skip_bytes,count_bytes conv=noerror
 $ sudo chown me. ~/Documents/backup_gotek_$MY_FLOPPY_ID.img
 $
 $ # make an image of a whole USB drive
 $ sudo dd if=/dev/sdb of=~/Documents/backup_gotek_all.img
 $ sudo chown me. ~/Documents/backup_gotek_all.img
 $ # extract an image of a single vFloppy from it
-$ dd if=~/Documents/backup_gotek_all.img of=~/Documents/backup_gotek_$MY_FLOPPY_ID.img skip=$((4*1536*1024)) bs=512c count=$((1440*1024)) iflag=skip_bytes,count_bytes conv=noerror
+$ dd if=~/Documents/backup_gotek_all.img \
+  of=~/Documents/backup_gotek_$MY_FLOPPY_ID.img \
+  skip=$((4*1536*1024)) bs=512c count=$((1440*1024)) \
+  iflag=skip_bytes,count_bytes conv=noerror
 $
 $ # in any case, we can verify we have a valid image using mdir from mtools
 $ mdir -i ~/Documents/backup_gotek_$MY_FLOPPY_ID.img ::
@@ -64,7 +69,8 @@ We can directly `mount` a virtual floppy to see its content:
 ```bash
 $ MY_FLOPPY_ID=1
 $ sudo mkdir /tmp/floppy-mount
-$ sudo mount -o loop,offset=$[$MY_FLOPPY_ID*1536]k,sizelimit=1440k,users,rw,umask=000 /dev/sdb /tmp/floppy-mount
+$ sudo mount -o loop,offset=$[$MY_FLOPPY_ID*1536]k,sizelimit=1440k,users,rw,umask=000 \
+  /dev/sdb /tmp/floppy-mount
 $ cd /tmp/floppy-mount
 $ ls -l
 total 651
