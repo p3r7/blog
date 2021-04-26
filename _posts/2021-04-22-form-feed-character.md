@@ -2,7 +2,7 @@
 layout: post
 title: The venerable form feed character
 description: The old form feed character is still relevant to this day
-summary: And its modern uses
+summary: And its modern use
 tags: [emacs]
 ---
 
@@ -82,7 +82,7 @@ Furthermore, Emacs provides _commands_ to navigate between `FF`-delimited sectio
 
 ## Form feed delimiter in other editors
 
-[UltraEdit](https://www.ultraedit.com/) render those appropriately natively.
+[UltraEdit](https://www.ultraedit.com/) renders those appropriately natively.
 
 [@Alhadis](https://github.com/Alhadis) made an [package](https://atom.io/packages/form-feeds) to bring this feature to Atom.
 
