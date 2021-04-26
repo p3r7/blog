@@ -54,9 +54,9 @@ And tanksfully that was the case and so that's exactly what I did.
 
 Ta-dam!
 
-![emacs could be anything](/assets/img/ai-dungeon-vt320.jpg)
+[![Eigenbahn/ai-dungeon-cli - GitHub](https://gh-card.dev/repos/Eigenbahn/ai-dungeon-cli.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/Eigenbahn/ai-dungeon-cli)
 
-Find the code at: [https://github.com/Eigenbahn/ai-dungeon-cli](https://github.com/Eigenbahn/ai-dungeon-cli).
+![emacs could be anything](/assets/img/ai-dungeon-vt320.jpg)
 
 
 ## Closing thoughts

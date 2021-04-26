@@ -209,7 +209,10 @@ Which allows us to rewrite it like so:
    (message (shell-command-to-string "uname -a"))))
 ```
 
-The code for `with-shell-interpreter` can be found in package [with-shell-interpreter](https://github.com/p3r7/with-shell-interpreter).
+The function `with-shell-interpreter` is available with package [with-shell-interpreter](https://melpa.org/#/with-shell-interpreter).
+
+[![p3r7/with-shell-interpreter - GitHub](https://gh-card.dev/repos/p3r7/with-shell-interpreter.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/with-shell-interpreter)
+
 
 
 ## Even better
@@ -237,7 +240,9 @@ Our example command becomes:
                                     :interpreter "fish"))
 ```
 
-The code for `friendly-shell-command-to-string` can be found in package [friendly-shell-command](https://github.com/p3r7/friendly-shell).
+The command `friendly-shell-command-to-string` is available with package [friendly-shell-command](https://melpa.org/#/friendly-shell-command).
+
+[![p3r7/friendly-shell-command - GitHub](https://gh-card.dev/repos/p3r7/friendly-shell.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/friendly-shell)
 
 
 ## Notes

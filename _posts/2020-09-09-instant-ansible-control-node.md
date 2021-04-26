@@ -57,7 +57,9 @@ That's basically an Ansible control node provisioning itself 🤯.
 
 ## The end result
 
-The end result is available on GitHub: [vagrant-ansible-control-node](https://github.com/Eigenbahn/vagrant-ansible-control-node).
+The end result is available on GitHub:
+
+[![Eigenbahn/vagrant-ansible-control-node - GitHub](https://gh-card.dev/repos/Eigenbahn/vagrant-ansible-control-node.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/Eigenbahn/vagrant-ansible-control-node)
 
 It uses VirtualBox as a _provider_ but could be easily adapted to whatever floats your boat.
 

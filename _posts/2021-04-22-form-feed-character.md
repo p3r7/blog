@@ -95,7 +95,10 @@ GitHub doesn't style those `FF` section delimiters.
 
 Thankfully it was trivial to make a [userscript](https://en.wikipedia.org/wiki/Userscript) to enable this support.
 
-Introducing: [p3r7/gh-userscript-form-feed-line](https://github.com/p3r7/gh-userscript-form-feed-line)
+Introducing:
+
+[![p3r7/gh-userscript-form-feed-line - GitHub](https://gh-card.dev/repos/p3r7/gh-userscript-form-feed-line.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/gh-userscript-form-feed-line)
+
 
 And here is a screenshot of the result:
 

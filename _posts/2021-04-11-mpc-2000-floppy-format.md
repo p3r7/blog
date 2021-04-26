@@ -214,7 +214,9 @@ I don't know if it's `reserved` as in "reserved for future standard evolutions" 
 
 Using the Kaitai python lib, it was trivial to make a tool that reconstructs those custom long file names and extract the corresponding files following the offset in the file allocation table.
 
-Introducing [mpc-2000-floppy-extractor](https://github.com/p3r7/mpc-2000-floppy-extractor)!
+Introducing:
+
+[![p3r7/mpc-2000-floppy-extractor - GitHub](https://gh-card.dev/repos/p3r7/mpc-2000-floppy-extractor.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/mpc-2000-floppy-extractor)
 
 I won't go into implementation details but the code is hopefully self-explanatory.
 

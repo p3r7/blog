@@ -153,4 +153,6 @@ Our rewritten commands become:
   (friendly-shell :path "/ssh:pi@raspi:/~" :interpreter "bash"))
 ```
 
-The code for `friendly-shell` can be found in package [friendly-shell](https://github.com/p3r7/friendly-shell).
+The command `friendly-shell` is available with package [friendly-shell](https://melpa.org/#/friendly-shell).
+
+[![p3r7/friendly-shell - GitHub](https://gh-card.dev/repos/p3r7/friendly-shell.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/friendly-shell)

@@ -36,7 +36,9 @@ I quickly wanted to have a similar capability with _Clojure, The Essential Refer
 
 Sadly I didn't find any programmatic symbol index I could parse. So I decided to make one with semi-automated parsing of the book's _Table of Content_.
 
-Introducing new package: [clojure-essential-ref](https://github.com/p3r7/clojure-essential-ref).
+Introducing new packages [clojure-essential-ref](https://melpa.org/#/clojure-essential-ref) / [clojure-essential-ref](https://melpa.org/#/clojure-essential-ref-nov) (optional epub support):
+
+[![p3r7/clojure-essential-ref - GitHub](https://gh-card.dev/repos/p3r7/clojure-essential-ref.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/clojure-essential-ref)
 
 I you find anything missing, don't hesitate to suggest corrections with tickets or PRs.
 

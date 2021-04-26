@@ -42,14 +42,14 @@ We want a light wrapper that also supports this more permissive format:
 
     [<user>[%<domain>]@]<host>[%<port>][:<localname>]
 
-That wrapper is function `friendly-tramp-path-dissect` provided by package [friendly-tramp-path](https://github.com/p3r7/friendly-tramp-path).
+That wrapper is function `friendly-tramp-path-dissect` provided by package [friendly-tramp-path](https://melpa.org/#/friendly-tramp-path) ([source](https://github.com/p3r7/friendly-tramp-path)).
 
 
 ## Default remote interpreter configuration
 
 Introduced in Emacs 26.2, connection-local vars allow to have a per host interpreter configuration.
 
-Package [friendly-shell](https://github.com/p3r7/friendly-shell) comes with its own, more versatile, implementation of connection-local vars.
+Package [friendly-shell](https://melpa.org/#/friendly-shell) ([source](https://github.com/p3r7/friendly-shell)) comes with its own, more versatile, implementation of connection-local vars.
 
 Both options are explained in details in post: [Emacs shell interpreter configuration](/2020/07/07/emacs-remote-shell-interpreter-conf).
 
@@ -85,4 +85,6 @@ And _voilà_! Now to connect to a remote server we just has to type:
     M-x friendly-remote-shell <RET>
     pi@raspberry <RET>
 
-The code for `friendly-remote-shell` can be found in package [friendly-remote-shell](https://github.com/p3r7/friendly-shell).
+The command `friendly-remote-shell` is available with package [friendly-remote-shell](https://melpa.org/#/friendly-remote-shell).
+
+[![p3r7/friendly-remote-shell - GitHub](https://gh-card.dev/repos/p3r7/friendly-shell.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/friendly-shell)

@@ -50,7 +50,9 @@ But by playing with its option we can use it to as a list picker.
 
 ## The solution
 
-The result is the script [_dmenu\_move_](https://github.com/p3r7/dmenu_move) and its accompagnying buddy _dmenu\_go_.
+The result is the script _dmenu\_move_ and its accompagnying buddy _dmenu\_go_:
+
+[![p3r7/dmenu_move - GitHub](https://gh-card.dev/repos/p3r7/dmenu_move.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/dmenu_move)
 
 Here is a short demo of the two in action:
 

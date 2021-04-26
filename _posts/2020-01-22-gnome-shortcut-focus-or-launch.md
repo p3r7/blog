@@ -60,11 +60,12 @@ _wmctrl_ is used to determine the list of windows for current desktop.
 
 _xdotool_ is used to list the windows for a given class.
 
-I used python for the convenience of parsing string and manipulating lists.
+I used python for the convenience of parsing and manipulating lists.
+
+[![p3r7/focus-or-launch - GitHub](https://gh-card.dev/repos/p3r7/focus-or-launch.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/focus-or-launch)
 
 ![demo](/assets/gif/focus_or_launch_demo.gif)
 
-You can find it alongside detailed instructions on [the dedicated GitHub project](https://github.com/p3r7/focus-or-launch).
 
 
 ## Limitations

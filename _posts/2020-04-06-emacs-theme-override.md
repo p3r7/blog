@@ -60,7 +60,9 @@ And why not just simply port the whole layer to vanilla Emacs as regular package
 
 As it turns out, it was pretty trivial to do.
 
-Introducing new package: [space-theming](https://github.com/p3r7/space-theming).
+Introducing new package [space-theming](https://melpa.org/#/space-theming):
+
+[![p3r7/space-theming - GitHub](https://gh-card.dev/repos/p3r7/space-theming.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/space-theming)
 
 Also please note for Emacs 27 users, you might have to set the following:
 

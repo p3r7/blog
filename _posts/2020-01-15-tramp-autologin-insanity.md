@@ -149,4 +149,6 @@ Then we can override the method definitions:
 
 The beauty of this is that if your key is not known to the remote host, it would still prompt you for a password without failing.
 
-The code can be found in package [prf-tramp-method](https://github.com/p3r7/prf-tramp/blob/master/prf-tramp-method.el).
+The code can be found in package [prf-tramp-method](https://github.com/p3r7/prf-tramp/blob/master/prf-tramp-method.el) from:
+
+[![p3r7/prf-tramp - GitHub](https://gh-card.dev/repos/p3r7/prf-tramp.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/prf-tramp)
