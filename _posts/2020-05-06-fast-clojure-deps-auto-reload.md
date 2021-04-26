@@ -109,7 +109,7 @@ And this should auto-switch to our running REPL buffer and let Pomegranate do it
 
 ## Alternative implementation: cljr-refactor
 
-Thye excellent [clj-refactor](https://github.com/clojure-emacs/clj-refactor.el) package provides the command `cljr-hotload-dependency` (`<prefix> + hd`) that does the same thing. It also provides command `add-project-dependency` (`<prefix> + ap`) that does the same but also adds it to your project.clj file.
+The excellent [clj-refactor](https://github.com/clojure-emacs/clj-refactor.el) package provides the command `cljr-hotload-dependency` (`<prefix> + hd`) that does the same thing. It also provides command `add-project-dependency` (`<prefix> + ap`) that does the same but also adds it to your project.clj file.
 
 
 ## Notes
