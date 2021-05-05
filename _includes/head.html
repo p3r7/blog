@@ -1,21 +1,27 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% seo %}
+    {% seo %}
 
-  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png">
+    <!-- <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png"> -->
+    <link rel="icon" type="image/png" href="/assets/favicon/eigenbahn_favicon_16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/favicon/eigenbahn_favicon_32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/favicon/eigenbahn_favicon_96.png" sizes="96x96">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favicon/eigenbahn_favicon_152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="/assets/favicon/eigenbahn_favicon_167.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/favicon/eigenbahn_favicon_180.png">
 
-  {% comment %}<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">{% endcomment %}
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
-  <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
+    {% comment %}<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">{% endcomment %}
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+    <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
 
-  <style type="text/css">
-    {% capture include_to_scssify %}
-      {% include inline.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
+    <style type="text/css">
+     {% capture include_to_scssify %}
+     {% include inline.scss %}
+     {% endcapture %}
+     {{ include_to_scssify | scssify }}
+    </style>
 
 </head>
