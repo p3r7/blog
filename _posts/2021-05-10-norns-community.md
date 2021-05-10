@@ -52,7 +52,7 @@ Overseen by Brian (@tehn), Dan and Tyler Etter started playing seriously with th
 
 Before that, the forum was used for that purpose but it was tedious to find back technical information buried deep between more general conversation.
 
-A wiki looked indeed like the best tool to create a shared memory, a common documentary heritage.
+A wiki looked indeed like the best tool to create a shared memory, a common _documentary heritage_.
 
 The idea was to use _awesome-monome-norns_ as a baseline for the structure but to make it more _script_ author-centered, notably allowing them to have space to document each of their creations.
 
