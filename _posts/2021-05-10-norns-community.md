@@ -73,7 +73,7 @@ I also wanted to address a common complaint I had with _awesome-monome-norns_: t
 
 [![p3r7/norns-gallery - GitHub](https://gh-card.dev/repos/p3r7/norns-gallery.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/norns-gallery)
 
-![norns_gallery](/assets/img/norns_gallery.jpg)
+![norns_gallery](/assets/img/norns_gallery.png)
 
 I presented it to Dan, who forwarded it to Tyler.
 
