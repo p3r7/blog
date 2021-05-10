@@ -82,7 +82,7 @@ Both of them got hooked by the idea and got back to convince me of integrating i
 
 ## _norns.community_
 
-At the time I got recontacted, Tyler and Dan had since made a huge effort both on the data architecture side of things.
+At the time I got recontacted, Tyler and Dan had since made a huge effort on the data architecture side of things.
 
 They asked me for advices on this aspect, but I didn't see anything worth changing, so kudos to them.
 
