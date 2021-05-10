@@ -16,7 +16,7 @@ Pictured above is [_norns_](https://monome.org/docs/norns/), a ~~sound computer~
 It runs _scripts_, little music-making apps, that anyone can develop and share through it package manager (_maiden_) and/or the community forum ([_lines_](https://llllllll.co/)).
 
 
-## Cataloguing _norns_ _scripts_
+## Cataloging _norns_ _scripts_
 
 Before deciding to acquire my own _norns_, I did some research to see what it was all about.
 
