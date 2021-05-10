@@ -56,9 +56,9 @@ A wiki looked indeed like the best tool to create a shared memory, a common _doc
 
 The idea was to use _awesome-monome-norns_ as a baseline for the structure but to make it more _script_ author-centered, notably allowing them to have space to document each of their creations.
 
-At first I got consulted by Dan regarding my views on my views on how to structure information and that I could, if I wanted, be involved in the project in the future.
+At first I got consulted by Dan on my views on how to structure information and that I could, if I wanted, be involved in the project in the future.
 
-I shared with him some views I had gathered from my experience in the industry[^5] but didn't really gave a clear feedback about being involved in the project.
+I shared with him some views I had gathered from my experience in the industry[^5] but didn't really gave a clear feedback about being more involved.
 
 
 ## _norns.gallery_
@@ -84,11 +84,11 @@ They asked me for advices on this aspect, but I didn't see anything worth changi
 
 Regarding the integration of the _norns.gallery_, on the other hand, things weren't as smooth.
 
-First, one problematic aspect was how to share state (list of _scripts_ and meta-data) between the 2 instances.
+Firstly, one problematic aspect was how to share state (list of _scripts_ and meta-data) between the 2 instances.
 
 We quickly figured out that the wiki had an API that would solve the issue.
 
-Second, we failed to clearly scope how the gallery would fit with the features provided with the wiki.
+Secondly, we failed to clearly scope how the gallery would fit with the features provided with the wiki.
 
 Indeed, the gallery was initially conceived as a search tool and there was an overlap of functionality with the wiki's native [tagging & searching system](https://norns.community/t).
 
