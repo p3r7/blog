@@ -39,10 +39,6 @@ It quickly became apparent that this effort could benefit to others, so I conver
 The [reaction was pretty positive](https://llllllll.co/t/index-of-norns-related-resources/37007), and it sparked discussion with long time monome collaborators such as Sam Boling ([post](https://llllllll.co/t/index-of-norns-related-resources/37007/16)) and Dan Derks.
 
 
-## Official _monome_ docs
-
-
-
 ## Early developments of _norns.community_
 
 Still, it appeared that the official docs + the _lines_ forum weren't enough.
