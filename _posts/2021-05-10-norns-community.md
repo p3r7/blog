@@ -50,7 +50,7 @@ As first theorized by Dan in [this post](https://llllllll.co/t/index-of-norns-re
 
 Overseen by Brian (@tehn), Dan and Tyler Etter started playing seriously with the idea of a wiki so that knowledge between _script_ creators and users could be shared.
 
-Before that, the forum was used for that purpose but it was tedious to find back technical information buried deep bewteen more general posts.
+Before that, the forum was used for that purpose but it was tedious to find back technical information buried deep between more general conversation.
 
 A wiki looked indeed like the best tool to create a shared memory, a common documentary heritage.
 
