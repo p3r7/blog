@@ -71,6 +71,8 @@ I gave myself a few hours over the weekend to make a working prototype, trying t
 
 I also wanted to address a common complaint I had with _awesome-monome-norns_: the table of connectivity options wasn't legible enough with its many columns. A set of dedicated icons would make things both more compact and legible.
 
+![norns_gallery](https://monome.org/images/norns_gallery.jpg)
+
 I presented it to Dan, who forwarded it to Tyler.
 
 Both of them got hooked by the idea and got back to convince me of integrating it with the wiki.
@@ -94,9 +96,11 @@ Indeed, the gallery was initially conceived as a search tool and there was an ov
 
 We initially thought that the latter was too limiting for the amount of search criterias we originally wanted[^6] and saw the gallery as a way to implement proper _faceted search_.
 
-It came with an even richer iconography to describe each _script_ connectivity capabilities:
-
 ![norns_gallery_faceted_search](/assets/img/norns_gallery_faceted_search.png)
+
+It came with an even richer iconography to allow marking a _script_ connectivity options are required:
+
+![norns_gallery_required](norns_gallery_required.png)
 
 This early prototype still lives as an [interactive demo](https://p3r7.github.io/norns-gallery-render-static/).
 
