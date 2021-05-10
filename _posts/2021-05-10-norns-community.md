@@ -71,6 +71,8 @@ I gave myself a few hours over the weekend to make a working prototype, trying t
 
 I also wanted to address a common complaint I had with _awesome-monome-norns_: the table of connectivity options wasn't legible enough with its many columns. A set of dedicated icons would make things both more compact and legible.
 
+[![p3r7/norns-gallery - GitHub](https://gh-card.dev/repos/p3r7/norns-gallery.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/norns-gallery)
+
 ![norns_gallery](/assets/img/norns_gallery.jpg)
 
 I presented it to Dan, who forwarded it to Tyler.
@@ -96,7 +98,7 @@ Indeed, the gallery was initially conceived as a search tool and there was an ov
 
 We initially thought that the latter was too limiting for the amount of search criterias we originally wanted[^6] and saw the gallery as a way to implement proper _faceted search_.
 
-![norns_gallery_faceted_search](/assets/img/norns_gallery_faceted_search.png)
+![norns_gallery_faceted_search](/assets/img/norns_gallery_faceted_search.png){:style="max-width: var(--img-width-small)"}
 
 It came with an even richer iconography to allow marking a _script_ connectivity options are required:
 
