@@ -171,7 +171,7 @@ In addition to helping others, as a positive side-effect you might end up meetin
 
 [^3]: I extenively use [org-mode](https://orgmode.org/) to offload as much things as possible out of my brain.
 
-[^4]: GitHub pull requests were not necessary the most user-friendly way to approach documentation.
+[^4]: GitHub pull requests were not necessary the most user-friendly way to approach collaborative editing.
 
 [^5]: Notably the importance of having the same information delivered in different forms to target different contexts and different users. See also: [The Documentation System](https://documentation.divio.com/)
 
