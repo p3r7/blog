@@ -181,6 +181,6 @@ In addition to helping others, as a positive side-effect you might end up meetin
 
 [^6]: Being able to search by whether hardware controllers are required for script operation and also by support of [specific grid models](https://monome.org/docs/grid/).
 
-[^7]: As opposed to key/value(s) pairs or even a relational model.
+[^7]: As opposed to key/value(s) pairs or even a relational data model.
 
 [^8]: Notably by replacing [tailwind](https://tailwindcss.com/) with [Bootstrap](https://getbootstrap.com/) for which he had a working secret sauce.
