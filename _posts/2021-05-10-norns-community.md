@@ -110,9 +110,9 @@ So we agreed to simplify and store only 2 aspects of _scripts_ with tags: their 
 
 Tyler then oversaw the integration of the gallery's DOM as an embedded iframe.
 
-In this process, he made it more responsive[^8], more compact and did some CSS touchups to make the integration appear seamless.
+In this process, he made it more responsive[^8], more compact and did some CSS touchups to make the whole thing appear seamless.
 
-Furthermore, he pushed the idea of integrating it further, making filtered versions for pages dedicated to authors and specific categories.
+Furthermore, he pushed the idea of tighter coupling, making filtered versions for pages dedicated to authors and specific categories.
 
 
 ## Going beta then live
