@@ -1,8 +1,8 @@
 ---
 layout: post
-title: norns gallery
-description: A tale of cataloguing monome norns scripts
-summary:
+title: Cataloging norns scripts
+description: A tale of cataloging monome norns scripts
+summary: Or how to get to work with awesome people
 tags: [music,monome]
 ---
 
@@ -36,7 +36,7 @@ It quickly became apparent that this effort could benefit to others, so I conver
 
 [![p3r7/awesome-monome-norns - GitHub](https://gh-card.dev/repos/p3r7/awesome-monome-norns.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/awesome-monome-norns)
 
-The [reaction was pretty positive](https://llllllll.co/t/index-of-norns-related-resources/37007), and it sparked discussion with long time monome collborators such as Sam Boling ([post](https://llllllll.co/t/index-of-norns-related-resources/37007/16)) and Dan Derks.
+The [reaction was pretty positive](https://llllllll.co/t/index-of-norns-related-resources/37007), and it sparked discussion with long time monome collaborators such as Sam Boling ([post](https://llllllll.co/t/index-of-norns-related-resources/37007/16)) and Dan Derks.
 
 
 ## Official _monome_ docs
@@ -130,6 +130,19 @@ When we [launched](https://llllllll.co/t/norns-community/43793), the reception w
 ![norns_community](/assets/img/norns_community.png)
 
 
+## Going forward
+
+This first release was a success.
+
+At the time of writing, from half to 2/3rd of all existing _scripts_ have been documented. There is still some hidden gems that would benefit from being cataloged.
+
+There is the eventuality of a tighter integration with _norns_ package manager (_maiden_) that may tie a tighter link between _norns_ as a platform and the community aspect of its script developments.
+
+I would also be happy to see the wiki host more general information pages. It could notably steal from _awesome-monome-norns_ a list of engines and reusable Lua libs.
+
+Ultimately I would like to mark _awesome-monome-norns_ as deprecated, superseded by both the official doc and _norns.community_.
+
+
 ## Acknowledgments
 
 It was a pleasure interacting with Dan and Tyler on this project.
@@ -146,17 +159,11 @@ You can check out their scripts on their _norns.community_ pages:
  - [Dan](https://norns.community/en/authors/dan_derks)
 
 
-## Going forward
+## Conclusion
 
-This first release was a success.
+If you have notes you keep to yourself, it might be worth it taking the extra step of sharing them with the world.
 
-At the time of writing, from half to 2/3rd of all existing _scripts_ have been documented. There is still some hidden gems that would benefit from being cataloged.
-
-There is the eventuality of a tighter integration with _norns_ package manager (_maiden_) that may tie a tighter link between _norns_ as a platform and the community aspect of its script developments.
-
-I would also be happy to see the wiki host more general information pages. It could notably steal from _awesome-monome-norns_ a list of engines and reusable Lua libs.
-
-Ultimately I would like to mark _awesome-monome-norns_ as deprecated, superseded by both the official doc and _norns.community_.
+In addition to helping others, as a positive side-effect you might end up meeting other passionate people with whom you might sharpen your skills and grow as a person.
 
 
 ## Notes
