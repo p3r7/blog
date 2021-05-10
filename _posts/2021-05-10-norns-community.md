@@ -63,7 +63,7 @@ I shared with him some views I had gathered from my experience in the industry[^
 
 ## _norns.gallery_
 
-I realized that one thing that was clearly missing from previous efforts (official doc, _awesome-monome-norns_) was a gallery of all available _scripts_.
+I realized that one thing that was clearly missing from previous efforts (official doc, _awesome-monome-norns_) was a gallery view of all available _scripts_.
 
 Indeed, they relied on lists or tables to present them. But all those _scripts_ have a unique visual identity that is often more recognizable than their names.
 
