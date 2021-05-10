@@ -56,7 +56,7 @@ A wiki looked indeed like the best tool to create a shared memory, a common _doc
 
 The idea was to use _awesome-monome-norns_ as a baseline for the structure but to make it more _script_ author-centered, notably allowing them to have space to document each of their creations.
 
-At first I got consulted by Dan on my views on how to structure information and that I could, if I wanted, be involved in the project in the future.
+At that time I got consulted by Dan on my views on how to structure information and that I could, if I wanted, be involved in the project in the future.
 
 I shared with him some views I had gathered from my experience in the industry[^5] but didn't really gave a clear feedback about being more involved.
 
