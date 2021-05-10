@@ -6,7 +6,7 @@ summary: Or how to get to work with awesome people
 tags: [music,monome]
 ---
 
-![norns](https://monome.org/images/norns-front-small.jpg)
+![norns](https://monome.org/images/norns-front-small.jpg){:style="max-width: var(--img-width-small)"}
 
 
 ## _monome_ _norns_
