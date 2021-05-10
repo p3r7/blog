@@ -63,11 +63,11 @@ I shared with him some views I had gathered from my experience in the industry[^
 
 ## _norns.gallery_
 
-I realized that one thing that was clearly missing from previous efforts (official doc, _awesome-monpme-norns_) was a gallery of all available _scripts_.
+I realized that one thing that was clearly missing from previous efforts (official doc, _awesome-monome-norns_) was a gallery of all available _scripts_.
 
 Indeed, they relied on lists or tables to present them. But all those _scripts_ have a unique visual identity that is often more recognizable than their names.
 
-I gave myself a vew hours over the weekend to make a working prototype, trying to respect as much as possible _monome_'s design language.
+I gave myself a few hours over the weekend to make a working prototype, trying to respect as much as possible _monome_'s design language.
 
 I also wanted to address a common complaint I had with _awesome-monome-norns_: the table of connectivity options wasn't legible enough with its many columns. A set of dedicated icons would make things both more compact and legible.
 
@@ -132,7 +132,7 @@ This first release was a success.
 
 At the time of writing, from half to 2/3rd of all existing _scripts_ have been documented. There is still some hidden gems that would benefit from being cataloged.
 
-There is the eventuality of a tighter integration with _norns_ package manager (_maiden_) that may tie a tighter link between _norns_ as a platform and the community aspect of its script developments.
+There is the eventuality of a tighter integration with _norns_ package manager (_maiden_) that may tie a tighter link between _norns_ as a platform and the community aspect of its _script_ developments.
 
 I would also be happy to see the wiki host more general information pages. It could notably steal from _awesome-monome-norns_ a list of engines and reusable Lua libs.
 
@@ -149,10 +149,10 @@ Dan struck me on one occasion with his intuition, leading us to a great optimiza
 
 You can read Tyler's _post-mortem_ of the project [on his blog](https://nor.the-rn.info/2021/04/09/building-norns-community/).
 
-You can check out their scripts on their _norns.community_ pages:
+You can check out their _scripts_ on their _norns.community_ pages:
 
  - [Tyler's](https://norns.community/en/authors/northern-information)
- - [Dan](https://norns.community/en/authors/dan_derks)
+ - [Dan's](https://norns.community/en/authors/dan_derks)
 
 
 ## Conclusion
@@ -169,13 +169,13 @@ In addition to helping others, as a positive side-effect you might end up meetin
 
 [^2]: In the meantime, it got quite an overhaul, notably thanks to Dan.
 
-[^3]: I extenively use [org-mode](https://orgmode.org/) to offload as much things as possible out of my brain.
+[^3]: I extensively use [org-mode](https://orgmode.org/) to offload as much things as possible out of my brain.
 
 [^4]: GitHub pull requests were not necessary the most user-friendly way to approach collaborative editing.
 
-[^5]: Notably the importance of having the same information delivered in different forms to target different contexts and different users. See also: [The Documentation System](https://documentation.divio.com/)
+[^5]: Notably the importance of having the same information delivered in different forms to target contexts and audiences. See also: [The Documentation System](https://documentation.divio.com/)
 
-[^6]: Being able to search by whether hardware controllers are required for script operation and also by support of [specific grid models](https://monome.org/docs/grid/).
+[^6]: Being able to search by whether hardware controllers are required for _script_ operation and also by support of [specific grid models](https://monome.org/docs/grid/).
 
 [^7]: As opposed to key/value(s) pairs or even a relational data model.
 
