@@ -22,7 +22,7 @@ Before deciding to acquire my own _norns_, I did some research to see what it wa
 
 The official documentation (at the time[^2]) was rather elusive, leaning more towards poetry than a technical reference.
 
-I finally took the plunge but even after playing a bit with it, I still had hard time pinpointing what I got my hands on.
+I finally took the plunge but even after playing a bit with it, I still had a hard time pinpointing what I got my hands on.
 
 As a matter of fact, _norns_ can be many things, each _script_ being mostly limited by its creator's imagination.
 
