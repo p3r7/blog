@@ -157,8 +157,8 @@ You can read Tyler's _post-mortem_ of the project [on his blog](https://nor.the-
 
 You can check out their _scripts_ on their _norns.community_ pages:
 
- - [Tyler's](https://norns.community/en/authors/northern-information)
  - [Dan's](https://norns.community/en/authors/dan_derks)
+ - [Tyler's](https://norns.community/en/authors/northern-information)
 
 
 ## Conclusion
