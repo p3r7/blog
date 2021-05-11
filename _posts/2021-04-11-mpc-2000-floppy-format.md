@@ -186,7 +186,7 @@ So apparently, Akai decided to do something custom instead of vFAT in 1999 even 
 
 The next logical step was to boot up an hex viewer/editor[^1] and to try to understand what's going on.
 
-![mpc2k_gotek_emacs_hex](/assets/img/mpc2k_gotek_emacs_hex.jpg){:style="max-width: 450px"}
+![mpc2k_gotek_emacs_hex](/assets/img/mpc2k_gotek_emacs_hex.png){:style="max-width: 450px"}
 
 Haha! The full file names are legible[^2] in the file allocation table!
 
