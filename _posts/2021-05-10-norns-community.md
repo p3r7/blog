@@ -48,7 +48,7 @@ My effort got well received but wasn't flexible enough to gain collaborative tra
 As first theorized by Dan in [this post](https://llllllll.co/t/index-of-norns-related-resources/37007/3), there was a need for more.
 
 
-Overseen by Brian (@tehn), Dan and Tyler Etter started playing seriously with the idea of a wiki so that knowledge between _script_ creators and users could be shared.
+Overseen by Brian (@tehn), Dan and Tyler Etters started playing seriously with the idea of a wiki so that knowledge between _script_ creators and users could be shared.
 
 Before that, the forum was used for that purpose but it was tedious to find back technical information buried deep between more general conversation.
 
