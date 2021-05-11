@@ -67,13 +67,16 @@ I realized that one thing that was clearly missing from previous efforts (offici
 
 Indeed, they relied on lists or tables to present them. But all those _scripts_ have a unique visual identity that is often more recognizable than their names.
 
-I gave myself a few hours over the weekend to make a working prototype, trying to respect as much as possible _monome_'s design language.
-
 I also wanted to address a common complaint I had with _awesome-monome-norns_: the table of connectivity options wasn't legible enough with its many columns. A set of dedicated icons would make things both more compact and legible.
+
+I gave myself a few hours over the weekend to make a working prototype, trying to respect as much as possible _monome_'s design language.
 
 [![p3r7/norns-gallery - GitHub](https://gh-card.dev/repos/p3r7/norns-gallery.svg){:style="max-width: var(--img-width-gh-card)"}](https://github.com/p3r7/norns-gallery)
 
 ![norns_gallery](/assets/img/norns_gallery.png)
+
+![norns_connectivity_icons](/assets/img/afd_norns_connectivity_icons.png)
+
 
 I presented it to Dan, who forwarded it to Tyler.
 
