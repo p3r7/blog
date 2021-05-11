@@ -75,7 +75,7 @@ I gave myself a few hours over the weekend to make a working prototype, trying t
 
 ![norns_gallery](/assets/img/norns_gallery.png)
 
-![norns_connectivity_icons](/assets/img/afd_norns_connectivity_icons.png)
+![norns_connectivity_icons](/assets/img/afd_norns_connectivity_icons.png){:style="max-width: var(--img-width-small)"}
 
 
 I presented it to Dan, who forwarded it to Tyler.
