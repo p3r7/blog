@@ -103,10 +103,6 @@ We initially thought that the latter was too limiting for the amount of search c
 
 ![norns_gallery_faceted_search](/assets/img/norns_gallery_faceted_search.png){:style="max-width: var(--img-width-small)"}
 
-It came with an even richer iconography to allow marking a _script_ connectivity options as required:
-
-![norns_gallery_required](/assets/img/norns_gallery_required.png){:style="max-width: var(--img-width-xsmall)"}
-
 This early prototype still lives as an [interactive demo](https://p3r7.github.io/norns-gallery-render-static/).
 
 However, we quickly saw several drawbacks:
