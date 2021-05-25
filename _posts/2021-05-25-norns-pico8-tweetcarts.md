@@ -35,7 +35,7 @@ These show that you don't need a super fancy graphical lib to do some impressive
 To be honest, I follow a few profiscient _tweetcart_ creators[^2] and now a fair amount of my twitter feed is populated by those.
 
 
-## The graphical lib
+## The graphical libs
 
 _PICO-8_ and _norns_ graphical libs are pretty close to each other.
 
