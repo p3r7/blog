@@ -65,7 +65,7 @@ In addition to its own graphical API, _PICO-8_ also provides its own set of core
 
 I got stuck on trying to replicate its `atan2` function, and eventually stole the implementation from [@benjamin_soule](https://www.lexaloffle.com/bbs/?uid=9308)'s [PAT Shooter](https://www.lexaloffle.com/bbs/?pid=10183) that predated its introduction in the API.
 
-I was also missing the _table_ manipulation functions (`foreach`, `all`, `add` and `del`). That's when I discovered [picolove](https://github.com/picolove/picolove), another adaptation layer project allowing to run PICO-8 games under the [LÖVE](https://love2d.org/) game framework. So I mostly copy-pasted those with minor tweaks to accomodate _norns_ handling of memory.
+I was also missing the _table_ manipulation functions (`foreach`, `all`, `add` and `del`). That's when I discovered [picolove](https://github.com/picolove/picolove), another adaptation layer project allowing to run PICO-8 games under the [LÖVE](https://love2d.org/) game framework. So I mostly copy-pasted those with minor tweaks to accomodate _norns_' handling of memory.
 
 Another limitation was _norns_' API inability to do the `pget` functionality (get value of drawn pixel).
 
