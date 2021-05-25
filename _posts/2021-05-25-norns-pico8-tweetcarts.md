@@ -32,7 +32,7 @@ One particular phenomenon that emerged with _PICO-8_ are [_tweetcarts_](https://
 
 These show that you don't need a super fancy graphical lib to do some impressive stuff, not too dissimilar to the [demoscene](https://en.wikipedia.org/wiki/Demoscene).
 
-To be honest, I follow a few profiscient _tweetcart_ creators and now a fair amount of my twitter feed is populated by those[^2].
+To be honest, I follow a few profiscient _tweetcart_ creators[^2] and now a fair amount of my twitter feed is populated by those.
 
 
 ## The graphical lib
