@@ -11,7 +11,7 @@ tags: [music,monome]
 
 ## _monome_ _norns_
 
-As stated in a [previous post](2021/05/10/norns-community), I got myself a _monome_ _norns_.
+As stated in a [previous post](/2021/05/10/norns-community), I got myself a _monome_ _norns_.
 
 Just to recap, it's a programmable instrument for which anyone can make small apps (_scripts_) in Lua.
 
