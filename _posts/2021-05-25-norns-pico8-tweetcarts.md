@@ -86,23 +86,23 @@ The project comes bundled with a few others:
 
 [confetti.lua](confetti.lua) ([original tweetcart](https://twitter.com/user/status/1324156597569048578) by [@von_rostock](https://twitter.com/von_rostock)).
 
-![norns_p8_confetti](/assets/gif/norns_p8_confetti.gif)
+![norns_p8_confetti](/assets/gif/norns_p8_confetti.gif){:style="max-width: var(--img-width-small)"}
 
 [manga_effect.lua](manga_effect.lua) ([original tweetcart](https://twitter.com/user/status/1309354303933616131) by [@kadoyan](https://twitter.com/kadoyan)).
 
-![norns_p8_manga-effect](/assets/gif/norns_p8_manga-effect.gif)
+![norns_p8_manga-effect](/assets/gif/norns_p8_manga-effect.gif){:style="max-width: var(--img-width-small)"}
 
 [tree.lua](tree.lua) ([original tweetcart](https://twitter.com/user/status/1319781601425952768) by [@Alexis_Lessard](https://twitter.com/Alexis_Lessard)).
 
-![norns_p8_tree](/assets/gif/norns_p8_tree.gif)
+![norns_p8_tree](/assets/gif/norns_p8_tree.gif){:style="max-width: var(--img-width-small)"}
 
 [pumpkin.lua](tree.lua) ([original tweetcart](https://twitter.com/user/status/1322693583623884803) by [@von_rostock](https://twitter.com/von_rostock)).
 
-![norns_p8_pumpkin](/assets/gif/norns_p8_pumpkin.gif)
+![norns_p8_pumpkin](/assets/gif/norns_p8_pumpkin.gif){:style="max-width: var(--img-width-small)"}
 
 [cube.lua](tree.lua) ([original code](https://gist.github.com/neauoire/200d97396805dda71154) by [@neauoire of 100 rabbits](https://twitter.com/hundredrabbits)).
 
-![norns_p8_cube](/assets/gif/norns_p8_cube.gif)
+![norns_p8_cube](/assets/gif/norns_p8_cube.gif){:style="max-width: var(--img-width-small)"}
 
 
 ## Notes
