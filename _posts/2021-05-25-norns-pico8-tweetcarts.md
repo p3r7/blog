@@ -15,8 +15,6 @@ As stated in a [previous post](2021/05/10/norns-community), I got myself a _mono
 
 Just to recap, it's a programmable instrument for which anyone can make small apps (_scripts_) in Lua.
 
-It's capabilities and APIs are limited, by design.
-
 After playing a bit with it, I was struck by the similarities it shared with another platform.
 
 
@@ -27,6 +25,8 @@ _PICO-8_ is a _fantasy console_, a software platform allowing anyone to make sma
 It can be seen as an homage to the homebrew programming scene during the _home computer era_ (late 70s / early 80s), when people used to share small games written in [BASIC](https://en.wikipedia.org/wiki/BASIC)[^1].
 
 So both _PICO-8_ and _norns_ revolves around the idea of a community sharing small apps. The main difference is that one targets video games while the other focuses on music.
+
+They both have rather limited capabilities and APIs, but this is by design: from constraints creativity flourishes.
 
 One particular phenomenon that emerged with _PICO-8_ are [_tweetcarts_](https://twitter.com/hashtag/tweetcart?lang=en), people posting demos of code fitting in a single tweet.
 
