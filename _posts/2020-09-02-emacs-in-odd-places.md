@@ -124,9 +124,12 @@ Emacs accessed from SSH under [Palm OS 5](http://www.sealiesoftware.com/pssh/).
 
 Emacs on the [Pocket C.H.I.P.](https://www.reddit.com/r/emacs/comments/ajwtcb/emacs_on_the_go/).
 
-Emacs on the [monome norns](https://llllllll.co/t/pictures-of-our-sound-making-machines/462/7025).
-
 Emacs on the [Noodle Pi](https://twitter.com/noodle_pi/status/996427835630747648).
+
+
+#### Musical instruments
+
+Emacs on the [monome norns](https://llllllll.co/t/pictures-of-our-sound-making-machines/462/7025).
 
 
 #### Smartwatches
