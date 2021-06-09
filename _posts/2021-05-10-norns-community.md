@@ -177,7 +177,7 @@ In addition to helping others, as a positive side-effect you might end up meetin
 
 [^4]: GitHub pull requests were not necessary the most user-friendly way to approach collaborative editing.
 
-[^5]: Notably the importance of having the same information delivered in different forms to target contexts and audiences. See also: [The Documentation System](https://documentation.divio.com/)
+[^5]: Notably the importance of having the same information delivered in various forms to target different contexts and audiences. See also: [The Documentation System](https://documentation.divio.com/)
 
 [^6]: Being able to search by whether hardware controllers are required for _script_ operation and also by support of [specific grid models](https://monome.org/docs/grid/).
 
