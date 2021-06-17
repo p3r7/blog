@@ -81,15 +81,17 @@ There are some configuration specificities (addressed in a later post) but thing
 
 ## Other examples spotted in the wild
 
-#### Esotheric OS
+### Esotheric OS
 
 Emacs under [Haiku](https://depot.haiku-os.org/#!/pkg/emacs/haikuports/26/2/-/-/1/x86_64?bcguid=bc157-URXX) ([screenshot](https://imgur.com/GCa6CFK)).
+
 
 ### Hardware (dumb) terminals
 
 Emacs through a [Minitel 1B](https://twitter.com/CanalEDTA/status/721345151214465024).
 
-#### Niche Linux-based smartphones
+
+### Niche Linux-based smartphones
 
 Emacs on the [Purism Librem 5](https://twitter.com/puri_sm/status/1144394797517402114).
 
@@ -100,14 +102,14 @@ Emacs under [Jolla SailfishOS](https://www.reddit.com/r/unixporn/comments/1wwpe3
 Emacs (GUI version) under [Ubuntu Touch](https://imgur.com/ZGWH6Nm).
 
 
-#### Older phones
+### Older phones
 
 Emacs 23 running natively on the [Nokia N900](https://talk.maemo.org/showthread.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&t=37241) ([screenshot](https://talk.maemo.org/attachment.php?s=c5e3e5b32f8fe6d2a08d76503164c9d5&attachmentid=7364&stc=1&d=1266616914))[^3].
 
 Emacs accessed from SSH on an [old Nokia phone](http://archive.eglug.org/node/27).
 
 
-#### PDAs and UMPCs
+### PDAs and UMPCs
 
 Emacs on the [GeminiPDA](https://twitter.com/komecha/status/1021370513707347969) (Android-based).
 
@@ -120,19 +122,19 @@ uEmacs fork [Ng](https://web.archive.org/web/20060610210357/http://tillanosoft.c
 Emacs accessed from SSH under [Palm OS 5](http://www.sealiesoftware.com/pssh/).
 
 
-#### Single board computers
+### Single board computers
 
 Emacs on the [Pocket C.H.I.P.](https://www.reddit.com/r/emacs/comments/ajwtcb/emacs_on_the_go/).
 
 Emacs on the [Noodle Pi](https://twitter.com/noodle_pi/status/996427835630747648).
 
 
-#### Musical instruments
+### Musical instruments
 
 Emacs on the [monome norns](https://llllllll.co/t/pictures-of-our-sound-making-machines/462/7025).
 
 
-#### Smartwatches
+### Smartwatches
 
 Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_have_emacs_on_everything_even_my_smartwatch/) (this one is actually just a "face", not the real deal).
 
