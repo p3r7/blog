@@ -122,6 +122,11 @@ uEmacs fork [Ng](https://web.archive.org/web/20060610210357/http://tillanosoft.c
 Emacs accessed from SSH under [Palm OS 5](http://www.sealiesoftware.com/pssh/).
 
 
+### eBook reader
+
+Emacs on the [Onyx Boox Max 3](https://gregorboes.com/tools/ereader#bonus-emacs-via-termux), through [Termux](https://termux.com/).
+
+
 ### Single board computers
 
 Emacs on the [Pocket C.H.I.P.](https://www.reddit.com/r/emacs/comments/ajwtcb/emacs_on_the_go/).
