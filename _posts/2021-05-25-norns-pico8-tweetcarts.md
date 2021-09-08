@@ -59,7 +59,7 @@ In practice it took a bit more effort than I expected.
 
 One mildly complex aspect was the conversion of _PICO-8_ color palette to _norns_' greyscale values.
 
-It would have been pretty straightforward if the indexes of the color palette could not be readdressed at run time (`pal`, `palt`) with some special range of values to access a secrete palette of colors.
+It would have been pretty straightforward if the indexes of the color palette could not be readdressed at run time (`pal`, `palt`) with some special range of values to access a secret palette of colors.
 
 In addition to its own graphical API, _PICO-8_ also provides its own set of core functions that behave differently from the default Lua ones.
 
