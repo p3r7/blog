@@ -6,6 +6,7 @@
     // COLOR DEFS
 
     // various colors
+    --col-white: white;
     --col-eigengrau: #16161d;
     --col-china-ink: #495057;
 
@@ -45,26 +46,24 @@
     --background-col: var(--col-teal-l);
     --text-col: var(--col-china-ink);
     --site-title-col: var(--col-teal-m);
-
-    // dark
-    // --background-col: var(--col-eigengrau);
-    // --text-col: var(--col-china-ink);
-    // --site-title-col: var(--col-china-ink);
+    --post-bg-col: var(--col-white);
 
     --card-col-1: var(--col-colorie-l-1);
     --card-col-2: var(--col-colorie-l-2);
     --card-col-3: var(--col-colorie-l-3);
     --card-col-4: var(--col-colorie-l-4);
-    // --card-col-1: var(--col-autumn-1);
-    // --card-col-2: var(--col-autumn-2);
-    // --card-col-3: var(--col-autumn-3);
-    // --card-col-4: var(--col-autumn-4);
 
+    // dark
     @media (prefers-color-scheme: dark) {
         --background-col: var(--col-eigengrau);
         --text-col: var(--col-china-ink);
         --site-title-col: var(--col-china-ink);
+        --post-bg-col: var(--col-teal-m);
 
+        // --col-grayscale-1: #c5c5c5;
+        // --col-grayscale-2: #dadada;
+        // --col-grayscale-3: #9a9a9a;
+        // --col-grayscale-4: #bdbdbd;
         --card-col-1: var(--col-autumn-1);
         --card-col-2: var(--col-autumn-2);
         --card-col-3: var(--col-autumn-3);
@@ -246,7 +245,7 @@ a.site-title:hover {
 }
 
 .post {
-    background: white;
+    background: var(--post-bg-col);
     padding: 2rem 3rem;
     -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
     box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
