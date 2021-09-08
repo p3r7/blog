@@ -70,13 +70,13 @@
         --card-col-3: var(--col-autumn-3);
         --card-col-4: var(--col-autumn-4);
 
-        // img {
-        //     opacity: .75;
-        //     transition: opacity .5s ease-in-out;
-        // }
-        // img:hover {
-        //     opacity: 1;
-        // }
+        img {
+            opacity: .75;
+            transition: opacity .5s ease-in-out;
+        }
+        img:hover {
+            opacity: 1;
+        }
     }
 
     // --------------------------------------------------------------------
