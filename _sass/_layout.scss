@@ -51,15 +51,14 @@
     // --text-col: var(--col-china-ink);
     // --site-title-col: var(--col-china-ink);
 
-
-    // --card-col-1: var(--col-autumn-1);
-    // --card-col-2: var(--col-autumn-2);
-    // --card-col-3: var(--col-autumn-3);
-    // --card-col-4: var(--col-autumn-4);
     --card-col-1: var(--col-colorie-l-1);
     --card-col-2: var(--col-colorie-l-2);
     --card-col-3: var(--col-colorie-l-3);
     --card-col-4: var(--col-colorie-l-4);
+    // --card-col-1: var(--col-autumn-1);
+    // --card-col-2: var(--col-autumn-2);
+    // --card-col-3: var(--col-autumn-3);
+    // --card-col-4: var(--col-autumn-4);
 
 
     // --------------------------------------------------------------------
@@ -67,6 +66,25 @@
 
     // --site-title-ff: Arial, Helvetica, sans-serif;
     --site-title-ff: 'IBM Plex Sans', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    --background-col: var(--col-eigengrau);
+    --text-col: var(--col-china-ink);
+    --site-title-col: var(--col-china-ink);
+
+    --card-col-1: var(--col-autumn-1);
+    --card-col-2: var(--col-autumn-2);
+    --card-col-3: var(--col-autumn-3);
+    --card-col-4: var(--col-autumn-4);
+
+    // img {
+    //     opacity: .75;
+    //     transition: opacity .5s ease-in-out;
+    // }
+    // img:hover {
+    //     opacity: 1;
+    // }
 }
 
 html {
