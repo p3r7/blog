@@ -3,3 +3,6 @@
 @import "layout";
 
 @import "rouge/solarized-light";
+@media (prefers-color-scheme: dark) {
+    @import "rouge/solarized-dark";
+}
