@@ -3,7 +3,7 @@ layout: post
 title: Cataloging norns scripts
 description: A tale of cataloging monome norns scripts
 summary: Or how to get to work with awesome people
-tags: [music,monome]
+tags: [music,monome,information-architecture]
 ---
 
 ![norns](https://monome.org/images/norns-front-small.jpg){:style="max-width: var(--img-width-small)"}
@@ -138,7 +138,7 @@ At the time of writing, from half to 2/3rd of all existing _scripts_ have been d
 
 There is the eventuality of a tighter integration with _norns_ package manager (_maiden_) that may tie a tighter link between _norns_ as a platform and the community aspect of its _script_ developments.
 
-I would also be happy to see the wiki host more general information pages. It could notably steal from _awesome-monome-norns_ a list of engines and reusable Lua libs.
+I would also be happy to see the wiki host more general information pages. ~~It could notably steal from _awesome-monome-norns_ a list of engines and reusable Lua libs.~~ (now done).
 
 Ultimately I would like to mark _awesome-monome-norns_ as deprecated, superseded by both the official doc and _norns.community_.
 
