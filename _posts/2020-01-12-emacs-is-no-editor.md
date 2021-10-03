@@ -147,6 +147,8 @@ And this is, I believe, how Emacs should get advertised instead of as being only
 
 [Mario Lang](https://blind.guru/author/mario-lang.html) wrote [a post on emacs-devel](https://lists.gnu.org/archive/html/emacs-devel/2020-09/msg00286.html) praising Emacs for its _modality-independency_, i.e. the decoupling of the functionalities (such as editing) from how they get interacted with. This aspect makes Emacs a stellar tool in term of accessibility.
 
+[Vladimir Dikan](https://www.ivorysiegetower.com/) made a similar point in his [Ode to Emacs](https://www.ivorysiegetower.com/posts/an-ode-to-emacs.html) post about Emacs being a _"best textual UI tool"_ and how useful it can be to _"unify[...] the text-processing tasks"_.
+
 
 ## Notes
 
