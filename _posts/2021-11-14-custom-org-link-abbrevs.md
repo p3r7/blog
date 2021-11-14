@@ -94,7 +94,7 @@ Thankfully, this is relatively trivial by _advising_ `org-yank`.
     ad-do-it))
 ```
 
-Please not that `my-org-link-apply-prefix` only covers "basic" prefix abbrevs. It doesn't support other valid `org-link-abbrev` formatted abbrevs (`%s`, `%h`) nor formatting using a custom function (`%(<CUSTOM-FN>)` for which we'd need the inverse function).
+Please not that `my-org-link-apply-prefix` only covers "basic" prefix abbrevs. It doesn't support formatted abbrevs (`%s`, `%h`) nor formatting using a custom function (`%(<CUSTOM-FN>)` for which we'd need the inverse function).
 
 
 ## Conclusion
