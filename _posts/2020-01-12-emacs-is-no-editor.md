@@ -149,6 +149,10 @@ And this is, I believe, how Emacs should get advertised instead of as being only
 
 [Vladimir Dikan](https://www.ivorysiegetower.com/) made a similar point in his [Ode to Emacs](https://www.ivorysiegetower.com/posts/an-ode-to-emacs.html) post about Emacs being a _"textual UI tool"_ and how useful it can be to _"unify[...] the text-processing tasks"_.
 
+[Bozhidar Batsov](https://batsov.com/) sums it up in his [Why Emacs: Redux](https://batsov.com/articles/2021/11/16/why-emacs-redux/) post:
+
+>Emacs is not really an editor either! I believe that Emacs is the ultimate editor building material. The out-of-the-box experience is kind of basic and somewhat weird, but I don’t think that anyone should be using Emacs like this. You take this simple foundation, you shape and mold it to your taste and preferences and you end up with the best possible editor for you and you alone. That’s the reason why you should consider using Emacs.
+
 
 ## Notes
 
