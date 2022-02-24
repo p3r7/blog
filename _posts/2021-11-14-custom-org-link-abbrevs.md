@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Custom Org-mode links abbrevs
+title: Custom Org-mode link abbrevs
 description: Shorter Org-mode link abbrevs
 summary: The less I type, the merrier
 tags: [emacs,elisp,productivity]
