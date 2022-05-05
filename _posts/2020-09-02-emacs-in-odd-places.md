@@ -133,7 +133,7 @@ Emacs on the [Pocket C.H.I.P.](https://www.reddit.com/r/emacs/comments/ajwtcb/em
 
 Emacs on the [Noodle Pi](https://twitter.com/noodle_pi/status/996427835630747648).
 
-Emacs on the [Paper Pi](https://hackaday.com/2021/04/27/paper-pi-is-an-ergonomic-cyberdeck-meant-for-thumbs/).
+Emacs on the [Paper Pi](https://gitlab.com/norris.daniel/paper-pi-handheld).
 
 
 ### Musical instruments
