@@ -153,6 +153,8 @@ And this is, I believe, how Emacs should get advertised instead of as being only
 
 >Emacs is not really an editor either! I believe that Emacs is the ultimate editor building material. The out-of-the-box experience is kind of basic and somewhat weird, but I don’t think that anyone should be using Emacs like this. You take this simple foundation, you shape and mold it to your taste and preferences and you end up with the best possible editor for you and you alone. That’s the reason why you should consider using Emacs.
 
+[Ashton Wiersdorf](https://lambdaland.org/) makes an interesting point of how [Emacs doesn't really contradict the UNIX philosophy](https://lambdaland.org/posts/2022-11-07_unix_philosophy/): it's just an alternative _"tool forge"_ (i.e. _platform_) to the command line, packages being akin to CLI programs (i.e. _apps_).
+
 
 ## Notes
 
