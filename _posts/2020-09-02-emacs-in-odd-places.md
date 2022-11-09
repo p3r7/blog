@@ -81,6 +81,11 @@ There are some configuration specificities (addressed in a later post) but thing
 
 ## Other examples spotted in the wild
 
+### Odd applications
+
+Emacs as [part of Germany air traffic control system](https://old.reddit.com/r/emacs/comments/lly7po/do_you_use_emacs_lisp_as_a_general_purpose/gnusee0/).
+
+
 ### Esotheric OS
 
 Emacs under [Haiku](https://depot.haiku-os.org/#!/pkg/emacs/haikuports/26/2/-/-/1/x86_64?bcguid=bc157-URXX) ([screenshot](https://imgur.com/GCa6CFK)).
@@ -145,6 +150,8 @@ Emacs on the [monome norns](https://llllllll.co/t/pictures-of-our-sound-making-m
 
 Emacs on a [Pebble watch](https://www.reddit.com/r/emacs/comments/7oqr5s/i_must_have_emacs_on_everything_even_my_smartwatch/) (this one is actually just a "face", not the real deal).
 
+
+###
 
 ## Hacker News
 
