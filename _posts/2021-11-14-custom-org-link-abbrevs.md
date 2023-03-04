@@ -78,14 +78,18 @@ Thankfully, this is relatively trivial by _advising_ `org-yank`.
 (require 's)
 
 (defun my-org-link-apply-prefix (txt)
-  "Rework link TXT, swapping prefix w/ shorted one if matches `my-org-link-abbrev-alist'."
-  (let ((prfx (--some (and (s-starts-with? (cdr it) txt) (not (string= (cdr it) txt)) it) my-org-link-abbrev-alist)))
+  "Rework link TXT, swapping prefix w/ shorted one if matches
+`my-org-link-abbrev-alist'."
+  (let ((prfx (--some (and (s-starts-with? (cdr it) txt)
+                           (not (string= (cdr it) txt)) it)
+                       my-org-link-abbrev-alist)))
     (if prfx
         (s-replace (cdr prfx) (concat (car prfx) ":") txt)
       txt)))
 
 (defadvice org-yank (around prf/org-yank-prefix-link activate)
-  "Advice around `org-yank' that will auto-compact current entry in `kill-ring' if it matches `my-org-link-abbrev-alist'."
+  "Advice around `org-yank' that will auto-compact current entry in `kill-ring'
+if it matches `my-org-link-abbrev-alist'."
   (let* ((kill (or (and kill-ring (current-kill 0)) ""))
          (new-kill (my-org-link-apply-prefix kill)))
     (unless (s-blank? new-kill)
