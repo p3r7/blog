@@ -51,7 +51,7 @@ Nowadays the best approach is to have an Android device with Emacs installed thr
 
 Most people use a smartphone. If the screen feels too small, one can use a tablet[^4].
 
-As far as Org-mode is concerned, we nowadays have decent applications such as [Orgzly](http://www.orgzly.com/) (Android), [beorg](https://beorgapp.com/) (iOS), [organice](https://organice.200ok.ch/) and [org-web](https://org-web.org/) (web, mobile-friendly).
+As far as Org-mode is concerned, we nowadays have plenty of decent applications:  [Orgzly](http://www.orgzly.com/) (Android), [beorg](https://beorgapp.com/) (iOS), [organice](https://organice.200ok.ch/), [org-web](https://org-web.org/) (web, mobile-friendly), [Logseq](https://logseq.com/) (most platforms)....
 
 Back in 2007, smartphones (as we know them) where in their infancy and I was in dire need for a solution.
 
